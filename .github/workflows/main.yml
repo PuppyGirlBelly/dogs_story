@@ -20,8 +20,8 @@ jobs:
         run: |
           go get github.com/tmedwards/tweego
           export PATH=$PATH:$(go env GOPATH)/bin
-          tweego Dogs.twee -o dist/index.html
-          tweego Dogs.twee -oa dist/Twine2_Archive.html
+          tweego -o Dogs.twee dist/index.html
+          tweego -o -a Dogs.twee dist/Twine2_Archive.html
 
       - name: Deploy to Pages
         uses: peaceiris/actions-gh-pages@v3
