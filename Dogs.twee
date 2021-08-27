@@ -28,7 +28,7 @@ tw-passage {
 
 
 :: Introduction [Intro] {"position":"0,0","size":"100,100"}
-Dysphoria is kinda hell of a drug.
+Dysphoria is hell of a drug.
 
 It makes an extremely effective downer. So good I kinda couldn't feel anything for like 13 years. Plus! It tends to have a lot of reality altering effects!
 
@@ -42,7 +42,7 @@ Like making me blind to how I am a girl, or making me think I didn't enjoy or wa
 
 The smell of plants and dirt is heavenly after a long dark winter keeping me cooped up indoors. I get shivers down my spine as I heard the leaves rustling in the (link-reveal:"trees.")[==
 
-The harmony of the leaves makes a bassline to accompany the bird calls dancing in the air. All driven by the bassline of my feet crunching the gravel on this (link-reveal:"path.")[==
+The harmony of the leaves makes a bass line to accompany the bird calls dancing in the air. All driven by the rhythm of my feet crunching the gravel on this (link-reveal:"path.")[==
 
 And appearing behind a bend I see the most heavenly sight. (link-reveal:"Yellow fur, ")[==(link-reveal:"a black nose, ")[==(link-reveal:"four legs (each ending in paws), ")[==(link-reveal:"and a happy wagging tail.", (text-style:"sway"))[==
 
@@ -58,7 +58,7 @@ The moment is clouded by the same thought I always have with moments like these.
 
 
 :: Title [Intro Title] {"position":"250,0","size":"100,100"}
-(align:"=><=")+(box:"X")[#I'm Dog(link-repeat:"(s)")[(dialog:"That will be explained, later. Promise")]]
+(align:"=><=")+(box:"X")[#I'm Dog(link-repeat:"(s)")[(dialog:"That will be explained, later. Promise.")]]
 (align:"=><=")+(box:"X")[[[➥ It all started with a conversation I had with an old friend...->The Conversation]] ]
 
 
@@ -242,7 +242,7 @@ So yeah, once again, I became the last one to know about my [[➥ identity stuff
 
 Instead, I actually found my attention drifting towards (link-reveal:"Paige.")[== I... kinda had a crush on her. In retrospect, it was clearly a "I want to be her" crush. But then again, I still get crushes on artsy and nerdy types. You bet she was both too, considering she was the furry of the group. 
 
-In an unusual act of boldness, I managed to gather the courage to ask her what she was working on. As usual it was her mouse OC, and started rambling about the adventure this sketch was portraying. I listened and nodded intently, trying to note details as if there was a test later about them. Until suddently...
+In an unusual act of boldness, I managed to gather the courage to ask her what she was working on. As usual it was her mouse OC, and started rambling about the adventure this sketch was portraying. I listened and nodded intently, trying to note details as if there was a test later about them. Until suddenly...
 
 [[➥ "Do you have a fursona?"->Do you have a fursona?]]
 
@@ -250,7 +250,7 @@ In an unusual act of boldness, I managed to gather the courage to ask her what s
 :: the Wolfhound [Realizations] {"position":"0,900","size":"100,100"}
 Soon enough, she came back with a (link:"sketch.")[==
 
-It was exactly what I wanted, a competent drawing of lithe and athletic wolfhound. Clad in a black leather jacket, and weilding a sword. I shouldn't have cared about it; I wasn't even a furry. (link-replace:"But...")[==But something about the sketch... The androgynous look, the long hair tied back into a ponytail, and how feral they looked. It made me smile in a genuine way that I couldn't back then.
+It was exactly what I wanted, a competent drawing of lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn't have cared about it; I wasn't even a furry. (link-replace:"But...")[==But something about the sketch... The androgynous look, the long hair tied back into a ponytail, and how feral they looked. It made me smile in a genuine way that I couldn't back then.
 
 (link-reveal:"I was proud of it")[==, and I showed Goth. They laughed at how edgy they looked, and I felt silly. But then asked what's my new OC's (link:"name...")[==name.
 
@@ -370,31 +370,31 @@ I'm light kitty! :3
 
 (transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
 (background:#23272a)+(font:"Courier New")[im whatever
-right now im a an octopus]
+right now im an octopus]
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
 Gots any arts of ya?
 
-(link-replace:"Yeah, but it's pretty old...")[==(link-replace:"No.")[==(link-replace:"That isn't of me.", (align:"==>"))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Not yet, I just figured out my dogginess so still figuring out what I look like... 😅
+(link-replace:"Yeah, but it's pretty old...")[==(link-replace:"No.")[==(link-replace:"That isn't of who I am anymore.", (align:"==>"))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Not yet, I just figured out my dogginess so still figuring out what I look like! 😅
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
 Well, can help! What about your fur? What colour and length? 
 
-(link-replace:"Light blonde, and pretty long and shaggy!")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Light blonde, and pretty long and shaggy!
+(link-replace:"Light blonde, shaggy, and wiry.")[==(link-replace:"Nope!")[==(link-replace:"It's gold and pretty long and fluffy!")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+It's gold and pretty long and fluffy!
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
 Kk! What about hair? 
 
-(link-replace:"Oh, long and brown. Tied up in a ponytail.")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:"Oh, long and brown. Tied up in a ponytail.")[==(link-replace:"__No!__")[==(link-replace:"It's long and brown, and goes down my back!")(text-colour:yellow)[Sunny the Puppy (she/her)]
 It's long and brown, and flows down my back! 
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
 Kk! What kinda clothes do you wear?
 
 (link-replace:"//I// wear Black leather. Band tees. Tight pants.")[==(link-replace:"NO, I wear cute dresses and hats!")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Sundresses and adorable hats!
+Sundresses and adorable hats! 
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
 Oh! You're a very cute puppygirl!
@@ -416,16 +416,16 @@ she likes to be pet on her ears :P
 (link-replace:"BUT I'M A WOLF!")[==(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
 Sunny?
 
-(link-replace:"WAIT. WHAT?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:"//What!//")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 sorry 
-(link-replace:"I'm puppy.")[==I have to go.
+(link-replace:"I'm puppy!")[==I have to go.
 
-[[➥ I'm puppy. Right?->Complicated Park Thoughts]]
+[[➥ I'm puppy... Right?->Complicated Park Thoughts]]
 ]]
 
 
 :: Complicated Park Thoughts [Realizations Park] {"position":"125,525","size":"100,100"}
-(link:"I suddenly remember back to the park...")[==(transition:"blur")+(box:"X")[==["I think I'm a Golden Retriever," I whisper to myself as my fellow golden retriver disappears around a bend. My not-so-internal monoglogue was about to continue before another being suddenly appears up ahead.]
+(link:"I suddenly remember back to the park...")[==(transition:"blur")+(box:"X")[==["I think I'm a Golden Retriever," I whisper to myself as my fellow golden retriever disappears around a bend. My not-so-internal monologue was about to continue before another being suddenly appears up ahead.]
 
 (link-reveal:"A human")[==
 
@@ -449,9 +449,9 @@ I want to figure out my form better. So I decide to once again focus on my (link
 :: Feral [Realizations Park] {"position":"125,650","size":"100,100"}
 (link:"I open my eyes")[==(align:"=><=")+(box:"X")[=#(link:"THE HUMAN IS CLOSE", (transition:"rumble"))[(link:"SHIT", (text-style:"fidget"))[==(link:"About 30 feet away", (text-style:"fidget"))[==(link:"I hasten my pace", (text-style:"fidget"))[==(link:"20 feet away", (text-style:"fidget"))[==(link:"I have to get away from them...", (text-style:"fidget"))[==(link:"10 feet away", (text-style:"fidget"))[==(link:"I hold my breath and look away")[==(link:"...")[==(link:"they pass by too")[==(link:"...")[==(align:"<=")+(text-size:1)[==(link:"\"They're gone.\"")[==I release a unconscious sigh, as well as my shoulders. I... finally feel safe as I'm alone once again. I stop, and calm my nerves. I focus on my breathing, on my pulse, on my (link-reveal:"phantoms.")[==
 
-Once again, I find my form is back to that of a golden retriever.
+Once again, I find my form is a golden retriever.
 
-(transition-depart:"fade-down")+(transition-depart:"blur")+(transition-arrive:"blur")[[➥ Okay, I'm definitey a Golden Retriever->Two Forms]]]
+(transition-depart:"fade-down")+(transition-depart:"blur")+(transition-arrive:"blur")[[➥ Okay, I'm definitely a Golden Retriever->Two Forms]]]
 
 
 :: Two Forms [Realizations] {"position":"375,400","size":"100,100"}
@@ -474,12 +474,12 @@ Hey guys...
 as a shapeshifter does]
 
 (link-replace:"Not quite...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-This doesn't feel like shapeshifting though. It feels more like... two versions of me.
+This doesn't feel like shapeshifting though. It feels more like... two versions of me?
 
 (transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
 (background:#23272a)+(font:"Courier New")[what are these forms?]
 
-(link-replace:"There's the Golden Retreiver...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:"There's the Golden Retriever...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 There's the golden retriever form I described to y'all before! 
 (link-replace:"But also...")[==But also, there have been kinda glimpses of... sighthound? Maybe an Irish Wolfhound?
 
@@ -529,7 +529,7 @@ I am a friend. Penumbra has stepped away so that I can talk instead.
 So, um, like a friend of Penny's? And you're borrowing her account?
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
-More akin to family, but that's an accurate assement.
+More akin to family, but that's an accurate assessment.
 I would like to ask about this wolfhound you mentioned.
 Has it ever talked?
 
@@ -570,7 +570,7 @@ So what is up with me?
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
 To put it simply, you have two forms and you have to process some anxiety.
-I have known some who have multiple concrete forms. Unlike radient, who shifts fluidly between forms.
+I have known some who have multiple concrete forms. Unlike radiant, who shifts fluidly between forms.
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
 So not a plural thing
@@ -583,7 +583,7 @@ Plural?
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
 Sorry. I should explain.
-But first, are you familiar with Dissasociative Identity Disorder; or what media calls "Multiple Personalities"?
+But first, are you familiar with Disassociative Identity Disorder; or what media calls "Multiple Personalities"?
 
 (link-replace:"Um yes?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 Um yes?
@@ -657,7 +657,7 @@ I'm feel amazing! I look amazing! I think I can do it. (link-reveal:"\"I'm final
 My enthusiasm is replaced with (link-repeat:"anxiety")[(dialog:"I don't belong here")]. I silently glide towards the nearest stall, and (link-repeat:"hide inside")[(dialog:"What if somebody comes in and harasses me?")]. I just try to do my business quickly. Got in, get out. (link-repeat:"Be done with this ASAP.")[(dialog:"Oh god they're gonna see I'm a man can't they?")]
 
 (link:"I hear footsteps.")[==(dialog:"Oh fuck what if they see me?")\
-(link:"They're coming towards the stalls.")[==(dialog:"I can't do this! this was a bad fucking idea!")\
+(link:"They're coming towards the stalls.")[==(dialog:"I can't do this! This was a bad fucking idea!")\
 (link:"My breathing grows faster")[==(dialog:"Oh shit oh fuck oh shit oh fuck") [["I don't want to be here"->"I'll take over"]]
 
 
@@ -683,10 +683,54 @@ The second I return to the safety of the park, I nearly collapse. I am drained a
 
 "I'll take over"
 
-[[Because, I definitely didn't think that.->End of Act 2]]
+[[Because, I definitely didn't think that.->Who am I?]]
 
 
-:: End of Act 2 {"position":"425,0","size":"100,100"}
-#END OF ACT 2
+:: Who am I? {"position":"425,0","size":"100,100"}
+(transition:"fade-up")[
+(box:"X")+(background:#2c2f33)[ \
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+Guuuuuys!
+Twilight won't let me have something to driiiiink ;>_<
 
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Little one. You know why.
+We are sorry everyone. Penumbra wants to have one of our alcoholic drinks. Despite how such things are not suitable for young ones like her.
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+LET :clap: THE :clap: PENNY :clap: DRINK! :clap:
+
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+Nooo! Penny those drinks aren't for kids like you! >_<;
+
+(link-replace:"Uh... what did I walk into here? :sweat:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Uh, what did I walk into here? :sweat:
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+Y'all are meanieheads! :triumph: Except Goth! I like what you say! :yum:
+
+(link-replace:"Uh... what did I walk into here? :sweat:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Uh, what did I walk into here? :sweat:
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[just a child having a tantrum]
+
+(link-replace:"Wait. Penny's a kid?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Wait. Penny's a kid?
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Penumbra is the child member of our system. She helps us process trauma and lets us return to a pre-traumatic state.
+Even if she is often a handful. 
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+//Pouty pouts// I'm not a handful!
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+I'm sorry, you're just a ball of energy and fun Penumbra.
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+
+
+[[➥ So I'm just a wolfhound sometimes?->Puppy in the Park]]
+]]
 
