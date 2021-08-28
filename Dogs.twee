@@ -13,7 +13,9 @@ Dogs
 		"Intro": "yellow",
 		"Park": "green",
 		"Realizations": "orange",
-		"Title": "gray"
+		"Talking": "purple",
+		"Title": "gray",
+		"Unification": "purple"
 	},
 	"zoom": 1
 }
@@ -683,34 +685,31 @@ The second I return to the safety of the park, I nearly collapse. I am drained a
 
 "I'll take over"
 
-[[Because, I definitely didn't think that.->Who am I?]]
+[[Because, I definitely didn't say that.->Who am I?]]
 
 
-:: Who am I? {"position":"425,0","size":"100,100"}
+:: Who am I? [Unification Discord] {"position":"375,0","size":"100,100"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
 Guuuuuys!
-Twilight won't let me have something to driiiiink ;>_<
+Twilight won't let me have something to driiiiink 🥺
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
 Little one. You know why.
 We are sorry everyone. Penumbra wants to have one of our alcoholic drinks. Despite how such things are not suitable for young ones like her.
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
-LET :clap: THE :clap: PENNY :clap: DRINK! :clap:
+LET 👏 THE 👏 PENNY 👏 DRINK! 👏
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
-Nooo! Penny those drinks aren't for kids like you! >_<;
+Nooo! Penny those drinks aren't for kids like you! ＞﹏＜
 
-(link-replace:"Uh... what did I walk into here? :sweat:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Uh, what did I walk into here? :sweat:
+(link-replace:"Uh... what did I walk into here? 😅")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Uh, what did I walk into here? 😅
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-Y'all are meanieheads! :triumph: Except Goth! I like what you say! :yum:
-
-(link-replace:"Uh... what did I walk into here? :sweat:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Uh, what did I walk into here? :sweat:
+Y'all are meanieheads! 😤 Except Goth! I like what you say! 😋
 
 (transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
 (background:#23272a)+(font:"Courier New")[just a child having a tantrum]
@@ -725,12 +724,145 @@ Even if she is often a handful.
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
 //Pouty pouts// I'm not a handful!
 
-(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
-I'm sorry, you're just a ball of energy and fun Penumbra.
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+Yeah! You're cute and sweet and fun to be around! o(^▽^)o
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+Yeah! I'm cute as heck to which means I deserve a cider! 😋
 
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Penumbra.
+Language.
 
-[[➥ So I'm just a wolfhound sometimes?->Puppy in the Park]]
+(link-replace:"Um. Sorry to interrupt but can I talk to you Twilight?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Um. Sorry to interrupt but can I talk to you Twilight?
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Of course.
+Penumbra. Please let us be and I'll come back for you soon. 
+So what is it that you want to talk about Sunny?
+
+(link-replace:"Um. So something happened yesterday...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Um. So something happened yesterday that kinda weirded me out. I went into the ladies room for the first time yesterday...
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[congradulations]
+
+(link-replace:"Thank you? 😅")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Thank you? 😅
+(link-replace:"Um, anyways...")[==Um, anyways I was having a panic attack in the bahtroom due to dysphoria.
+(link-replace:"And then something happend...")[==And then something happened in the middle of the panic attack.
+(link-replace:"I heard the words \"I'll take over\"")[==I heard the words "I'll take over" 
+(link-replace:"But I don't think I said them")[==But I don't think I said them
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Oh.
+Interesting.
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+IS IT GOLD?
+
+(link-replace:"I don't know...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+I don't know... but it didn't feel like I said it though.
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+The fact that the voice refered to itself in first person, and showed agency over this situation is
+Fascinating.
+Has this voice talked to you in other ways?
+
+(link-replace:"No.")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+No. Not as far as I know.
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[have you talked to them]
+
+(link-replace:"No...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+No...
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Perhaps instead you should try talking to them now. 
+
+(link-replace:"How do I talk to them?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+How do I talk to them?
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+[[➥ You can try creating a private chat for it->Private Chat]]
 ]]
+
+
+:: Private Chat [Unification Discord] {"position":"500,0","size":"100,100"}
+(transition:"fade-up")[
+(box:"X")+(background:#2c2f33)[ \
+(link-replace:"Um. Hello?")[==(text-colour:yellow)[Sunny Flower (She/Her)]
+Um. Hello?
+(link-reveal:"Wolfhound?")[==
+(link-reveal:"Gold?")[==
+(link-reveal:"Are you there?")[==
+(link-reveal:"Um...")[==
+(link-reveal:"Thank you for helping with that panic attack...")[==
+(link-reveal:"...")[==
+[[➥ I'll just leave you be then->No Dice=]]
+
+
+:: No Dice= {"position":"500,150","size":"100,100"}
+(transition:"fade-up")[
+(box:"X")+(background:#2c2f33)[ \
+(link-replace:"No dice :sweat:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+No dice :sweat:
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Unfortunate.
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+Damn :/
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[perhaps this may work]
+(background:#23272a)+(font:"Courier New")[hello wolfhound]
+(background:#23272a)+(font:"Courier New")[how are you?]
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+YO GOLD
+WHERE THE FUCK YOU BEEN?
+
+(link-replace:"Nope. Nothing.")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Nope. Nothing.
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+Damn
+
+(link-replace:"Maybe they only show up when I'm scared? :sweat_smile:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Maybe they only show up when I'm scared? :sweat_smile:
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumba | Light System]
+**BOOOO! >:D**
+ 
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[Your owner asks who's a good girl]
+(background:#23272a)+(font:"Courier New")[they don't tell you]
+(background:#23272a)+(font:"Courier New")[they just keep asking you no matter your answer]
+
+(link-replace:"Not that kind of scared :sweat_smile:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Not that kind of scared :sweat_smile:
+
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+Hey Twi, how did you all figure out each other
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+We 
+
+
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+Nooo! Penny those drinks aren't for kids like you! ＞﹏＜
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+Y'all are meanieheads! 😤 Except Goth! I like what you say!
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[just a child having a tantrum]
+
+[[➥ You can try creating a private chat for you two->Private Chat]]
+]]
+
+
 
