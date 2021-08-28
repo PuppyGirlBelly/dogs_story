@@ -689,6 +689,7 @@ The second I return to the safety of the park, I nearly collapse. I am drained a
 
 
 :: Who am I? [Unification Discord] {"position":"375,0","size":"100,100"}
+# Hi, everything after this point is a major WIP and is prone to rewrites and overhauls. So keep an eye out for further updates.
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
@@ -846,10 +847,17 @@ Maybe they only show up when I'm scared? :sweat_smile:
 Not that kind of scared :sweat_smile:
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
-Hey Twi, how did you all figure out each other
+Hey Twi, I have idea! How did you all figure out each other?
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
-We 
+We can not point to a single point that is the origin of our system.
+It was an aggregation of trauma.
+And we became aware through a countless series of realizations.
+I apologize if that is an unsatisfying answer.
+
+(link-replace:"No")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Not that kind of scared :sweat_smile:
+
 
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
