@@ -403,7 +403,7 @@ Oh! You're a very cute puppygirl!
 Sound a lot like me tbh!  ૮ ꈍﻌ ꈍა
 
 (link-replace:"Cool, they think I'm a child because I keep saying stuff like this!")[==(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-Can I pet cute puppy?
+Can I pet cute puppy? :3c
 
 (link-replace:"No, I'm not cringe. I'm finally being who I wanted to be! Not what I think everybody else wants!")[==(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
 Hey Penny
@@ -513,7 +513,7 @@ What up?
 Our new puppy friend has an issue with a second doggy inside them making things rough :(
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-oh okies twi should help her then
+Oh okies twi should help her then
 
 (link:"Uh... what?")[==\
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
@@ -592,7 +592,7 @@ Um yes?
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
 Plurality is an umbrella term for similar situations. Where two actors with agency exist within the same body.
-Penumbra and myself are one such example. Penumbra is a younger sister to me whom just happens to coexist with me inside my head.
+Penumbra and myself are one such example. She is a close friend and a person whom I consider a kind of family.
 I had a suspicion that this might be the case. However as it stands there is not enough to indicate that this is plurality.
 
 (link-replace:"So what is it then???")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
@@ -609,7 +609,7 @@ Could be merely that you preferred a more intimidating form to protect yourself;
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
 Weird thing though
-Sunny's old fursona back when we were in high school
+Sunnys old fursona back when we were in high school
 It was a wolfhound too
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
@@ -644,7 +644,7 @@ I've even ordered a set of ears and a collar to help me feel more like a puppy i
 
 At the moment though, I'm just pretending to be human. (link-reveal:"I'm doing a pretty dang good job looking the part too!")[== 
 
-The folks on Frogs have helped a lot with my transition and presentation. I learned a lot about makeup from Penumbra and company. 🐶 helped with finding flattering clothes that make me look like I actually have curves. I feel like I'm no longer flailing trying to look like a woman.
+The folks on Frogs have helped a lot with my transition and presentation. I learned a lot about makeup from Twilight and company. 🐶 helped with finding flattering clothes that make me look like I actually have curves. I feel like I'm no longer flailing trying to look like a woman.
 
 A thought strikes me when [[➥ I see a bathroom up ahead->the Bathroom]]
 
@@ -693,66 +693,67 @@ The second I return to the safety of the park, I nearly collapse. I am drained a
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-Guuuuuys!
-Twilight won't let me have something to driiiiink 🥺
+Y'all!
+I lov my partner! 
 
-(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
-Little one. You know why.
-We are sorry everyone. Penumbra wants to have one of our alcoholic drinks. Despite how such things are not suitable for young ones like her.
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+Aww! You twos are very cute!! ^_^
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+Ya! Especially since they just bought me some cat ears! ^^
+
+(link-replace:"Aww! You're a lucky kitten!")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Aww! You're a lucky kitten!
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
-LET 👏 THE 👏 PENNY 👏 DRINK! 👏
-
-(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
-Nooo! Penny those drinks aren't for kids like you! ＞﹏＜
-
-(link-replace:"Uh... what did I walk into here? 😅")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Uh, what did I walk into here? 😅
+Ooh
+Can I rub your ears to and help you realize you're a cat too
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-Y'all are meanieheads! 😤 Except Goth! I like what you say! 😋
+Maybe! How would you make a light kitty realize they're a light kitty?
 
 (transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
-(background:#23272a)+(font:"Courier New")[just a child having a tantrum]
+(background:#23272a)+(font:"Courier New")[i didn't take twilight as a romantic]
 
-(link-replace:"Wait. Penny's a kid?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Wait. Penny's a kid?
+(link-replace:"Wait? Twilight?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Wait? Twilight?
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
-Penumbra is the child member of our system. She helps us process trauma and lets us return to a pre-traumatic state.
-Even if she is often a handful. 
+Oh.
+I assume you didn't know. 
+Penumbra and I are in a... what do you call it darling?
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-//Pouty pouts// I'm not a handful!
+A zero-distance relationship! :P
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Yes. Penumbra is my kitten.
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
-Yeah! You're cute and sweet and fun to be around! o(^▽^)o
+Once again very cute :kaomoji-heart:
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-Yeah! I'm cute as heck to which means I deserve a cider! 😋
+But twi won't let me call them cute :unamused: 
+Guess what (spoilers)they're just a giant nerd who wants to look cool in front of the puppy :P
 
-(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
-Penumbra.
-Language.
-
-(link-replace:"Um. Sorry to interrupt but can I talk to you Twilight?")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Um. Sorry to interrupt but can I talk to you Twilight?
+(link-replace:"Uh, okay then :sweat_smile:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Uh, okay then :sweat_smile:
+(link-reveal:"Um. Sorry to interrupt but can I talk to you Twilight?")[==
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
 Of course.
-Penumbra. Please let us be and I'll come back for you soon. 
-So what is it that you want to talk about Sunny?
+What is it that you want to talk about Sunny?
 
 (link-replace:"Um. So something happened yesterday...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 Um. So something happened yesterday that kinda weirded me out. I went into the ladies room for the first time yesterday...
 
 (transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
-(background:#23272a)+(font:"Courier New")[congradulations]
+(background:#23272a)+(font:"Courier New")[congratulations]
 
 (link-replace:"Thank you? 😅")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 Thank you? 😅
-(link-replace:"Um, anyways...")[==Um, anyways I was having a panic attack in the bahtroom due to dysphoria.
-(link-replace:"And then something happend...")[==And then something happened in the middle of the panic attack.
+(link-replace:"Um, anyways...")[==Um, anyways I was having a panic attack in the bathroom due to dysphoria.
+(link-replace:"And then something happened...")[==And then something happened in the middle of the panic attack.
 (link-replace:"I heard the words \"I'll take over\"")[==I heard the words "I'll take over" 
 (link-replace:"But I don't think I said them")[==But I don't think I said them
 
@@ -761,13 +762,13 @@ Oh.
 Interesting.
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
-IS IT GOLD?
+WAS IT GOLD?
 
 (link-replace:"I don't know...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 I don't know... but it didn't feel like I said it though.
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
-The fact that the voice refered to itself in first person, and showed agency over this situation is
+The fact that the voice referred to itself in first person, and showed agency over this situation is
 Fascinating.
 Has this voice talked to you in other ways?
 
@@ -805,7 +806,7 @@ Um. Hello?
 [[➥ I'll just leave you be then->No Dice=]]
 
 
-:: No Dice= {"position":"500,150","size":"100,100"}
+:: No Dice= {"position":"625,0","size":"100,100"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (link-replace:"No dice :sweat:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
@@ -825,6 +826,7 @@ Damn :/
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
 YO GOLD
 WHERE THE FUCK YOU BEEN?
+IT'S ME! GOTH! FROM HIGH SCHOOL!
 
 (link-replace:"Nope. Nothing.")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 Nope. Nothing.
@@ -855,22 +857,47 @@ It was an aggregation of trauma.
 And we became aware through a countless series of realizations.
 I apologize if that is an unsatisfying answer.
 
-(link-replace:"No")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Not that kind of scared :sweat_smile:
+(link-replace:"I see...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+I see...
+(link-reveal:"Twilight")[==
+(link-reveal:"Do you think I'm plural?")[==
 
-
-
-(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
-Nooo! Penny those drinks aren't for kids like you! ＞﹏＜
-
-(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
-Y'all are meanieheads! 😤 Except Goth! I like what you say!
-
-(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
-(background:#23272a)+(font:"Courier New")[just a child having a tantrum]
-
-[[➥ You can try creating a private chat for you two->Private Chat]]
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+I can't say.
+But here is [[➥ one more thing->Meditation]] I would suggest.
 ]]
 
 
+:: Meditation= {"position":"750,0","size":"100,100"}
+I close the curtains in my room. Make it as dark as possible. I put on some rhythmless new age music.
 
+I start with Twilight's first instruction (link-reveal:"\"Remove as much stimulation in your room\"")[==
+
+Then I place myself in a chair, and relax (link-reveal:"\"Relax as much of your body as you can. Every muscle and inch of your body.\"")[==
+
+I imagine my body relaxing into a warm bath. Every inch of my body relieving itself from the burden of holding tension as it's immersed into the fantasized body of water. (link:"My feet...")[==(link:"My legs...")[==(link:"My torso...")[==(link:"My arms and shoulders...")[==(link:"Even my jaw and eyebrows...")[==
+
+All of them perfectly relaxed. Feeling weightless. Like my vessel hardly exists now, prepared for losing myself into the next step. (link-replace:"\"To create a mindspace...\"")[=="To create a mindspace."
+
+According to Twilight, a mindspace is a kind of mental image of a space to exist and live in. A peaceful home made perfectly to my needs and specification, what would be called a "happy place" in a cliche visualization exercise. 
+
+[[➥ I begin with a forest->the Mindspace]]
+
+
+:: the Mindspace= {"position":"750,125","size":"100,100"}
+I visualize a thick forest. Filled with pine trees, and a sparse underbrush. A creek echoes into the air along with the idle sounds of birds and insects. Singing to night, illuminated by countless stars and the beautiful moon watching over all.
+
+(link-reveal:"However, it's still not appropriate for a domesticated Golden Retriever.")[==
+
+I begin on a small clearing, within earshot of the nearby creek, and begin a shell of a small home. Lots of windows and skylights to help diminish the barrier between inside and out. The first thing I populate it with is a fireplace and a dog bed to curl up in next to it. 
+
+I vaguely decorate the rest of the space with vague images of a kitchen, bathroom, hallways. It is unneeded as it is, and I instead (link-replace:"focus on the bedroom...")[==focus on the bedroom.
+
+It seems... appropriate that I would attempt the next step within a metaphor for the most private part of my mind. 
+
+I make my room as appealing a resting space as possible. So a wonderful place to start is a large canopy bed covered in fairy lights. I pop in a desk with an overly pink computer setup. As well as a few large potted plants and trees.
+
+The next step is what causes me the most pause. [[➥ I have to inhabit this mindspace next...->Meeting]]
+
+
+:: the Mindspace= {"position":"750,250","size":"100,100"}
