@@ -913,6 +913,29 @@ This next step according to Twilight is to imagine myself inhabiting this space.
 
 
 :: Greetings {"position":"675,50","size":"100,100"}
-Double-click this passage to edit it.
+
+(align:"<==")+(box:"X")[==(link-reveal:"I open my eyes to finally see them. It's Gold, after so many years.")[==
+
+(align:"==>")+(box:"X")[==(link-reveal:"I open my eyes and I finally see Sunny.")[==
+
+(align:"==><==")+(box:"X")[==(link-reveal:"Without a thought we embrace each other within our arms.")[==
+
+(align:"<==")+(box:"X")[==(link-reveal:"\"Gold! I missed you so much!\"")[==
+
+(align:"==>")+(box:"X")[==(link-reveal:"\"It's okay Sunny. I'm here. I'll never leave your side again.\"")[==
+
+(align:"<==")+(box:"X")[==(link-reveal:"\"Of course my girlfriend wouldn't!\"")[==
+
+(align:"==><==")+(box:"X")[==The world girlfriend struck us as odd. It's the first time we've talked... but... 
+
+(align:"==>")+(box:"X")[==(link-reveal:"\"That feels nice... girlfriend...\"")[==
+
+(align:"<==")+(box:"X")[==(link-reveal:"\"I know it does, I'm you after all!\"")[==
+
+(align:"==>")+(box:"X")[==(link-reveal:"\"I guess that I'm sharing a head with a smartass aren't I?\"")[==
+
+(align:"<==")+(box:"X")[==(link-reveal:"\"You know it wolfy!\"")[==
+
+(align:"==>")+(box:"X")[==(link-reveal:"\"Wait. This means that we're plural. Aren't we?\"")[==
 
 
