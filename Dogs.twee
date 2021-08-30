@@ -11,6 +11,7 @@ Dogs
 	"tag-colors": {
 		"Discord": "blue",
 		"Intro": "yellow",
+		"Meditation": "red",
 		"Park": "green",
 		"Realizations": "orange",
 		"Talking": "purple",
@@ -29,7 +30,7 @@ tw-passage {
 }
 
 
-:: Introduction [Intro] {"position":"0,0","size":"100,100"}
+:: Introduction [Intro] {"position":"25,25","size":"100,100"}
 Dysphoria is hell of a drug.
 
 It makes an extremely effective downer. So good I kinda couldn't feel anything for like 13 years. Plus! It tends to have a lot of reality altering effects!
@@ -39,7 +40,7 @@ Like making me blind to how I am a girl, or making me think I didn't enjoy or wa
 [[➥ It made me think I was human->Walk in the Park]]
 
 
-:: Walk in the Park [Intro Park] {"position":"125,0","size":"100,100"}
+:: Walk in the Park [Intro Park] {"position":"150,25","size":"100,100"}
 (link-reveal:"Sunlight. ")[=It's tingly warmth relaxes my very soul as I walk through this (link-reveal:"park.")[== 
 
 The smell of plants and dirt is heavenly after a long dark winter keeping me cooped up indoors. I get shivers down my spine as I heard the leaves rustling in the (link-reveal:"trees.")[==
@@ -59,12 +60,12 @@ The moment is clouded by the same thought I always have with moments like these.
 [[➥ They'll never know that...->Title]]
 
 
-:: Title [Intro Title] {"position":"250,0","size":"100,100"}
+:: Title [Intro Title] {"position":"275,25","size":"100,100"}
 (align:"=><=")+(box:"X")[#I'm Dog(link-repeat:"(s)")[(dialog:"That will be explained, later. Promise.")]]
 (align:"=><=")+(box:"X")[[[➥ It all started with a conversation I had with an old friend...->The Conversation]] ]
 
 
-:: The Conversation [Intro Discord] {"position":"0,125","size":"100,200"}
+:: The Conversation [Intro Discord] {"position":"25,150","size":"100,200"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (text-colour:#f5376a)[AbandonedMallGoth]
@@ -125,7 +126,7 @@ Oh, yeah, that's right little miss "Gold the Wolfhound"! I remember you had such
 ]]
 
 
-:: Freakout [Intro] {"position":"125,175","size":"100,100"}
+:: Freakout [Intro] {"position":"150,200","size":"100,100"}
 (align:"=><=")+(Box:"X", 50)[==(link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(text-style:"rumble"))[==
 (link:"I... I could FEEL it...", (text-rotate-z:357))[==
 (link:"But that's just my imagination...", (text-rotate-z:5))[==
@@ -143,7 +144,7 @@ Oh, yeah, that's right little miss "Gold the Wolfhound"! I remember you had such
 [[WHAT THE FUCK WAS THAT?!?->The Conversation Pt. 2]]
 
 
-:: The Conversation Pt. 2 [Intro Discord] {"position":"250,125","size":"100,200"}
+:: The Conversation Pt. 2 [Intro Discord] {"position":"275,150","size":"100,200"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (text-colour:yellow)[Sunny Flower (She/Her)]
@@ -232,12 +233,12 @@ MHM!
 ]]
 
 
-:: I'm a Dog [Realizations Title] {"position":"0,400","size":"100,100"}
+:: I'm a Dog [Realizations Title] {"position":"25,425","size":"100,100"}
 (align:"=><=")+(box:"X")[#I'm a Dog]
 So yeah, once again, I became the last one to know about my [[➥ identity stuff.->Identity Issues]]
 
 
-:: High School [Realizations] {"position":"0,650","size":"100,100"}
+:: High School [Realizations] {"position":"25,675","size":"100,100"}
 (link:"Suddenly, I flashed back to a memory from high school.")[==(box:"x")+(transition:"blur")[==I'm underneath the stairwell, the perfect space for hiding along with all of my friends who didn't like to be seen.
 
 (link-reveal:"Goth was there too,")[== proselytizing the new Gundam Series. Convincing us to watch by showing how cool the mech designs of this series is. I never really cared about mechs or mechanical designs; so my deaf ears did their best to make their screeds futile.
@@ -249,7 +250,7 @@ In an unusual act of boldness, I managed to gather the courage to ask her what s
 [[➥ "Do you have a fursona?"->Do you have a fursona?]]
 
 
-:: the Wolfhound [Realizations] {"position":"0,900","size":"100,100"}
+:: the Wolfhound [Realizations] {"position":"25,875","size":"100,100"}
 Soon enough, she came back with a (link:"sketch.")[==
 
 It was exactly what I wanted, a competent drawing of lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn't have cared about it; I wasn't even a furry. (link-replace:"But...")[==But something about the sketch... The androgynous look, the long hair tied back into a ponytail, and how feral they looked. It made me smile in a genuine way that I couldn't back then.
@@ -265,7 +266,7 @@ Instead I just hidden it away, slid away in with important documents. In an atte
 (transition-depart:"blur")+(transition-arrive:"fade-up")[[➥ ...years later->Return to the Park]]
 
 
-:: Identity Issues [Realizations] {"position":"0,525","size":"100,100"}
+:: Identity Issues [Realizations] {"position":"25,550","size":"100,100"}
 Though, in retrospect, realizing I was a dog was a larger shift for me than realizing my (link-reveal:"gender.")[==
 
 In comparison, gender was easy. I could see a girl, and map myself onto her. I could look and act more like a girl, and it is (relatively) socially acceptable. Ultimately, I could give permission to myself to become more like a girl. 
@@ -279,7 +280,7 @@ Until that moment, I couldn't conceptually map a tail and muzzle onto me the sam
 After the rush of the realization faded, and the despair simmered to frustration. What the hell, there were [[➥ no signs!->High School]]
 
 
-:: Do you have a fursona? [Realizations] {"position":"0,775","size":"100,100"}
+:: Do you have a fursona? [Realizations] {"position":"25,775","size":"100,100"}
 "Do you have a fursona?" Paige asked.
 
 (link-replace:"\"Uh what?\"")[=="Oh, uh, no I don't..."
@@ -299,7 +300,7 @@ After the rush of the realization faded, and the despair simmered to frustration
 [[➥ "Okay! I'll draw him up real quick!"->the Wolfhound]]
 
 
-:: Return to the Park [Realizations Park] {"position":"125,400","size":"100,100"}
+:: Return to the Park [Realizations Park] {"position":"150,425","size":"100,100"}
 It's been a rough couple of weeks since Goth made me aware of the term (link-repeat:"therian")[(dialog:"Basically, you identify strongly with another species that exists on earth.")]. Since then, I've been trying to explore what (link-reveal:"being a dog means to me.")[==
 
 A consequence is that I've been visiting the park more often. It's what dogs enjoy, right? Going to the park.
@@ -323,7 +324,7 @@ It has fuzzy and floppy blonde ears, a medium length muzzle, and a tail covered 
 (link-reveal:"Huh")[==. I think I'm a [[➥ Golden Retriever->Welcome to the Undead Frog Midnight Society]].
 
 
-:: Welcome to the Undead Frog Midnight Society [Realizations Discord] {"position":"250,400","size":"100,100"}
+:: Welcome to the Undead Frog Midnight Society [Realizations Discord] {"position":"275,425","size":"100,200"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
@@ -426,7 +427,7 @@ sorry
 ]]
 
 
-:: Complicated Park Thoughts [Realizations Park] {"position":"125,525","size":"100,100"}
+:: Complicated Park Thoughts [Realizations Park] {"position":"150,550","size":"100,100"}
 (link:"I suddenly remember back to the park...")[==(transition:"blur")+(box:"X")[==["I think I'm a Golden Retriever," I whisper to myself as my fellow golden retriever disappears around a bend. My not-so-internal monologue was about to continue before another being suddenly appears up ahead.]
 
 (link-reveal:"A human")[==
@@ -448,7 +449,7 @@ I want to figure out my form better. So I decide to once again focus on my (link
 [[and I hear footsteps getting closer->Feral]]
 
 
-:: Feral [Realizations Park] {"position":"125,650","size":"100,100"}
+:: Feral [Realizations Park] {"position":"150,650","size":"100,100"}
 (link:"I open my eyes")[==(align:"=><=")+(box:"X")[=#(link:"THE HUMAN IS CLOSE", (transition:"rumble"))[(link:"SHIT", (text-style:"fidget"))[==(link:"About 30 feet away", (text-style:"fidget"))[==(link:"I hasten my pace", (text-style:"fidget"))[==(link:"20 feet away", (text-style:"fidget"))[==(link:"I have to get away from them...", (text-style:"fidget"))[==(link:"10 feet away", (text-style:"fidget"))[==(link:"I hold my breath and look away")[==(link:"...")[==(link:"they pass by too")[==(link:"...")[==(align:"<=")+(text-size:1)[==(link:"\"They're gone.\"")[==I release a unconscious sigh, as well as my shoulders. I... finally feel safe as I'm alone once again. I stop, and calm my nerves. I focus on my breathing, on my pulse, on my (link-reveal:"phantoms.")[==
 
 Once again, I find my form is a golden retriever.
@@ -456,7 +457,7 @@ Once again, I find my form is a golden retriever.
 (transition-depart:"fade-down")+(transition-depart:"blur")+(transition-arrive:"blur")[[➥ Okay, I'm definitely a Golden Retriever->Two Forms]]]
 
 
-:: Two Forms [Realizations] {"position":"375,400","size":"100,100"}
+:: Two Forms [Realizations] {"position":"400,525","size":"100,100"}
 In the aftermath of joining Undead Frog Midnight Society; that small freakout in the park stuck out in my mind. Since it gained a new significance after I called myself a wolf. 
 
 I needed to ask some questions to figure out what the hell is happening; and why did I see myself in two different ways?
@@ -464,7 +465,7 @@ I needed to ask some questions to figure out what the hell is happening; and why
 [[Back to the only experts I knew->Questions for Frogs]]
 
 
-:: Questions for Frogs [Realizations Discord] {"position":"500,400","size":"100,100"}
+:: Questions for Frogs [Realizations Discord] {"position":"525,425","size":"100,200"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (link-replace:"Hey guys...")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
@@ -621,7 +622,7 @@ I don't think that Sunny is plural like I am.
 ]]
 
 
-:: Puppy in the Park [Realizations Park] {"position":"625,400","size":"100,100"}
+:: Puppy in the Park [Realizations Park] {"position":"650,425","size":"100,100"}
 (link-reveal:"So... I'm just a wolfhound sometimes,")[== is a thought that nags at me as I circle the park once again...
 
 It's been unsatisfying. Just having this part of me that's caused distress to be just a coping mechanism.
@@ -649,7 +650,7 @@ The folks on Frogs have helped a lot with my transition and presentation. I lear
 A thought strikes me when [[➥ I see a bathroom up ahead->the Bathroom]]
 
 
-:: the Bathroom [Realizations Park] {"position":"625,525","size":"100,100"}
+:: the Bathroom [Realizations Park] {"position":"650,525","size":"100,100"}
 I'm feel amazing! I look amazing! I think I can do it. (link-reveal:"\"I'm finally going to use the ladies room!\"")[==
 
 (link-reveal:"I step inside...")[==
@@ -663,8 +664,8 @@ My enthusiasm is replaced with (link-repeat:"anxiety")[(dialog:"I don't belong h
 (link:"My breathing grows faster")[==(dialog:"Oh shit oh fuck oh shit oh fuck") [["I don't want to be here"->"I'll take over"]]
 
 
-:: "I'll take over" [Realizations Park] {"position":"625,650","size":"100,100"}
-(link:"\"I'll take over\"", (align:"=><=")+(box:"X=")+(text-size:3))[== \
+:: "I'll take over" [Realizations Park] {"position":"650,625","size":"100,100"}
+(link:"\"I'll take over\"", (align:"=><=")+(box:"X")+(text-size:3))[== \
 It all goes quiet. The thoughts, the anxiety, the panic attack. 
 
 (link-reveal:"Until a stall door opens and slams")[==
@@ -688,8 +689,7 @@ The second I return to the safety of the park, I nearly collapse. I am drained a
 [[Because, I definitely didn't say that.->Who am I?]]
 
 
-:: Who am I? [Unification Discord] {"position":"375,0","size":"100,100"}
-# Hi, everything after this point is a major WIP and is prone to rewrites and overhauls. So keep an eye out for further updates.
+:: Who am I? [Unification Discord] {"position":"450,50","size":"100,100"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
@@ -736,8 +736,8 @@ Once again very cute :kaomoji-heart:
 But twi won't let me call them cute :unamused: 
 Guess what (spoilers)they're just a giant nerd who wants to look cool in front of the puppy :P
 
-(link-replace:"Uh, okay then :sweat_smile:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Uh, okay then :sweat_smile:
+(link-replace:"Uh, okay then 😅")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Uh, okay then 😅
 (link-reveal:"Um. Sorry to interrupt but can I talk to you Twilight?")[==
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
@@ -792,7 +792,7 @@ How do I talk to them?
 ]]
 
 
-:: Private Chat [Unification Discord] {"position":"500,0","size":"100,100"}
+:: Private Chat [Unification Discord] {"position":"450,150","size":"100,100"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
 (link-replace:"Um. Hello?")[==(text-colour:yellow)[Sunny Flower (She/Her)]
@@ -803,14 +803,15 @@ Um. Hello?
 (link-reveal:"Um...")[==
 (link-reveal:"Thank you for helping with that panic attack...")[==
 (link-reveal:"...")[==
-[[➥ I'll just leave you be then->No Dice=]]
+[[➥ I'll just leave you be then->No Dice]]
+]]
 
 
-:: No Dice= {"position":"625,0","size":"100,100"}
+:: No Dice [Unification Discord] {"position":"450,250","size":"100,100"}
 (transition:"fade-up")[
 (box:"X")+(background:#2c2f33)[ \
-(link-replace:"No dice :sweat:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-No dice :sweat:
+(link-replace:"No dice 😓")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+No dice 😓
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
 Unfortunate.
@@ -835,7 +836,7 @@ Nope. Nothing.
 Damn
 
 (link-replace:"Maybe they only show up when I'm scared? :sweat_smile:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Maybe they only show up when I'm scared? :sweat_smile:
+Maybe they only show up when I'm scared? 😅
 
 (transition:"fade-up")+(text-colour:#c6ced9)[Penumba | Light System]
 **BOOOO! >:D**
@@ -846,7 +847,7 @@ Maybe they only show up when I'm scared? :sweat_smile:
 (background:#23272a)+(font:"Courier New")[they just keep asking you no matter your answer]
 
 (link-replace:"Not that kind of scared :sweat_smile:")[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Not that kind of scared :sweat_smile:
+Not that kind of scared 😅
 
 (transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
 Hey Twi, I have idea! How did you all figure out each other?
@@ -868,7 +869,7 @@ But here is [[➥ one more thing->Meditation]] I would suggest.
 ]]
 
 
-:: Meditation [Unification Meditation] {"position":"750,0","size":"100,100"}
+:: Meditation [Unification Meditation] {"position":"575,50","size":"100,100"}
 I close the curtains in my room. Make it as dark as possible. I put on some rhythmless new age music.
 
 I start with Twilight's first instruction (link-reveal:"\"Remove as much stimulation in your room\"")[==
@@ -884,7 +885,7 @@ According to Twilight, a mindspace is a kind of mental image of a space to exist
 [[➥ I begin with a forest->the Mindspace]]
 
 
-:: the Mindspace [Unification Meditation] {"position":"750,125","size":"100,100"}
+:: the Mindspace [Unification Meditation] {"position":"575,150","size":"100,100"}
 I visualize a thick forest. Filled with pine trees, and a sparse underbrush. A creek echoes into the air along with the idle sounds of birds and insects. Singing to night, illuminated by countless stars and the beautiful moon watching over all.
 
 (link-reveal:"However, it's still not appropriate for a domesticated Golden Retriever.")[==
@@ -897,7 +898,21 @@ It seems... appropriate that I would attempt the next step within a metaphor for
 
 I make my room as appealing a resting space as possible. So a wonderful place to start is a large canopy bed covered in fairy lights. I pop in a desk with an overly pink computer setup. As well as a few large potted plants and trees.
 
-The next step is what causes me the most pause. [[➥ I have to inhabit this mindspace next...->Meeting]]
+The next step is what causes me the most pause. [[➥ I have to inhabit this mindspace next...->Inhabiting]]
 
 
-:: Meeting [Unification Meditation] {"position":"750,250","size":"100,100"}
+:: Inhabiting [Unification Meditation] {"position":"575,250","size":"100,100"}
+(set:$dog to 0)
+This next step according to Twilight is to imagine myself inhabiting this space. (link-reveal:"To start by feeling our forms...")[==
+|=
+(align:"<==")+(box:"X")[(link-reveal:"I can feel... ")[==(link-reveal:"I have fuzzy and floppy blonde ears... ")[==(link-reveal:"A moderate muzzle... ")[==(link-reveal:"and a tail covered in long fur... ")[==(link-reveal:"and a plump and stout body covered in curves...")[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
+=|=
+(align:"==>")+(box:"X")[(link-reveal:"I can feel... ")[==(link-reveal:"I have wiry and semi-rigid blonde ears... ")[==(link-reveal:"A long muzzle... ")[==(link-reveal:"and a skinny tail covered in wiry hair... ")[==(link-reveal:"and I felt very lean and very tall...")[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
+|==|
+|greeting)[(align:"=><=")+(box:"X")+(text_size:3)[[[We open our eyes->Greetings]]]]
+
+
+:: Greetings {"position":"675,50","size":"100,100"}
+Double-click this passage to edit it.
+
+
