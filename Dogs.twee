@@ -9,6 +9,7 @@ Dogs
 	"format-version": "3.2.2",
 	"start": "Introduction",
 	"tag-colors": {
+		"Denouement": "gray",
 		"Discord": "blue",
 		"Intro": "yellow",
 		"Meditation": "red",
@@ -905,37 +906,219 @@ The next step is what causes me the most pause. [[➥ I have to inhabit this min
 (set:$dog to 0)
 This next step according to Twilight is to imagine myself inhabiting this space. (link-reveal:"To start by feeling our forms...")[==
 |=
-(align:"<==")+(box:"X")[(link-reveal:"I can feel... ")[==(link-reveal:"I have fuzzy and floppy blonde ears... ")[==(link-reveal:"A moderate muzzle... ")[==(link-reveal:"and a tail covered in long fur... ")[==(link-reveal:"and a plump and stout body covered in curves...")[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
+(align:"<==")+(box:"X")[(link-reveal:"I can feel... ",(text-color:"yellow"))[==(link-reveal:"I have fuzzy and floppy blonde ears... ",(text-color:"yellow"))[==(link-reveal:"A moderate muzzle... ",(text-color:"yellow"))[==(link-reveal:"and a tail covered in long fur... ",(text-color:"yellow"))[==(link-reveal:"and a plump and stout body covered in curves...",(text-color:"yellow"))[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
 =|=
-(align:"==>")+(box:"X")[(link-reveal:"I can feel... ")[==(link-reveal:"I have wiry and semi-rigid blonde ears... ")[==(link-reveal:"A long muzzle... ")[==(link-reveal:"and a skinny tail covered in wiry hair... ")[==(link-reveal:"and I felt very lean and very tall...")[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
+[==(align:"==>")+(box:"X")[(link-reveal:"I can feel... ",(text-color:"#ffe066"))[==(link-reveal:"I have wiry and semi-rigid blonde ears... ",(text-color:"#ffe066"))[==(link-reveal:"A long muzzle... ",(text-color:"#ffe066"))[==(link-reveal:"and a skinny tail covered in wiry hair... ",(text-color:"#ffe066"))[==(link-reveal:"and I feel very lean and very tall...",(text-color:"#ffe066"))[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
 |==|
-|greeting)[(align:"=><=")+(box:"X")+(text_size:3)[[[We open our eyes->Greetings]]]]
+|greeting)[ \
+(align:"=><=")+(box:"X")+(text_size:1.5)[[[We open our eyes->Greetings]]]
+]
 
 
-:: Greetings {"position":"675,50","size":"100,100"}
+:: Greetings [Unification Meditation] {"position":"675,50","size":"100,100"}
+<==
+(text-color:"yellow")[(link-reveal:"I open my eyes to finally see them. It's Gold, after so many years.")[(show:?gold1)]]\
+|gold1)[
+==>
+(text-color:"#ffe066")[(link-reveal:"I open my eyes and I finally see Sunny.")[(show:?both1)]]]\
+|both1)[
+=><=
+(link-reveal:"//Without a thought we embrace each other within our arms.//")[(show:?sunny1)]]\
+|sunny1)[
+<==
+(text-color:"yellow")[(link-reveal:"\"Gold! I missed you so much!\"")[(show:?gold2)]]]
+|gold2)[
+==>
+(text-color:"#ffe066")[(link-reveal:"\"It's okay Sunny. I'm here. I'll never leave your side again.\"")[(show:?sunny2)]]]\
+|sunny2)[
+<==
+(text-color:"yellow")[(link-reveal:"\"Of course my girlfriend wouldn't!\"")[(show:?both2)]]]
+|both2)[
+=><=
+(box:"X")[//The world girlfriend struck us both as odd. It's the first time we've talked after all...// (link-reveal:"//but...//")[(show:?gold3)]]]\
+|gold3)[
+==>
+(text-color:"#ffe066")[(link-reveal:"\"That feels nice... girlfriend...\"")[(show:?sunny3)]]]\
+|sunny3)[
+<==
+(text-color:"yellow")[(link-reveal:"\"I know it does, I'm you after all!\"")[(show:?gold4)]]]
+|gold4)[
+==>
+(text-color:"#ffe066")[(link-reveal:"\"I guess that I'm sharing a head with a smartass aren't I?\"")[(show:?sunny4)]]]\
+|sunny4)[
+<==
+(text-color:"yellow")[(link-reveal:"\"You know it wolfy!\"")[(show:?gold5)]]]
+|gold5)[
+==>
+(text-color:"#ffe066")[[[➥ "Wait. This means that we're plural. Aren't we?"->Conversation with Myself]]]]\
 
-(align:"<==")+(box:"X")[==(link-reveal:"I open my eyes to finally see them. It's Gold, after so many years.")[==
 
-(align:"==>")+(box:"X")[==(link-reveal:"I open my eyes and I finally see Sunny.")[==
+:: Conversation with Myself [Unification Meditation] {"position":"675,150","size":"100,100"}
+We talked for a long time. It was... odd... like old friends who hadn't seen each other in ages. But those friends shared thoughts and memories seamlessly.
 
-(align:"==><==")+(box:"X")[==(link-reveal:"Without a thought we embrace each other within our arms.")[==
+We talked about a lot. (link-reveal:"How odd it was that we called each other girlfriend so quickly. ",(text-color:"#ffe066"))[==(link-reveal:"How natural it feels to call each other girlfriends! ", (text-color:"yellow"))[==(link-reveal:"What our fashion sense is. ",(text-color:"#ffe066"))[==(link-reveal:"What makes us different! ", (text-color:"yellow"))[==(link-reveal:"Our purposes. ",(text-color:"#ffe066"))[==
 
-(align:"<==")+(box:"X")[==(link-reveal:"\"Gold! I missed you so much!\"")[==
+We found that we felt like we have two different purposes regarding ourself. That Gold's purpose was to keep us safe, act as a protector, and watch out for danger. Meanwhile Sunny was responsible for helping us reach out and help us express ourself more openly. 
 
-(align:"==>")+(box:"X")[==(link-reveal:"\"It's okay Sunny. I'm here. I'll never leave your side again.\"")[==
-
-(align:"<==")+(box:"X")[==(link-reveal:"\"Of course my girlfriend wouldn't!\"")[==
-
-(align:"==><==")+(box:"X")[==The world girlfriend struck us as odd. It's the first time we've talked... but... 
-
-(align:"==>")+(box:"X")[==(link-reveal:"\"That feels nice... girlfriend...\"")[==
-
-(align:"<==")+(box:"X")[==(link-reveal:"\"I know it does, I'm you after all!\"")[==
-
-(align:"==>")+(box:"X")[==(link-reveal:"\"I guess that I'm sharing a head with a smartass aren't I?\"")[==
-
-(align:"<==")+(box:"X")[==(link-reveal:"\"You know it wolfy!\"")[==
-
-(align:"==>")+(box:"X")[==(link-reveal:"\"Wait. This means that we're plural. Aren't we?\"")[==
+(link-replace:"But most of all...")[==But most of all we just held each other, in our innermost space of our mind. In our bedroom. Gripping tight, and being safe and vulnerable. Cuddling, much the way a pair of dogs would. [[➥ We layed there until we passed out...->Coming Out]]
 
 
+:: Coming Out [Denouement Discord] {"position":"850,50","size":"100,100"}
+<==
+(text-color:"yellow")[(link-reveal:"So wolfie! Ready for this?")[(show:?lee1)]]\
+|gold1)[
+==>
+(text-color:"#ffe066")[(link-reveal:"I will never be ready for the horror of being known.")[(show:?sunny1)]]]\
+|sunny1)[
+<==
+(text-color:"yellow")[(link-reveal:"Too bad you have to talk to our friends!")[(show:?discord)]]]
+|discord)[(transition:"fade-up")[(box:"X")+(background:#2c2f33)[ \
+(link-replace:"Hi friens!! 😊",(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Hi friens!! 😊
+
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+Hi puppy! `\(￣︶￣*\))`
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+hihi puppyfrien!! ^^
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+YO
+Whats up
+
+(link-replace:"I need you all to meet somebody!",(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+I need you all to meet somebody!
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+Cool
+Grabbing you an invite
+
+(link-replace:"Not needed!",(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Not needed!
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+oh? :3c 
+
+(link-replace:"oh gods we're actually doing this aren't we?",(text-color:"#ffe066"))[==(link-replace:"You can't hide forever! You did that already!",(text-colour:yellow))[==(link-replace:"Here goes nothing...",(text-color:"#ffe066"))[==(text-color:"#ffe066")[Gold the Wolfhound (she/they)]
+Um... hello?
+
+(transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
+YOOOOOOOOOOOOOOOOOOOOO
+I WAS FUCKIN RIGHT
+HOLY SHIT
+GOLD
+IT'S YOU
+HOW THE HELL HAVE YOU BEEN DOING
+
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+!!!!!
+Another puppy? `Σ(っ °Д °;)っ`
+
+(link-replace:"Not exacly 😅 I'm more like a wolf...",(text-color:"#ffe066"))[==(text-color:"#ffe066")[Gold the Wolfhound (she/they)]
+Not exacly 😅 I'm more like a wolf...
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[oh another puppy]
+
+(link-replace:"Wolfy puppy! 😋",(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Wolfy puppy! 😋
+
+(link-replace:"Goddamn it y'all are gonna call me a puppy aren't you?",(text-color:"#ffe066"))[==(text-color:"#ffe066")[Gold the Wolfhound (she/they)]
+Goddamn it y'all are gonna call me a puppy aren't you?
+
+(link-replace:"Yep",(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Yep
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[yep]
+
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+Yeppers! `~(￣▽￣)~*`
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+It is a pleasure to meet you Gold.
+I. Apologize. 
+
+(link-replace:"What do you have to apologize for? 😅 We just met",(text-color:"#ffe066"))[==(text-color:"#ffe066")[Gold the Wolfhound (she/they)]
+What do you have to apologize for? 😅 We just met
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+twi feels upset because they thought you weren't plural and feels bad for misleading!
+
+(link-replace:"It okay! We kinda weren't fully separate until yet!",(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+It okay! We kinda weren't fully separate until then. 
+
+(link-replace:"Exactly, you couldn't have known.",(text-color:"#ffe066"))[==(text-color:"#ffe066")[Gold the Wolfhound (she/they)]
+Exactly, you couldn't have known. If it helps, we forgive you Twilight. 
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Twilight | Light System]
+Thank you.
+
+(transition:"fade-up")+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+(background:#23272a)+(font:"Courier New")[i'll make you feel bad if you want twilight]
+
+(transition:"fade-up")+(text-colour:#c6ced9)[Penumbra | Light System]
+Noooo! Don't make my partner feel bad! D:
+For all they do to look cool they're just a smol sensitive bean!
+
+(link-replace:"Oh! Just like gold!",(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+Oh! Just like gold!
+(link-replace:"Like how they don't like folks to know they like to be a collared little pup-",(text-colour:yellow))[==
+(link-replace:"And I'm not going to let you finish that thought.",(text-color:"#ffe066"))[==
+(link-replace:"Meanie :unamused:",(text-colour:yellow))[==
+
+(transition:"fade-up")[==(text-colour:#ae6113)[I'm 🐶!]
+It's nice to meet you Wolf Puppy! 
+So notice you use she/they! Are you nonbinary?
+
+(text-color:"#ffe066")[[[➥ So...->One last walk]]]
+]]]
+
+
+:: One last walk {"position":"850,200","size":"100,100"}
+(link-reveal:"Sunlight. ", (text-colour:#ae6113))[==It's tingly warmth relaxes our very soul as (link-reveal:"we walk through this park!", (text-colour:"yellow"))[== 
+
+Our walks have become the perfect time for us to talk now! We talk about people! The people we like! Drama on Twitter! Each other! lots of stuffs!
+
+But likewise it's made us prone to contemplation. Thinking about complicated things. Like... (link-reveal:"my gender. ", (text-colour:#ae6113))[==
+
+It's easier figuring out that I'm a dog than my fucking gender. I'm a wolfhound, that was so easy I could figure it out in high school. But what the hell kinda gender I have is just... complicated. Doesn't help that gender is a concept created by humans, and I'm not one. Even if that was hard for us to admit a while ago.
+
+(link-reveal:"But I made easier for you to be a dog! ", (text-colour:#ae6113))[==I've been forcing Gold to finally dress like the goth pup they are! It's helped them feel more comfy wearing their collar outside! Plus they feel intimidating! Plus we learned some hair buns that make us feel like we got ears! 
+
+(link-replace:"Still...", (text-colour:#ae6113))[==Still, I have no clue how to map a gender like me. At least with Sunny she's happy being a "good girl" or whatever. Me? It feels like my gender is just "dog" and how the heck do I map that onto me?
+
+(link-reveal:"Gold! Look out!", (text-colour:"yellow"))[==
+
+...and appearing behind a bend we see the most heavenly sight. (link-reveal:"Yellow fur, ")[==(link-reveal:"a black nose, ")[==(link-reveal:"four legs (each ending in paws), ")[==(link-reveal:"and a happy wagging tail.", (text-style:"sway"))[==
+
+(link-reveal:"It's a golden retriever.")[==
+
+We beam as I see the dog walk in our direction. As happy as they can be. Our gaze is transfixed. Just watching the goldie come closer, (link-reveal:"until...")[==
+
+They dart towards us and starts sniffing us, with an excited wagging tail! Their owner shouts an embarrassed, "sorry!" Trying to drag the dog away! But they're too transfixed with our scent. We give a brief glance to the person at the other end of the leash. //Oh// they're a fucking hot enby with blue hair, wearing a denim jacket covered in pride pins, and a collar around their neck too.
+
+"Oh, she's not usually this friendly with people." 
+
+(link-reveal:"We should ask to pet her!", (text-colour:"yellow"))[==
+(link-reveal:"Gah... gay...", (text-colour:#ae6113))[==
+
+(link-reveal:"Um, is it okay if I pet her?")[== We asked.
+
+"Oh, of course. She really seems to like you. She's usually only this friendly with dogs!"
+
+Oh my god [[➥ she can tell...->Final Title]]
+
+
+:: Final Title [Denouement Title] {"position":"950,50","size":"100,100"}
+(align:"=><=")+(box:"X")[#I'm Dog(link-repeat:"s")[(dialog:"Told you!")]]
+[[Credits->]]
+
+:: Final Title [Denouement Title] {"position":"950,200","size":"100,100"}
+Thank you for reading my story! This has been a semi-autobiographical story based on our own experiences with therian and plural discovery! I genuinely appreciate everybody who's read this and everybody who's helped contribute!
+
+I especially want to thank the following;
+- Ingrid S.: For providing feedback, and helping break writer's block
+- Mausy: For emotional support and giving motivation
+- Tinkby: Editing and quality assurance
+- Nyx: For emotional support!
