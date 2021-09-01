@@ -130,7 +130,7 @@ Oh, yeah, that's right little miss "Gold the Wolfhound"! I remember you had such
 :: Freakout [Intro] {"position":"150,200","size":"100,100"}
 (align:"=><=")+(Box:"X", 50)[==(link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(text-style:"rumble"))[==
 (link:"I... I could FEEL it...", (text-rotate-z:357))[==
-(link:"But that's just my imagination...", (text-rotate-z:5))[==
+(link:"But that was just my imagination...", (text-rotate-z:5))[==
 (link:"Right?", (text-rotate-z:11))[==
 (link:"Their fingers on my ear...", (text-rotate-z:347))[==
 (link:"My ear?", (text-rotate-z:17))[==
@@ -140,8 +140,8 @@ Oh, yeah, that's right little miss "Gold the Wolfhound"! I remember you had such
 (link:"Wait.")[==\
 (link:"It's not real.")[==\
 (link:"➥ It's a figment of my imagination.")[==\
-(link:"BUT WHY CAN'T I CATCH MY BREATH???", (text-rotate-z:350)+(text-style:"rumble"))[==
-(link:"Why is my heart racing?", (text-rotate-z:10)+(text-style:"rumble"))[==
+(link:"BUT WHY IS MY HEART RACING???", (text-rotate-z:350)+(text-style:"rumble"))[==
+(link:"Why can't I catch my breath?", (text-rotate-z:10)+(text-style:"rumble"))[==
 [[WHAT THE FUCK WAS THAT?!?->The Conversation Pt. 2]]
 
 
@@ -152,20 +152,23 @@ Oh, yeah, that's right little miss "Gold the Wolfhound"! I remember you had such
 WHAT THE FUCK WAS THAT?!?
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
-What? I just rubbed your ears?
+What
+I was just giving headpats
 
 (link-replace:"MY HEART IS FUCKING RACING")[==(text-colour:yellow)[Sunny Flower (She/Her)]
 MY HEART IS FUCKING RACING
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
-Uh, you okay sis?
+Uh you okay sis?
 
 (link-replace:"I COULD FEEL THAT")[==(text-colour:yellow)[Sunny Flower (She/Her)]
 I COULD FEEL THAT
+(link-reveal:"I COULD FEEL YOU RUBBING MY EAR")[==
+(link-reveal:"I COULD FEEL IT **ON TOP OF MY HEAD**")[==
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
 Wha
-Oh.
+Oh
 *Oh*
 
 (link-replace:"WHAT")[==(text-colour:yellow)[Sunny Flower (She/Her)]
@@ -199,8 +202,9 @@ so
 SO?
 
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
-You got phantom sensation, like phantom limbs after amputation
-So what kinda thing would feel fluffy ears on their head?
+You got phantom sensations 
+Like phantom limbs after amputation
+So what kinda thing would feel fluffy ears on their head
 
 (link-replace:"I don't know? Dogs?")[==(text-colour:yellow)[Sunny Flower (She/Her)]
 I don't know? Dogs?
@@ -221,9 +225,8 @@ Why the fuck would I feel dog ears?
 (transition:"fade-up")[==(text-colour:#f5376a)[AbandonedMallGoth]
 Why would a crow feel a beak on their face?
 
-(link-replace:"Wait")[==(text-colour:yellow)[Sunny Flower (She/Her)]
-Wait
-(link-reveal:"What")[==
+(link-replace:"What")[==(text-colour:yellow)[Sunny Flower (She/Her)]
+What
 (link-reveal:"Oh")[==
 (link-replace:"Oh")[==''Oh''
 
@@ -236,7 +239,31 @@ MHM!
 
 :: I'm a Dog [Realizations Title] {"position":"25,425","size":"100,100"}
 (align:"=><=")+(box:"X")[#I'm a Dog]
-So yeah, once again, I became the last one to know about my [[➥ identity stuff.->Identity Issues]]
+I've always had a hard time dealing with [[➥ my identity->Identity Issues]]
+
+
+:: Identity Issues [Realizations] {"position":"25,550","size":"100,100"}
+I've always had trouble being able to understand myself. Even my gender was a long and drawn out process. For the longest time as a kid I just didn't "get" gender and just kinda ignored it and just did my own thing. Until the world wouldn't let me.
+
+(link-reveal:"But in some ways I had some //no signs:tm:// back when I was a kid.")[== Liked being friends with girls more than boys. Was envious of girl's clothes. Heck, even fantasized about being a girl in a few embarrassing private moments. 
+
+(link-reveal:"But I still never listened to those signs.")[== Heck, only a couple years ago I saw solid and undeniable proof I could be a hot and attractive trans woman. I even fucking said "I could look like that," before burying those feelings. But still, I fought against that first crack in my egg for over a year before I came to accept it. 
+
+(link-reveal:"Accepting I'm a dog feels even harder.")
+
+
+:: Null [Realizations] {"position":"1000,1000","size":"100,100"}
+Though, in retrospect, realizing I was a dog was a much more difficult shift for me than (link-reveal:"realizing my gender.")[==
+
+In comparison, gender was easy. I could see a girl, and map myself onto her. I could look and act more like a girl, and it's socially acceptable (relatively). I can get permission and acceptance to act more like a girl.
+
+But something other than human is much (link-reveal:"harder to grasp...")[==
+
+Until that moment, I couldn't conceptually map a tail and muzzle onto me the same way I could with breasts. I couldn't act like a dog without people thinking I should be locked up. Fuck, I couldn't take drugs or wear clothes to look more like a dog! And people couldn't see me as a dog the same way they saw me as a woman(link:"...")[==.
+
+(link:"...")[==...
+
+After the rush of the realization faded, and the despair simmered to frustration. What the hell, there were [[➥ no signs!->High School]]
 
 
 :: High School [Realizations] {"position":"25,675","size":"100,100"}
@@ -265,20 +292,6 @@ I kept that sketch in my locker, proud that I had some art of my crush that they
 Instead I just hidden it away, slid away in with important documents. In an attempt to forget about it...
 
 (transition-depart:"blur")+(transition-arrive:"fade-up")[[➥ ...years later->Return to the Park]]
-
-
-:: Identity Issues [Realizations] {"position":"25,550","size":"100,100"}
-Though, in retrospect, realizing I was a dog was a larger shift for me than realizing my (link-reveal:"gender.")[==
-
-In comparison, gender was easy. I could see a girl, and map myself onto her. I could look and act more like a girl, and it is (relatively) socially acceptable. Ultimately, I could give permission to myself to become more like a girl. 
-
-But something other than human is much (link-reveal:"harder to grasp...")[==
-
-Until that moment, I couldn't conceptually map a tail and muzzle onto me the same way I could with breasts. I couldn't act like a dog without people thinking I should be locked up. Fuck, I couldn't take drugs or wear clothes to look more like a dog! And people couldn't see me as a dog the same way they saw me as a woman(link:"...")[==.
-
-(link:"...")[==...
-
-After the rush of the realization faded, and the despair simmered to frustration. What the hell, there were [[➥ no signs!->High School]]
 
 
 :: Do you have a fursona? [Realizations] {"position":"25,775","size":"100,100"}
