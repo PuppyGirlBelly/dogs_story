@@ -9,11 +9,47 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Dogs.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Dogs" startnode="1" creator="Twine" creator-version="2.3.14" ifid="55169585-2813-4924-8A1F-BF477351287E" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+<tw-storydata name="Dogs" startnode="1" creator="Twine" creator-version="2.3.14" ifid="55169585-2813-4924-8A1F-BF477351287E" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
 
-tw-passage {
-   font-family: 'PT Sans', sans-serif;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Realizations" color="orange"></tw-tag>,<tw-tag name="Talking" color="purple"></tw-tag>,<tw-tag name="Denouement" color="gray"></tw-tag>,<tw-tag name="Intro" color="yellow"></tw-tag>,<tw-tag name="Meditation" color="red"></tw-tag>,<tw-tag name="Park" color="green"></tw-tag>,<tw-tag name="Discord" color="blue"></tw-tag>,<tw-tag name="Title" color="gray"></tw-tag>,<tw-tag name="Unification" color="purple"></tw-tag><tw-passagedata pid="1" name="Introduction" tags="Intro" position="25,25" size="100,100">When I was younger, I always wore long hair. At the time I just didn&#39;t care about haircuts so I avoided them. Just kept growing out my hair. Even if it kept getting in my eyes. (link-reveal:&quot;I could still see though my hair&quot;)[==
+tw-story {
+    min-height: 100vh;
+}
+
+tw-passage:not([tags~="Discord"]) {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 1em;
+    font-family: 'Source Serif Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+tw-story[tags~="Park"] {
+    background:url(https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/forest%20path.jpg);
+    background-size:auto 100vh;
+    background-attachment: fixed;
+}
+
+tw-story[tags~="Discord"] {
+    background:#2c2f33;
+}
+
+tw-passage[tags~="Discord"] {
+    font-family: 'Catamaran',Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #2c2f33;
+    line-height: 1.25em;
+}
+
+tw-hook[name="sunny"]::before {
+content: '';
+width: 2.5em;
+height: 2.5em;
+border-radius: 50%;
+display: block;
+position: absolute;
+background: url(https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/puppy.jpeg);
+    background-size: auto;
+background-size: cover;
+left: -3em;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Realizations" color="orange"></tw-tag>,<tw-tag name="Title" color="gray"></tw-tag>,<tw-tag name="Unification" color="purple"></tw-tag>,<tw-tag name="Denouement" color="gray"></tw-tag>,<tw-tag name="Meditation" color="red"></tw-tag>,<tw-tag name="Park" color="green"></tw-tag>,<tw-tag name="Talking" color="purple"></tw-tag>,<tw-tag name="Discord" color="blue"></tw-tag>,<tw-tag name="Intro" color="yellow"></tw-tag><tw-passagedata pid="1" name="Introduction" tags="Intro" position="25,25" size="100,100">When I was younger, I always wore long hair. At the time I just didn&#39;t care about haircuts so I avoided them. Just kept growing out my hair. Even if it kept getting in my eyes. (link-reveal:&quot;I could still see though my hair&quot;)[==
 
 Sure, it made my vision a little fuzzier. Made it harder to see my peripheral vision. But I just kept wearing it long because I didn&#39;t care about shorter hair. Eventually, I grew up and thought that meant cutting it off. (link-reveal:&quot;But that bit of blindness remained no matter how short my hair got.&quot;)[==
 
@@ -21,11 +57,12 @@ I couldn&#39;t see certain things about myself. I couldn&#39;t see myself as sma
 
 (link-reveal:&quot;But most of all...&quot;)[==
 
-[[➥ It made me think I was human-&gt;Walk in the Park]]</tw-passagedata><tw-passagedata pid="2" name="Walk in the Park" tags="Intro Park" position="150,25" size="100,100">(link-reveal:&quot;Some time ago, I was walking in a park. &quot;)[=The sunlight&#39;s tingly warmth relaxes my very soul as (link-reveal:&quot;I walk along this path.&quot;)[== 
+(t8n-depart:&quot;instant&quot;)+(t8n-arrive:&quot;dissolve&quot;)+(t8n-time:2s)[[➥ It made me think I was human-&gt;Walk in the Park]]</tw-passagedata><tw-passagedata pid="2" name="Walk in the Park" tags="Intro Park" position="150,25" size="100,100">(change: ?page, (transition:&quot;dissolve&quot;)+(t8n-time:2s))\
+(link-reveal:&quot;Some time ago, I was walking in a park. &quot;)[=The sunlight&#39;s tingly warmth relaxes my very soul as (link-reveal:&quot;I travel along this path.&quot;)[== 
 
 After being cooped up indoors after such a long dark winter the smell of dirt and plants is incredibly cathartic. I even get shivers down my spine as the breeze (link-reveal:&quot;rustles the leaves above me.&quot;)[==
 
-But most of all, I get to exist outside. As myself. Outside. (link-reveal:&quot;Walking along this gravel path.&quot;)[==
+But most of all, I get to exist outside. As myself. Outside. (link-reveal:&quot;Treading this gravel.&quot;)[==
 
 And appearing behind a bend I see the most incredible sight! (link-reveal:&quot;Yellow fur, &quot;)[==(link-reveal:&quot;a black nose, &quot;)[==(link-reveal:&quot;four legs and paws, &quot;)[==(link-reveal:&quot;and a happy wagging tail.&quot;, (text-style:&quot;sway&quot;))[==
 
@@ -37,77 +74,89 @@ Soon the moment passes, as the dog and their owner pass by me.
 
 The owner is forgotten, but I keep thinking about their dog. I think a refrain that keeps getting stuck in my head lately.
 
-[[➥ They&#39;ll never know that...-&gt;Title]]</tw-passagedata><tw-passagedata pid="3" name="Title" tags="Intro Title" position="275,25" size="100,100">=&gt;&lt;=
-(text-size:3)[I&#39;m Dog(link-repeat:&quot;(s)&quot;)[(dialog:&quot;That will be explained, later. Promise.&quot;)]]
-//By AnnaLee//
+[[➥ They&#39;ll never know that...-&gt;Title]]</tw-passagedata><tw-passagedata pid="3" name="Title" tags="Intro Title" position="275,25" size="100,100">(box:&quot;X&quot;)+(align:&quot;=&gt;&lt;=&quot;)+(css:&quot;max-width:none;&quot;)[(text-size:3)[I&#39;m Dog(link-repeat:&quot;(s)&quot;)[(dialog:&quot;That will be explained, later. Promise.&quot;)]]
+(text-size:1.5)[//By AnnaLee//]]
 
-[[➥ It all started with a conversation I had with an old friend...-&gt;The Conversation]]</tw-passagedata><tw-passagedata pid="4" name="The Conversation" tags="Intro Discord" position="25,150" size="100,200">(transition:&quot;fade-up&quot;)[
-(box:&quot;X&quot;)+(background:#2c2f33)[ \
-(text-colour:#f5376a)[AbandonedMallGoth]
-YOOOOOOO
-But holy shit
-It took you
-like
-25 years to realize!
+(transition-arrive:&quot;fadeup&quot;)[[➥ It all started with a conversation I had with an old friend...-&gt;The Conversation]]</tw-passagedata><tw-passagedata pid="4" name="The Conversation" tags="Intro Discord" position="25,150" size="100,200">(enchant: ?sunny, (text-colour:yellow))\
+(enchant: ?goth, (text-colour:#f5376a)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?text, (t8n:&quot;fade-up&quot;))\
+(link-replace:&quot;...so yeah I&#39;m trans.&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
+So yeah I&#39;m trans. 
 
-(link-replace:&quot;Not everybody is as good at figuring out their gender like you dickweed 😒&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==YOOOOOOO
+But also
+Bruh
+It took you 25 years to realize
+Holy shit.
+
+(link-replace:&quot;Not everybody is as good at figuring out their gender like you dickweed 😒&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 Not everybody could tell they were trans at eight like you dickweed 😒
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-Come on sis
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==Come on 
+I called you sis like everyday in high school
 You were literally the last one to know
-Heck
-I could tell even back in high school
-I called you sis like everyday
 
-(link-replace:&quot;What about a depressed boy with chronic headphone disease and baggy clothes screamed \&quot;girl\&quot; to you? 🙄&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+(link-replace:&quot;What about a depressed boy with chronic headphone disease and baggy clothes screamed \&quot;girl\&quot; to you? 🙄&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 What about a depressed boy with chronic headphone disease and baggy clothes screamed &quot;girl&quot; to you 🙄
-(link-reveal:&quot;Plus I assumed that was \&quot;social bonding\&quot;&quot;)[==
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-Uuuuuuuuuh, literally everything you just said! Plus I know a shitton about identity shit.
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==Uuuuuuuuuh
+literally everything you just said
+Plus I know a shitton about identity stuff
 
-(link-replace:&quot;Whatever you say furry 🙄&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+(link-replace:&quot;Whatever you say furry 🙄&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 Whatever you say furry 🙄
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-Excuse me, I&#39;m a crow. Not a furry. And I&#39;m otherkin. Big difference!
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==Excuse me
+I&#39;m a crow
+Not a furry.
+And I&#39;m otherkin
+Big difference
 
-(link-replace:&quot;You get furry art, done by furry artists. Pretty sure that makes you a furry! 😛&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+(link-replace:&quot;You get furry art, done by furry artists. Pretty sure that makes you a furry! 😛&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 You get furry art, done by furry artists, pretty sure that makes you a furry 😛
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-And you&#39;re not?
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==And you&#39;re not?
 
-(link-replace:&quot;Not anymore, grew outta that. 😇&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+(link-replace:&quot;Not anymore, I grew outta that. 😇&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 Not anymore, I grew outta that 😇
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-*sigh* Too old for head pats and junk now?
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==*sigh* 
+Too old for head pats and junk too?
 
-(link-replace:&quot;Oh, uh, no... I&#39;d still like your headpats ;&gt;_&gt;&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
-No... Still like your headpats ;&gt;_&gt;
+(link-replace:&quot;Oh, uh, no... I&#39;d still like your headpats ;&gt;_&gt;&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
+Oh, uh, no... I&#39;d still like your headpats ;&gt;_&gt;
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-Yesssss *petpetpets*
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==Yesssss 
+//petpetpets//
 
-(link:&quot;Goddamn it I&#39;m a trans stereotype aren&#39;t I? /)///(\\&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+(link:&quot;Goddamn it I&#39;m a trans stereotype aren&#39;t I? /)///(\\&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 Goddamn it I&#39;m a trans stereotype aren&#39;t I? /)///(\\
 
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-Seems so! You like headpats just as much as any trans catgirl!
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==Seems so 
+You like headpats just as much as any trans catgirl
 
-(link:&quot;Hey! Look, if anything I&#39;m a doggirl 😤&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+(link:&quot;Hey! Look, if anything I&#39;m a doggirl 😤&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 Hey! If anything I&#39;m doggirl 😤
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-Oh, yeah, that&#39;s right little miss &quot;Gold the Wolfhound&quot;! I remember you had such adorable ears back then...
-(link:&quot;So? Threw them away years ago...&quot;)[==*pinches your fluffy yellow ear*
-(link:&quot;What are you doing?&quot;)[==*fingers on the inside*
-(link:&quot;Okay?&quot;)[==*thumb on the outside*
-(link:&quot;Wh...&quot;)[==*and rubs circles on your fluffy (text-style:&quot;shudder&quot;)[[[➥ puppy-&gt;Freakout]]] ear*
-]]</tw-passagedata><tw-passagedata pid="5" name="Freakout" tags="Intro" position="150,200" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(Box:&quot;X&quot;, 50)[==(link:&quot;WHAT?!?&quot;, (css: &quot;font-size: 300%; font-style: bold;&quot;)+(text-rotate-z:2)+(text-style:&quot;rumble&quot;))[==
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==Oh yes
+little miss &quot;Gold the Wolfhound&quot;
+You had such adorable ears back then...
+(link:&quot;So? Threw them away years ago...&quot;)[==\
+|text&gt;[==I wanna rub them again!
+*pinches your fluffy yellow ear*
+(link:&quot;What are you doing?&quot;)[==|text&gt;[==*fingers on the inside*
+(link:&quot;Okay?&quot;)[==|text&gt;[==*thumb on the outside*
+(link:&quot;Wh...&quot;)[==|text&gt;[==*and rubs circles on your fluffy (text-style:&quot;shudder&quot;)[[➥ puppy-&gt;Freakout]] ear*</tw-passagedata><tw-passagedata pid="5" name="Freakout" tags="Intro" position="150,200" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(Box:&quot;X&quot;, 50)[==(link:&quot;WHAT?!?&quot;, (css: &quot;font-size: 300%; font-style: bold;&quot;)+(text-rotate-z:2)+(text-style:&quot;rumble&quot;))[==
 (link:&quot;I... I could FEEL it...&quot;, (text-rotate-z:357))[==
 (link:&quot;But that&#39;s just my imagination...&quot;, (text-rotate-z:5))[==
 (link:&quot;Right?&quot;, (text-rotate-z:11))[==
@@ -127,20 +176,23 @@ Oh, yeah, that&#39;s right little miss &quot;Gold the Wolfhound&quot;! I remembe
 WHAT THE FUCK WAS THAT?!?
 
 (transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-What? I just rubbed your ears?
+What
+I was just giving headpats
 
 (link-replace:&quot;MY HEART IS FUCKING RACING&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
 MY HEART IS FUCKING RACING
 
 (transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-Uh, you okay sis?
+Uh you okay sis?
 
 (link-replace:&quot;I COULD FEEL THAT&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
 I COULD FEEL THAT
+(link-reveal:&quot;I COULD FEEL YOU RUBBING MY EAR&quot;)[==
+(link-reveal:&quot;I COULD FEEL IT **ON TOP OF MY HEAD**&quot;)[==
 
 (transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
 Wha
-Oh.
+Oh
 *Oh*
 
 (link-replace:&quot;WHAT&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
@@ -174,8 +226,9 @@ so
 SO?
 
 (transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
-You got phantom sensation, like phantom limbs after amputation
-So what kinda thing would feel fluffy ears on their head?
+You got phantom sensations 
+Like phantom limbs after amputation
+So what kinda thing would feel fluffy ears on their head
 
 (link-replace:&quot;I don&#39;t know? Dogs?&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
 I don&#39;t know? Dogs?
@@ -196,64 +249,69 @@ Why the fuck would I feel dog ears?
 (transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
 Why would a crow feel a beak on their face?
 
-(link-replace:&quot;Wait&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
-Wait
-(link-reveal:&quot;What&quot;)[==
+(link-replace:&quot;What&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+What
 (link-reveal:&quot;Oh&quot;)[==
-(link-replace:&quot;Oh&quot;)[==&#39;&#39;Oh&#39;&#39;
+(link-replace:&quot;Oh&quot;)[==&#39;&#39;//Oh//&#39;&#39;
 
 (transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
 MHM!
 
 [[➥ WAIT ARE YOU TELLING ME...-&gt;I&#39;m a Dog]]
 ]]</tw-passagedata><tw-passagedata pid="7" name="I&#39;m a Dog" tags="Realizations Title" position="25,425" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[#I&#39;m a Dog]
-So yeah, once again, I became the last one to know about my [[➥ identity stuff.-&gt;Identity Issues]]</tw-passagedata><tw-passagedata pid="8" name="High School" tags="Realizations" position="25,675" size="100,100">(link:&quot;Suddenly, I flashed back to a memory from high school.&quot;)[==(box:&quot;x&quot;)+(transition:&quot;blur&quot;)[==I&#39;m underneath the stairwell, the perfect space for hiding along with all of my friends who didn&#39;t like to be seen.
+I&#39;ve always had a hard time dealing with [[➥ my identity-&gt;Identity Issues]]</tw-passagedata><tw-passagedata pid="8" name="Identity Issues" tags="Realizations" position="150,425" size="100,100">I&#39;ve always had trouble being able to understand myself. Even my gender was a long and drawn out process. For the longest time as a kid I just didn&#39;t &quot;get&quot; gender and just kinda ignored it and just did my own thing. Until the world wouldn&#39;t let me.
 
-(link-reveal:&quot;Goth was there too,&quot;)[== proselytizing the new Gundam Series. Convincing us to watch by showing how cool the mech designs of this series is. I never really cared about mechs or mechanical designs; so my deaf ears did their best to make their screeds futile.
+(link-reveal:&quot;But in some ways I had some //no signs™// back when I was a kid.&quot;)[== Liked being friends with girls more than boys. Was envious of girl&#39;s clothes. Heck, even fantasized about being a girl in a few embarrassing private moments. 
 
-Instead, I actually found my attention drifting towards (link-reveal:&quot;Paige.&quot;)[== I... kinda had a crush on her. In retrospect, it was clearly a &quot;I want to be her&quot; crush. But then again, I still get crushes on artsy and nerdy types. You bet she was both too, considering she was the furry of the group. 
+(link-reveal:&quot;But I still never listened to those signs.&quot;)[== Heck, only a couple years ago I saw solid and undeniable proof I could be a hot and attractive trans woman. I even fucking said &quot;I could look like that,&quot; before burying those feelings. But still, I fought against that first crack in my egg for over a year before I came to accept it. 
 
-In an unusual act of boldness, I managed to gather the courage to ask her what she was working on. As usual it was her mouse OC, and started rambling about the adventure this sketch was portraying. I listened and nodded intently, trying to note details as if there was a test later about them. Until suddenly...
+(link-reveal:&quot;Accepting I&#39;m a dog feels even harder.&quot;)[== I could grasp and map myself onto a feminine body. A feminine **human** body. But a dog was a whole different ballpark. Like, I don&#39;t even know what having a tail feels like; or what it would be like to have floppy ears. (link-reveal:&quot;Let alone acting or looking more like a dog.&quot;)[==
 
-[[➥ &quot;Do you have a fursona?&quot;-&gt;Do you have a fursona?]]</tw-passagedata><tw-passagedata pid="9" name="the Wolfhound" tags="Realizations" position="25,875" size="100,100">Soon enough, she came back with a (link:&quot;sketch.&quot;)[==
+I can&#39;t even get acceptance and permission from others to act more like a dog. Let alone give it to myself.
 
-It was exactly what I wanted, a competent drawing of lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn&#39;t have cared about it; I wasn&#39;t even a furry. (link-replace:&quot;But...&quot;)[==But something about the sketch... The androgynous look, the long hair tied back into a ponytail, and how feral they looked. It made me smile in a genuine way that I couldn&#39;t back then.
+Plus, unlike my gender, there were [[➥ no signs.-&gt;High School]]
+</tw-passagedata><tw-passagedata pid="9" name="High School" tags="Realizations" position="150,550" size="100,100">(link:&quot;Suddenly, I flashed back to a memory from high school.&quot;)[==(box:&quot;x&quot;)+(transition:&quot;blur&quot;)[==I&#39;m underneath the stairwell, the perfect space for hiding along with all of my other friends who didn&#39;t like to be seen.
 
-(link-reveal:&quot;I was proud of it&quot;)[==, and I showed Goth. They laughed at how edgy they looked, and I felt silly. But then asked what&#39;s my new OC&#39;s (link:&quot;name...&quot;)[==name.
+(link-reveal:&quot;I was ignoring Goth as usual,&quot;)[== proselytizing the new Gundam Series. Convincing us to watch by showing how cool the mech designs of this series is. I never really cared about mechs or mechanical designs; so my deaf ears did their best to make their screeds futile.
 
-(link-replace:&quot;Sunny...&quot;)[==(link-replace:&quot;No that&#39;s a girly name.&quot;, (transition:&quot;shudder&quot;))[==Gold, the Wolfhound
+Instead, I actually found my attention (link-reveal:&quot;drifting towards Paige.&quot;)[== I... kinda had a crush on her. In retrospect, it was clearly a &quot;I want to be her&quot; crush. But then again, I still get crushes on artsy and nerdy types. You bet she was both too, considering she was the furry of the group.
 
-I kept that sketch in my locker, proud that I had some art of my crush that they drew for me. But as time went on I slowly became more ashamed of it. Being a furry was childish. It&#39;s better to accept whom you are, more mature... (link-reveal:&quot;but...&quot;)[== I couldn&#39;t bring myself to get rid of it, I couldn&#39;t look at it either. 
+(link-reveal:&quot;I managed to gather the courage to Approach Paige.&quot;)[== It was uncharacteristic of me, especially back then. I was always anxious around people, doubly so around those I liked. 
 
-Instead I just hidden it away, slid away in with important documents. In an attempt to forget about it...
+(link-reveal:&quot;\&quot;So, what are you working on?\&quot;&quot;)[== I asked her. My crush immediately started to ramble about her new mouse OC that she was drawing; and elaborated on an adventure that this new sketch was a snapshot of. I listened and nodded intently, trying to make mental notes of each detail, as if I was going to be quizzed about them later. 
 
-(transition-depart:&quot;blur&quot;)+(transition-arrive:&quot;fade-up&quot;)[[➥ ...years later-&gt;Return to the Park]]</tw-passagedata><tw-passagedata pid="10" name="Identity Issues" tags="Realizations" position="25,550" size="100,100">Though, in retrospect, realizing I was a dog was a larger shift for me than realizing my (link-reveal:&quot;gender.&quot;)[==
+Then suddenly she asked, [[➥ &quot;Do you have a fursona?&quot;-&gt;Do you have a fursona?]]</tw-passagedata><tw-passagedata pid="10" name="the Wolfhound" tags="Realizations" position="150,750" size="100,100">Soon enough, (link-reveal:&quot;she came back with a sketch.&quot;)[==
 
-In comparison, gender was easy. I could see a girl, and map myself onto her. I could look and act more like a girl, and it is (relatively) socially acceptable. Ultimately, I could give permission to myself to become more like a girl. 
+It was exactly what I wanted, a competent drawing of lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn&#39;t have cared about it; I wasn&#39;t even a furry. (link-replace:&quot;But...&quot;)[==(link-reveal:&quot;But there was something about the sketch...&quot;)[==
 
-But something other than human is much (link-reveal:&quot;harder to grasp...&quot;)[==
+The androgynous look, the long hair tied back into a ponytail, and how feral they looked. It made me smile in a genuine way that I couldn&#39;t back then. (link-reveal:&quot;I...&quot;)[==
 
-Until that moment, I couldn&#39;t conceptually map a tail and muzzle onto me the same way I could with breasts. I couldn&#39;t act like a dog without people thinking I should be locked up. Fuck, I couldn&#39;t take drugs or wear clothes to look more like a dog! And people couldn&#39;t see me as a dog the same way they saw me as a woman(link:&quot;...&quot;)[==.
+(link-reveal:&quot;I was proud of it.&quot;, (text-color:&quot;#ffe066&quot;))[== Proud enough that I showed Goth. They immediately asked what&#39;s my new OC&#39;s (link:&quot;name was...&quot;)[==name was.
 
-(link:&quot;...&quot;)[==...
+(link-replace:&quot;Gold.&quot;, (text-color:&quot;#ffe066&quot;))[==(link-reveal:&quot;Gold, the Wolfhound&quot;)[==
 
-After the rush of the realization faded, and the despair simmered to frustration. What the hell, there were [[➥ no signs!-&gt;High School]]</tw-passagedata><tw-passagedata pid="11" name="Do you have a fursona?" tags="Realizations" position="25,775" size="100,100">&quot;Do you have a fursona?&quot; Paige asked.
+I kept that sketch in my locker, proud that I had a gift from my crush. But as time went on I slowly became more ashamed of it. Being a furry is childish; it&#39;s better and more mature (link-reveal:&quot;to accept whom you are...&quot;)[== (link-replace:&quot;But...&quot;)[==But I couldn&#39;t bring myself to get rid of it, even though I couldn&#39;t look at it either. 
+
+So instead I just hidden it away, sandwiched away between important documents in a folder. An attempt to forget about it...
+
+(transition-depart:&quot;instant&quot;)[[➥ ...years later-&gt;Return to the Park]]</tw-passagedata><tw-passagedata pid="11" name="Do you have a fursona?" tags="Realizations" position="150,650" size="100,100">&quot;Do you have a fursona?&quot; Paige asked.
 
 (link-replace:&quot;\&quot;Uh what?\&quot;&quot;)[==&quot;Oh, uh, no I don&#39;t...&quot;
 
 &quot;Let&#39;s make you one! What&#39;s your favorite animal?&quot;
 
-(link-replace:&quot;\&quot;Oh! I like dogs!\&quot;&quot;)[==&quot;Um... Wolf dogs are pretty alright.&quot;
+(link-replace:&quot;\&quot;Oh! I like dogs!\&quot;&quot;, (text-colour:yellow))[==&quot;Um... Wolf dogs are pretty alright.&quot;
 
 &quot;Oh, that makes sense! What dog breed are they? Besides wolf.&quot;
 
-(link-replace:&quot;\&quot;Actually! A golden retriever sounds better!\&quot;&quot;)[==(link-replace:&quot;\&quot;Nah, she&#39;ll think I&#39;m childish if I say a goldie...\&quot;&quot;, (transition:&quot;shudder&quot;))[==[==An Irish Wolfhound sounds like it would be cool. &#39;Those who hunt monsters&#39; and all that.&quot;
+(link-replace:&quot;\&quot;Actually! A golden retriever sounds better!\&quot;&quot;, (text-colour:yellow))[==(link-replace:&quot;\&quot;Nah, she&#39;ll think I&#39;m childish if I say a goldie...\&quot;&quot;, (transition:&quot;shudder&quot;))[==[==An Irish Wolfhound sounds like it would be cool. &#39;Those who hunt monsters&#39; and all that.&quot;
 
 &quot;Ooh! What does he look like?&quot;
 
-(link-replace:&quot;\&quot;//She// would be a be cute and plump doggy with big tits and long hair!\&quot;&quot;)[==(link-replace:&quot;\&quot;No, I&#39;ll be a perv if I say that.\&quot;&quot;, (transition:&quot;shudder&quot;))[==&quot;Tall, skinny, looks a bit like a bounty hunter. Like Han Solo meets Sepheroth meets Geralt. Maybe like blonde fur and long brown hair.&quot;
+(link-replace:&quot;\&quot;//She// would be a be cute and plump doggy with big tits and long hair!\&quot;&quot;, (text-colour:yellow))[==(link-replace:&quot;\&quot;No, I&#39;ll be a perv if I say that.\&quot;&quot;, (transition:&quot;shudder&quot;))[==&quot;Tall, skinny, looks a bit like a bounty hunter. Like Han Solo meets Sepheroth meets Geralt. Maybe like blonde fur and long brown hair.&quot;
 
-[[➥ &quot;Okay! I&#39;ll draw him up real quick!&quot;-&gt;the Wolfhound]]</tw-passagedata><tw-passagedata pid="12" name="Return to the Park" tags="Realizations Park" position="150,425" size="100,100">It&#39;s been a rough couple of weeks since Goth made me aware of the term (link-repeat:&quot;therian&quot;)[(dialog:&quot;Basically, you identify strongly with another species that exists on earth.&quot;)]. Since then, I&#39;ve been trying to explore what (link-reveal:&quot;being a dog means to me.&quot;)[==
+[[➥ &quot;Okay! I&#39;ll draw him up real quick!&quot;-&gt;the Wolfhound]]</tw-passagedata><tw-passagedata pid="12" name="Return to the Park" tags="Realizations Park" position="275,425" size="100,100">(change: ?page, (background:&quot;https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/forest%20path.jpg&quot;)+(transition:&quot;blur&quot;)+(t8n-time:2s))\
+It&#39;s been a rough couple of weeks since Goth made me aware of the term (link-repeat:&quot;therian&quot;)[(dialog:&quot;Basically, you identify strongly with another species that exists on earth.&quot;)]. Since then, I&#39;ve been trying to explore what (link-reveal:&quot;being a dog means to me.&quot;)[==
 
 A consequence is that I&#39;ve been visiting the park more often. It&#39;s what dogs enjoy, right? Going to the park.
 
@@ -273,7 +331,7 @@ I look back at the dog I passed.
 
 It has fuzzy and floppy blonde ears, a medium length muzzle, and a tail covered in fur.
 
-(link-reveal:&quot;Huh&quot;)[==. I think I&#39;m a [[➥ Golden Retriever-&gt;Welcome to the Undead Frog Midnight Society]].</tw-passagedata><tw-passagedata pid="13" name="Welcome to the Undead Frog Midnight Society" tags="Realizations Discord" position="275,425" size="100,200">(transition:&quot;fade-up&quot;)[
+(link-reveal:&quot;Huh&quot;)[==. I think I&#39;m a [[➥ Golden Retriever-&gt;Welcome to the Undead Frog Midnight Society]].</tw-passagedata><tw-passagedata pid="13" name="Welcome to the Undead Frog Midnight Society" tags="Realizations Discord" position="400,425" size="100,200">(transition:&quot;fade-up&quot;)[
 (box:&quot;X&quot;)+(background:#2c2f33)[ \
 (transition:&quot;fade-up&quot;)[==(text-colour:#f5376a)[AbandonedMallGoth]
 YOOOO
@@ -371,8 +429,9 @@ Sunny?
 sorry 
 (link-replace:&quot;I&#39;m puppy!&quot;)[==I have to go.
 
-[[➥ I&#39;m puppy... Right?-&gt;Complicated Park Thoughts]]
-]]</tw-passagedata><tw-passagedata pid="14" name="Complicated Park Thoughts" tags="Realizations Park" position="150,550" size="100,100">(link:&quot;I suddenly remember back to the park...&quot;)[==(transition:&quot;blur&quot;)+(box:&quot;X&quot;)[==[&quot;I think I&#39;m a Golden Retriever,&quot; I whisper to myself as my fellow golden retriever disappears around a bend. My not-so-internal monologue was about to continue before another being suddenly appears up ahead.]
+[[➥ I&#39;m puppy... Right?-&gt;Remembering]]
+]]</tw-passagedata><tw-passagedata pid="14" name="Complicated Park Thoughts" tags="Realizations Park" position="275,750" size="100,100">(change: ?page, (transition:&quot;blur&quot;)+(t8n-time:2s))\
+&quot;I think I&#39;m a Golden Retriever,&quot; I whisper to myself as my fellow golden retriever disappears around a bend. My not-so-internal monologue was about to continue before another being suddenly appears up ahead.
 
 (link-reveal:&quot;A human&quot;)[==
 
@@ -386,19 +445,25 @@ I continue walking, focusing on questions I&#39;ve been asking myself. What kind
 
 (link:&quot;...&quot;)[==That&#39;s a very silly thought isn&#39;t it? Nobody knows what&#39;s going on, and lots people have silly thoughts all the time.
 
-I want to figure out my form better. So I decide to once again focus on my (link-reveal:&quot;phantoms.&quot;)[==
-
-(link-reveal:&quot;I can see... &quot;)[==(link-reveal:&quot;I had wiry and semi-rigid blonde ears... &quot;)[==(link-reveal:&quot;A long muzzle... &quot;)[==(link-reveal:&quot;and a skinny tail covered in wiry hair... &quot;)[==(link-reveal:&quot;and I felt very lean and very tall...&quot;)[==
-
-[[and I hear footsteps getting closer-&gt;Feral]]</tw-passagedata><tw-passagedata pid="15" name="Feral" tags="Realizations Park" position="150,650" size="100,100">(link:&quot;I open my eyes&quot;)[==(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[=#(link:&quot;THE HUMAN IS CLOSE&quot;, (transition:&quot;rumble&quot;))[(link:&quot;SHIT&quot;, (text-style:&quot;fidget&quot;))[==(link:&quot;About 30 feet away&quot;, (text-style:&quot;fidget&quot;))[==(link:&quot;I hasten my pace&quot;, (text-style:&quot;fidget&quot;))[==(link:&quot;20 feet away&quot;, (text-style:&quot;fidget&quot;))[==(link:&quot;I have to get away from them...&quot;, (text-style:&quot;fidget&quot;))[==(link:&quot;10 feet away&quot;, (text-style:&quot;fidget&quot;))[==(link:&quot;I hold my breath and look away&quot;)[==(link:&quot;...&quot;)[==(link:&quot;they pass by too&quot;)[==(link:&quot;...&quot;)[==(align:&quot;&lt;=&quot;)+(text-size:1)[==(link:&quot;\&quot;They&#39;re gone.\&quot;&quot;)[==I release a unconscious sigh, as well as my shoulders. I... finally feel safe as I&#39;m alone once again. I stop, and calm my nerves. I focus on my breathing, on my pulse, on my (link-reveal:&quot;phantoms.&quot;)[==
-
-Once again, I find my form is a golden retriever.
-
-(transition-depart:&quot;fade-down&quot;)+(transition-depart:&quot;blur&quot;)+(transition-arrive:&quot;blur&quot;)[[➥ Okay, I&#39;m definitely a Golden Retriever-&gt;Two Forms]]]</tw-passagedata><tw-passagedata pid="16" name="Two Forms" tags="Realizations" position="400,525" size="100,100">In the aftermath of joining Undead Frog Midnight Society; that small freakout in the park stuck out in my mind. Since it gained a new significance after I called myself a wolf. 
+I want to figure out my form better. So I decide to close my eyes, and once again focus on my [[phantoms.]]
+</tw-passagedata><tw-passagedata pid="15" name="Feral" tags="Realizations Park" position="475,750" size="100,100">=&gt;&lt;=
+(change: ?page, (t8n:&quot;rumble&quot;))\
+(link:&quot;THE HUMAN IS CLOSE&quot;, (text-size:3))[==\
+(link:&quot;SHIT&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
+(link:&quot;About 30 feet away&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
+(link:&quot;I hasten my pace&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
+(link:&quot;20 feet away&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
+(link:&quot;I have to get away&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
+(link:&quot;10 feet away&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
+(link:&quot;I hold my breath and look away&quot;,(text-size:3))[==\
+(link:&quot;...&quot;,(text-size:3))[==\
+(link:&quot;they pass by&quot;,(text-size:2))[==\
+(link:&quot;...&quot;,(text-size:1.5))[==\
+(transition-depart:&quot;instant&quot;)+(transition-arrive:&quot;instant&quot;)[[&quot;They&#39;re gone.&quot;]]</tw-passagedata><tw-passagedata pid="16" name="Two Forms" tags="Realizations" position="525,525" size="100,100">In the aftermath of joining Undead Frog Midnight Society; that small freakout in the park stuck out in my mind. Since it gained a new significance after I called myself a wolf. 
 
 I needed to ask some questions to figure out what the hell is happening; and why did I see myself in two different ways?
 
-[[Back to the only experts I knew-&gt;Questions for Frogs]]</tw-passagedata><tw-passagedata pid="17" name="Questions for Frogs" tags="Realizations Discord" position="525,425" size="100,200">(transition:&quot;fade-up&quot;)[
+[[Back to the only experts I knew-&gt;Questions for Frogs]]</tw-passagedata><tw-passagedata pid="17" name="Questions for Frogs" tags="Realizations Discord" position="650,425" size="100,200">(transition:&quot;fade-up&quot;)[
 (box:&quot;X&quot;)+(background:#2c2f33)[ \
 (link-replace:&quot;Hey guys...&quot;)[==(text-colour:yellow)[Sunny the Puppy (she/her)]
 Hey guys...
@@ -551,7 +616,8 @@ Still.
 I don&#39;t think that Sunny is plural like I am.
 
 [[➥ So I&#39;m just a wolfhound sometimes?-&gt;Puppy in the Park]]
-]]</tw-passagedata><tw-passagedata pid="18" name="Puppy in the Park" tags="Realizations Park" position="650,425" size="100,100">(link-reveal:&quot;So... I&#39;m just a wolfhound sometimes,&quot;)[== is a thought that nags at me as I circle the park once again...
+]]</tw-passagedata><tw-passagedata pid="18" name="Puppy in the Park" tags="Realizations Park" position="775,425" size="100,100">(change: ?page, (transition:&quot;dissolve&quot;)+(t8n-time:2s))\
+(link-reveal:&quot;\&quot;So... I&#39;m just a wolfhound sometimes,\&quot;&quot;)[== the thought keeps nagging at me as I circle the park once again...
 
 It&#39;s been unsatisfying. Just having this part of me that&#39;s caused distress to be just a coping mechanism.
 
@@ -575,9 +641,7 @@ At the moment though, I&#39;m just pretending to be human. (link-reveal:&quot;I&
 
 The folks on Frogs have helped a lot with my transition and presentation. I learned a lot about makeup from Twilight and company. 🐶 helped with finding flattering clothes that make me look like I actually have curves. I feel like I&#39;m no longer flailing trying to look like a woman.
 
-A thought strikes me when [[➥ I see a bathroom up ahead-&gt;the Bathroom]]</tw-passagedata><tw-passagedata pid="19" name="the Bathroom" tags="Realizations Park" position="650,525" size="100,100">I&#39;m feel amazing! I look amazing! I think I can do it. (link-reveal:&quot;\&quot;I&#39;m finally going to use the ladies room!\&quot;&quot;)[==
-
-(link-reveal:&quot;I step inside...&quot;)[==
+A thought strikes me when (link-reveal:&quot;I see a bathroom up ahead.&quot;)[== &quot;I feel amazing! I look amazing! I think I can do it. [[➥ &quot;I&#39;m finally going to use the ladies room!&quot;-&gt;the Bathroom]]</tw-passagedata><tw-passagedata pid="19" name="the Bathroom" tags="Realizations" position="775,525" size="100,100">(link-reveal:&quot;I step inside...&quot;)[==
 
 (link-replace:&quot;It&#39;s...&quot;)[==It&#39;s surprisingly normal. Just... a lot more stalls. And a lot more... (link-reveal:&quot;tense.&quot;)[==
 
@@ -585,7 +649,7 @@ My enthusiasm is replaced with (link-repeat:&quot;anxiety&quot;)[(dialog:&quot;I
 
 (link:&quot;I hear footsteps.&quot;)[==(dialog:&quot;Oh fuck what if they see me?&quot;)\
 (link:&quot;They&#39;re coming towards the stalls.&quot;)[==(dialog:&quot;I can&#39;t do this! This was a bad fucking idea!&quot;)\
-(link:&quot;My breathing grows faster&quot;)[==(dialog:&quot;Oh shit oh fuck oh shit oh fuck&quot;) [[&quot;I don&#39;t want to be here&quot;-&gt;&quot;I&#39;ll take over&quot;]]</tw-passagedata><tw-passagedata pid="20" name="&quot;I&#39;ll take over&quot;" tags="Realizations Park" position="650,625" size="100,100">(link:&quot;\&quot;I&#39;ll take over\&quot;&quot;, (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-size:3))[== \
+(link:&quot;My breathing grows faster&quot;)[==(dialog:&quot;Oh shit oh fuck oh shit oh fuck&quot;) [[&quot;I don&#39;t want to be here&quot;-&gt;&quot;I&#39;ll take over&quot;]]</tw-passagedata><tw-passagedata pid="20" name="&quot;I&#39;ll take over&quot;" tags="Realizations" position="775,625" size="100,100">(link:&quot;\&quot;I&#39;ll take over\&quot;&quot;, (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-size:3))[== \
 It all goes quiet. The thoughts, the anxiety, the panic attack. 
 
 (link-reveal:&quot;Until a stall door opens and slams&quot;)[==
@@ -966,7 +1030,7 @@ It&#39;s nice to meet you Wolf Puppy!
 So notice you use she/they! Are you nonbinary?
 
 (text-color:&quot;#ffe066&quot;)[[[➥ So...-&gt;One last walk]]]
-]]]</tw-passagedata><tw-passagedata pid="30" name="One last walk" tags="" position="800,275" size="100,100">(link-reveal:&quot;Sunlight. &quot;, (text-colour:#ffe066))[==It&#39;s tingly warmth relaxes our very soul as (link-reveal:&quot;we walk through this park!&quot;, (text-colour:&quot;yellow&quot;))[== 
+]]]</tw-passagedata><tw-passagedata pid="30" name="One last walk" tags="" position="925,50" size="100,100">(link-reveal:&quot;Sunlight. &quot;, (text-colour:#ffe066))[==It&#39;s tingly warmth relaxes our very soul as (link-reveal:&quot;we walk through this park!&quot;, (text-colour:&quot;yellow&quot;))[== 
 
 Our walks have become the perfect time for us to talk now! We talk about people! The people we like! Drama on Twitter! Each other! lots of stuffs!
 
@@ -998,16 +1062,31 @@ They dart towards us and starts sniffing us, with an excited wagging tail! Their
 
 &quot;Oh, of course. She really seems to like you. She&#39;s usually only this friendly with dogs!&quot;
 
-Oh my god [[➥ she can tell...-&gt;Final Title]]</tw-passagedata><tw-passagedata pid="31" name="Credits" tags="Denouement Title" position="800,525" size="100,100">Message from the author, AnnaLee,
-
+Oh my god [[➥ she can tell...-&gt;Final Title]]</tw-passagedata><tw-passagedata pid="31" name="Credits" tags="Denouement Title" position="925,300" size="100,100">Message from the author,
 Thank you for reading our story! This has been a semi-autobiographical story based on our own experiences with therian and plural discovery! I genuinely appreciate everybody who&#39;s read this and everybody who&#39;s helped contribute!
-
+AnnaLee
+---
 I especially want to thank the following;
-* Ingrid S.: For providing feedback, and helping break writer&#39;s block
+* Ingrid S.: For providing story consultation, feedback, and helping break writer&#39;s block
 * Mousie: For emotional support, gamedev advice, and giving motivation
 * Tinkby: Editing and quality assurance
-* Nyx: For emotional support!</tw-passagedata><tw-passagedata pid="32" name="Final Title" tags="" position="800,400" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[#I&#39;m Dog(link-repeat:&quot;s&quot;)[(dialog:&quot;Told you we&#39;d explain it!&quot;)]]
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[[[➥ Credits-&gt;Credits]] ]</tw-passagedata></tw-storydata>
+* Nyx: For emotional support!
+---
+Sources:
+- Forest Background: https://www.pexels.com/photo/green-tree-beside-roadway-during-daytime-163703/
+- AbandonedMallGoth&#39;s Icon: https://www.pexels.com/photo/ancient-metal-pattern-on-stone-surface-5277398/
+- Sunny&#39;s Icon : https://www.pexels.com/photo/brown-labrador-retriever-3397939/</tw-passagedata><tw-passagedata pid="32" name="Final Title" tags="" position="925,175" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[#I&#39;m Dog(link-repeat:&quot;s&quot;)[(dialog:&quot;Told you we&#39;d explain it!&quot;)]]
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[[[➥ Credits-&gt;Credits]] ]</tw-passagedata><tw-passagedata pid="33" name="&quot;They&#39;re gone.&quot;" tags="Realizations Park" position="575,750" size="100,100">I release a unconscious sigh, as well as my shoulders. I... finally feel safe as I&#39;m alone once again. I stop, and calm my nerves. I focus on my breathing, on my pulse, on my (link-reveal:&quot;phantoms.&quot;)[==
+
+Once again, I find my form is a golden retriever.
+
+(transition-depart:&quot;fade-down&quot;)+(transition-depart:&quot;blur&quot;)+(transition-arrive:&quot;blur&quot;)[[➥ Okay, I&#39;m definitely a Golden Retriever-&gt;Two Forms]]</tw-passagedata><tw-passagedata pid="34" name="Remembering" tags="Realizations" position="400,625" size="100,100">[[I suddenly remember back to the park...-&gt;Complicated Park Thoughts]]</tw-passagedata><tw-passagedata pid="35" name="phantoms." tags="" position="375,750" size="100,100">(link-reveal:&quot;I can see... &quot;)[==
+
+(link-reveal:&quot;A long muzzle... &quot;)[==(link-reveal:&quot;and a skinny tail covered in wiry hair... &quot;)[==(link-reveal:&quot;I feel very lean and very tall...&quot;)[==(link-reveal:&quot;and I have wiry and semi-rigid blonde ears... &quot;)[==
+
+(link-reveal:&quot;that hear footsteps getting closer&quot;)[==
+
+[[I open my eyes.-&gt;Feral]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
