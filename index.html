@@ -13,64 +13,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
 
 tw-story {
-    min-height: 100vh;
-}
-
-tw-passage:not([tags~="Discord"]) {
-    background-color: rgb(0, 0, 0, 0.8);
-    padding: 1em;
-    font-family: 'Source Serif Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+  min-height: 100vh;
 }
 
 tw-story[tags~="Park"] {
-    background:url(https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/forest%20path.jpg);
-    background-size:auto 100vh;
-    background-attachment: fixed;
+  background: url(/img/forest.jpg);
+  background-size: auto 100vh;
+  background-attachment: fixed;
+}
+
+tw-story[tags~="High-School"] {
+  background: url(/img/stairwell.jpg);
+  background-size: auto 100vh;
+  background-attachment: fixed;
+}
+
+tw-story[tags~="Bathroom"] {
+  background: url(/img/bathroom.jpg);
+  background-size: auto 100vh;
+  background-attachment: fixed;
+}
+
+tw-story[tags~="Bedroom"] {
+  background: url(/img/night%20bedroom.jpg);
+  background-size: auto 100vh;
+  background-attachment: fixed;
 }
 
 tw-story[tags~="Discord"] {
-    background:#2c2f33;
+  background: #2f3136;
+}
+
+tw-passage:not([tags~="Discord"]) {
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 1em;
+  font-family: 'Source Serif Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 tw-passage[tags~="Discord"] {
-    font-family: 'Catamaran',Helvetica Neue,Helvetica,Arial,sans-serif;
-    background-color: #2c2f33;
-    line-height: 1.25em;
-    padding-left: 3em;
+  font-family: 'Catamaran', Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: #36393f;
+  color: #dcddde;
+  line-height: 1.25em;
+  padding-left: 3em;  
+  text-indent: 0;
+  border: none;
+  white-space: pre-wrap;
+  border: 1em solid #36393f;
+}
+
+tw-hook[name]::before {
+  content: '';
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  position: absolute;
+  left: -3em;
+  up: -0.25em;
 }
 
 tw-hook[name="sunny"]::before {
-content: '';
-width: 2.5em;
-height: 2.5em;
-border-radius: 50%;
-display: block;
-position: absolute;
-background: url(https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/puppy.jpeg);
-    background-size: auto;
-background-size: cover;
-left: -3em;
-up: -0.25em;
+  background: url(/img/puppy.jpeg);
+  background-size: cover;
+}
+
+tw-hook[name="gold"]::before {
+  background: url(/img/gold.jpeg);
+  background-size: cover;
 }
 
 tw-hook[name="goth"]::before {
-content: '';
-width: 2.5em;
-height: 2.5em;
-border-radius: 50%;
-display: block;
-position: absolute;
-background: url(https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/pentagram.jpeg);
-    background-size: auto;
-background-size: cover;
-left: -3em;
-up: -0.25em;
+  background: url(/img/pentagram.jpeg);
+  background-size: cover;
+}
+
+tw-hook[name="dog"]::before {
+  background: url(/img/dog.png);
+  background-size: cover;
+}
+
+tw-hook[name="radiant"]::before {
+  background: url(/img/radiant.jpg);
+  background-size: cover;
+}
+
+tw-hook[name="penumbra"]::before {
+  background: url(/img/penumbra.png);
+  background-size: cover;
+}
+
+tw-hook[name="twilight"]::before {
+  background: url(/img/twilight.jpeg);
+  background-size: cover;
 }
 
 tw-hook[name="radianttext"] {
-background: #23272a;
-font-family: 'Courier New', Courier, Monospaced;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Unification" color="purple"></tw-tag><tw-tag name="Discord" color="blue"></tw-tag><tw-tag name="Intro" color="yellow"></tw-tag><tw-tag name="Meditation" color="red"></tw-tag><tw-tag name="Realizations" color="orange"></tw-tag><tw-tag name="Talking" color="purple"></tw-tag><tw-tag name="Denouement" color="gray"></tw-tag><tw-tag name="Park" color="green"></tw-tag><tw-tag name="Title" color="gray"></tw-tag><tw-passagedata pid="1" name="Introduction" tags="Intro" position="25,25" size="100,100">When I was younger, I always wore long hair. At the time I just didn&#39;t care about haircuts so I avoided them. Just kept growing out my hair. Even if it kept getting in my eyes. (link-reveal:&quot;I could still see though my hair&quot;)[==
+  background: #2f3136;
+  width: auto;
+  height: auto;
+  padding: .2em;
+  margin: -.2em 0;
+  border-radius: 3px;
+  font-size: 85%;
+  font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace;
+  text-indent: 0;
+  border: none;
+  white-space: pre-wrap;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Denouement" color="gray"></tw-tag><tw-tag name="Discord" color="blue"></tw-tag><tw-tag name="Unification" color="purple"></tw-tag><tw-tag name="Intro" color="yellow"></tw-tag><tw-tag name="Meditation" color="red"></tw-tag><tw-tag name="Park" color="green"></tw-tag><tw-tag name="Realizations" color="orange"></tw-tag><tw-tag name="Talking" color="purple"></tw-tag><tw-tag name="Title" color="gray"></tw-tag><tw-passagedata pid="1" name="Introduction" tags="Intro" position="25,25" size="100,100">When I was younger, I always wore long hair. At the time I just didn&#39;t care about haircuts so I avoided them. Just kept growing out my hair. Even if it kept getting in my eyes. (link-reveal:&quot;I could still see though my hair&quot;)[==
 
 Sure, it made my vision a little fuzzier. Made it harder to see my peripheral vision. But I just kept wearing it long because I didn&#39;t care about shorter hair. Eventually, I grew up and thought that meant cutting it off. (link-reveal:&quot;But that bit of blindness remained no matter how short my hair got.&quot;)[==
 
@@ -95,7 +144,7 @@ Soon the moment passes, as the dog and their owner pass by me.
 
 The owner is forgotten, but I keep thinking about their dog. I think a refrain that keeps getting stuck in my head lately.
 
-[[➥ They&#39;ll never know that...-&gt;Title]]</tw-passagedata><tw-passagedata pid="3" name="Title" tags="Intro Title" position="275,25" size="100,100">(box:&quot;X&quot;)+(align:&quot;=&gt;&lt;=&quot;)+(css:&quot;max-width:none;&quot;)[(text-size:3)[I&#39;m Dog(link-repeat:&quot;(s)&quot;)[(dialog:&quot;That will be explained, later. Promise.&quot;)]]
+[[➥ They&#39;ll never know that...-&gt;Title]]</tw-passagedata><tw-passagedata pid="3" name="Title" tags="Intro Title" position="275,25" size="100,100">(box:&quot;X&quot;)+(align:&quot;=&gt;&lt;=&quot;)+(css:&quot;max-width:none;width: calc(100% - 2em);&quot;)[(text-size:3)[I&#39;m Dog(link-repeat:&quot;(s)&quot;)[(dialog:&quot;That will be explained, later. Promise.&quot;)]]
 (text-size:1.5)[//By AnnaLee//]]
 
 (transition-arrive:&quot;fadeup&quot;)[[➥ It all started with a conversation I had with an old friend...-&gt;The Conversation]]</tw-passagedata><tw-passagedata pid="4" name="The Conversation" tags="Intro Discord" position="25,150" size="100,200">(enchant: ?sunny, (text-colour:yellow))\
@@ -281,7 +330,7 @@ What
 |text&gt;[==MHM!
 
 [[➥ WAIT ARE YOU TELLING ME...-&gt;I&#39;m a Dog]]</tw-passagedata><tw-passagedata pid="7" name="I&#39;m a Dog" tags="Realizations Title" position="25,425" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[#I&#39;m a Dog]
-I&#39;ve always had a hard time dealing with [[➥ my identity-&gt;Identity Issues]]</tw-passagedata><tw-passagedata pid="8" name="Identity Issues" tags="Realizations" position="150,425" size="100,100">I&#39;ve always had trouble being able to understand myself. Even my gender was a long and drawn out process. For the longest time as a kid I just didn&#39;t &quot;get&quot; gender and just kinda ignored it and just did my own thing. Until the world wouldn&#39;t let me.
+So I&#39;ve kinda always had a hard time [[➥ understanding myself-&gt;Identity Issues]]</tw-passagedata><tw-passagedata pid="8" name="Identity Issues" tags="Realizations" position="150,425" size="100,100">Like, my issues processing and understandign myself is a chronic and dire issue. Like even my gender was a long and drawn out process. For the longest time as a kid I just didn&#39;t &quot;get&quot; gender and just kinda ignored it and just did my own thing. Until the world wouldn&#39;t let me.
 
 (link-reveal:&quot;But in some ways I had some //no signs™// back when I was a kid.&quot;)[== Liked being friends with girls more than boys. Was envious of girl&#39;s clothes. Heck, even fantasized about being a girl in a few embarrassing private moments. 
 
@@ -291,7 +340,8 @@ I&#39;ve always had a hard time dealing with [[➥ my identity-&gt;Identity Issu
 
 I can&#39;t even get acceptance and permission from others to act more like a dog. Let alone give it to myself.
 
-Plus, unlike my gender, there were [[➥ no signs.-&gt;High School]]</tw-passagedata><tw-passagedata pid="9" name="High School" tags="Realizations" position="150,550" size="100,100">(link:&quot;Suddenly, I flashed back to a memory from high school.&quot;)[==(box:&quot;x&quot;)+(transition:&quot;blur&quot;)[==I&#39;m underneath the stairwell, the perfect space for hiding along with all of my other friends who didn&#39;t like to be seen.
+Plus, unlike my gender, (link-reveal:&quot;there were genuinely no signs!&quot;)[== [[Suddenly, I flashed back to a memory from high school.-&gt;High School]]</tw-passagedata><tw-passagedata pid="9" name="High School" tags="Realizations High-School" position="150,550" size="100,100">(change: ?page, (t8n: &quot;blur&quot;)+(css:&quot;height:none;&quot;))\
+I&#39;m underneath the stairwell, the perfect space for hiding along with all of my other friends who didn&#39;t like to be seen.
 
 (link-reveal:&quot;I was ignoring Goth as usual,&quot;)[== proselytizing the new Gundam Series. Convincing us to watch by showing how cool the mech designs of this series is. I never really cared about mechs or mechanical designs; so my deaf ears did their best to make their screeds futile.
 
@@ -301,14 +351,14 @@ Instead, I actually found my attention (link-reveal:&quot;drifting towards Paige
 
 (link-reveal:&quot;\&quot;So, what are you working on?\&quot;&quot;)[== I asked her. My crush immediately started to ramble about her new mouse OC that she was drawing; and elaborated on an adventure that this new sketch was a snapshot of. I listened and nodded intently, trying to make mental notes of each detail, as if I was going to be quizzed about them later. 
 
-Then suddenly she asked, [[➥ &quot;Do you have a fursona?&quot;-&gt;Do you have a fursona?]]</tw-passagedata><tw-passagedata pid="10" name="Do you have a fursona?" tags="Realizations" position="150,650" size="100,100">&quot;Do you have a fursona?&quot; Paige asked.
+Then suddenly she asked, [[➥ &quot;Do you have a fursona?&quot;-&gt;Do you have a fursona?]]</tw-passagedata><tw-passagedata pid="10" name="Do you have a fursona?" tags="Realizations High-School" position="150,650" size="100,100">&quot;Do you have a fursona?&quot; Paige asked.
 
 (link-replace:&quot;\&quot;Uh what?\&quot;&quot;)[==&quot;Oh, uh, no I don&#39;t...&quot;
 
 &quot;Let&#39;s make you one! What&#39;s your favorite animal?&quot;
 
 (link-replace:&quot;\&quot;Oh! I like dogs!\&quot;&quot;, (text-colour:yellow))[==\
-(link-replace:&quot;\&quot;Um... should say something cool though...\&quot;&quot;)
+(link-replace:&quot;\&quot;Wait, dogs sound boring. Uh, what sounds sound cooler...\&quot;&quot;, (t8n:&quot;fade-down&quot;))[==\
 &quot;Um... Wolf dogs are pretty alright.&quot;
 
 &quot;Oh, that makes sense! What dog breed are they? Besides wolf.&quot;
@@ -319,7 +369,7 @@ Then suddenly she asked, [[➥ &quot;Do you have a fursona?&quot;-&gt;Do you hav
 
 (link-replace:&quot;\&quot;//She// would be a be cute and plump doggy with big tits and long hair!\&quot;&quot;, (text-colour:yellow))[==(link-replace:&quot;\&quot;No, I&#39;ll be a perv if I say that.\&quot;&quot;, (transition:&quot;shudder&quot;))[==&quot;Tall, skinny, looks a bit like a bounty hunter. Like Han Solo meets Sepheroth meets Geralt. Maybe like blonde fur and long brown hair.&quot;
 
-[[➥ &quot;Okay! I&#39;ll draw him up real quick!&quot;-&gt;the Wolfhound]]</tw-passagedata><tw-passagedata pid="11" name="the Wolfhound" tags="Realizations" position="150,750" size="100,100">Soon enough, (link-reveal:&quot;she came back with a sketch.&quot;)[==
+[[➥ &quot;Okay! I&#39;ll draw him up real quick!&quot;-&gt;the Wolfhound]]</tw-passagedata><tw-passagedata pid="11" name="the Wolfhound" tags="Realizations High-School" position="150,750" size="100,100">Soon enough, (link-reveal:&quot;she came back with a sketch.&quot;)[==
 
 It was exactly what I wanted, a competent drawing of lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn&#39;t have cared about it; I wasn&#39;t even a furry. (link-replace:&quot;But...&quot;)[==(link-reveal:&quot;But there was something about the sketch...&quot;)[==
 
@@ -358,13 +408,17 @@ I look back at the dog I passed.
 
 It has fuzzy and floppy blonde ears, a medium length muzzle, and a tail covered in fur.
 
-(link-reveal:&quot;Huh&quot;)[==. I think I&#39;m a (transition-arrive:&quot;fade-up&quot;)[[➥ Golden Retriever.-&gt;Welcome to the Undead Frog Midnight Society]]</tw-passagedata><tw-passagedata pid="13" name="Welcome to the Undead Frog Midnight Society" tags="Realizations Discord" position="400,425" size="100,200">(enchant: ?sunny, (text-colour:yellow))\
+(link-reveal:&quot;Huh&quot;)[==. I think I&#39;m a [[➥ Golden Retriever.-&gt;Welcome to the Undead Frog Midnight Society]]</tw-passagedata><tw-passagedata pid="13" name="Welcome to the Undead Frog Midnight Society" tags="Realizations Discord" position="399,424" size="100,200">(enchant: ?sunny, (text-colour:yellow))\
 (enchant: ?goth, (text-colour:#f5376a)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?radiant, (text-colour:#6fb04f)+(t8n:&quot;fade-up&quot;))\
-(enchant: ?light, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?penumbra, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?twilight, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?text, (t8n:&quot;fade-up&quot;))\
 (enchant: ?radianttext, (t8n:&quot;fade-up&quot;))\
+(link:&quot;Alright, time to see what non-human folks are like...&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
+Um... hello! 
+
 |goth&gt;[AbandonedMallGoth]
 |text&gt;[==YOOOO
 Welcome (text-colour:blue)[@SunnyFlower] to the Undead Frog Midnight Society!
@@ -375,12 +429,12 @@ Oh, uh, hi let me change my nickname here...
 |radiant&gt;[⚧☣ ｒａｄｉａｎｔ☣⚧]
 |radianttext&gt;[welcome \^\^]
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==AMG is this the puppy? :3
 Hiii puppy!
 
-(link-replace:&quot;Oh, uh, I guess I have a reputation 😅&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
-Oh, uh, I guess I have a reputation 😅
+(link-replace:&quot;Oh, uh, I guess I have a reputation already? 😅&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
+Oh, uh, I guess I have a reputation already? 😅
 (link-reveal:&quot;Hi Radiant and Penumbra, hope we can be friends!&quot;)[==
 
 |goth&gt;[AbandonedMallGoth]
@@ -406,14 +460,14 @@ Oh, I&#39;m a Golden Retriever! 😊
 |text&gt;[==OH! Goldie! Goldies are real good! 💛💛
 I&#39;m a Corgi! 😊
 
-|light&gt;[Penumbra | Light System]
-|text&gt;[==I&#39;m light kitty! :3
+|penumbra&gt;[Penumbra | Light System]
+|text&gt;[==I&#39;m void kitty! :3
 
 |radiant&gt;[⚧☣ ｒａｄｉａｎｔ☣⚧]
-|radianttext&gt;[im whatever
+|radianttext&gt;[im whatever i feel like
 right now im an octopus]
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==Gots any arts of ya?
 
 (link-replace:&quot;Yeah, but it&#39;s pretty old...&quot;)[==(link-replace:&quot;No.&quot;)[==(link-replace:&quot;That isn&#39;t of who I am anymore.&quot;, (align:&quot;==&gt;&quot;))[==|sunny&gt;[Sunny the Puppy (she/her)]
@@ -428,7 +482,7 @@ It&#39;s gold and pretty long and fluffy!
 |dog&gt;[I&#39;m 🐶!]
 |text&gt;[==Kk! What about hair? 
 
-(link-replace:&quot;Oh, long and brown. Tied up in a ponytail.&quot;)[==(link-replace:&quot;*No!*&quot;)[==(link-replace:&quot;It&#39;s beautiful and brown and goes down my back!&quot;)|sunny&gt;[Sunny the Puppy (she/her)]
+(link-replace:&quot;Oh, long and brown. Tied up in a ponytail.&quot;)[==(link-replace:&quot;*No!*&quot;)[==(link-replace:&quot;It&#39;s beautiful and brown and goes down my back!&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 It&#39;s long and brown, and flows down my back! 
 
 |dog&gt;[I&#39;m 🐶!]
@@ -439,9 +493,9 @@ Sundresses and adorable hats!
 
 |dog&gt;[I&#39;m 🐶!]
 |text&gt;[==Oh! You&#39;re a very cute puppygirl!
-Sound a lot like me tbh!  ૮ ꈍﻌ ꈍა
+Sound a lot like me tbh!  (UᵔᴥᵔU)
 
-(link-replace:&quot;Cool, they think I&#39;m a child because I keep saying stuff like this!&quot;)[==|light&gt;[Penumbra | Light System]
+(link-replace:&quot;Cool, they think I&#39;m a child because I keep saying stuff like this!&quot;)[==|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==Can I pet cute puppy? :3c
 
 (link-replace:&quot;No, I&#39;m not cringe. I&#39;m finally being who I wanted to be! Not what I think everybody else wants!&quot;)[==|goth&gt;[AbandonedMallGoth]
@@ -461,10 +515,10 @@ she likes to be pet on her ears :P
 sorry 
 (link-replace:&quot;I&#39;m puppy!&quot;)[==I have to go.
 
-[[➥ I&#39;m puppy... Right?-&gt;Remembering]]</tw-passagedata><tw-passagedata pid="14" name="Remembering" tags="Realizations" position="400,625" size="100,100">I&#39;m a puppy. Not a wolf. Why did I call myself a wolf? That was a facade I used, I don&#39;t need to be a wolf anymore.
+[[➥ I&#39;m puppy... Right?-&gt;Remembering]]</tw-passagedata><tw-passagedata pid="14" name="Remembering" tags="Realizations" position="275,550" size="100,100">I&#39;m a puppy. Not a wolf. Why did I call myself a wolf? That was a facade I used, I don&#39;t need to be a wolf anymore.
 
-[[I suddenly flash back to the park...-&gt;Complicated Park Thoughts]]</tw-passagedata><tw-passagedata pid="15" name="Complicated Park Thoughts" tags="Realizations Park" position="275,750" size="100,100">(change: ?page, (transition:&quot;blur&quot;)+(t8n-time:2s))\
-&quot;I think I&#39;m a Golden Retriever,&quot; I whisper to myself as my fellow golden retriever disappears around a bend. 
+[[I don&#39;t need to be a wolf anymore...-&gt;Complicated Park Thoughts]]</tw-passagedata><tw-passagedata pid="15" name="Complicated Park Thoughts" tags="Realizations Park" position="275,675" size="100,100">(change: ?page, (transition:&quot;blur&quot;)+(t8n-time:2s))\
+&quot;Hih, I think I&#39;m a Golden Retriever,&quot; I whisper to myself as the golden retriever disappears around a bend. 
 
 I feel warm and happy coming closer to understanding myself, and how I look. I almost skip and run up an incline with delight until I see.
 
@@ -476,37 +530,39 @@ My anxiety and dysphoria grows as I try to rush forwards. Trying my hardest to i
 
 I focusing on questions I&#39;ve been asking myself. What kind of dog am I. What do I look like. But... *that* human keeps distracting me. (link-reveal:&quot;\&quot;What if they knew what I was thinking about?\&quot;&quot;)[==
 
-I ignore it further. I want to figure out my form better. So I decide to close my eyes, and once again focus on my [[phantoms.-&gt;Phantoms]]</tw-passagedata><tw-passagedata pid="16" name="Phantoms" tags="" position="375,750" size="100,100">(link-reveal:&quot;I can see... &quot;)[==
+I ignore them further. I want to figure out how to be a better dog. I can do that by focusing on my phantoms. I can focus on them better if I [[close my eyes.-&gt;Phantoms]]</tw-passagedata><tw-passagedata pid="16" name="Phantoms" tags="" position="375,675" size="100,100">(link-reveal:&quot;I can see... &quot;)[==
 
 (link-reveal:&quot;A long muzzle... &quot;)[==(link-reveal:&quot;and a skinny tail covered in wiry hair... &quot;)[==(link-reveal:&quot;I feel very lean and very tall...&quot;)[==(link-reveal:&quot;and I have wiry and semi-rigid blonde ears... &quot;)[==
 
 (link-reveal:&quot;that hear footsteps getting closer&quot;)[==
 
-[[I open my eyes.-&gt;Feral]]</tw-passagedata><tw-passagedata pid="17" name="Feral" tags="Realizations Park" position="475,750" size="100,100">=&gt;&lt;=
-(change: ?page, (t8n:&quot;rumble&quot;))\
+[[I open my eyes.-&gt;Feral]]</tw-passagedata><tw-passagedata pid="17" name="Feral" tags="Realizations Park" position="475,675" size="100,100">(change: ?page, (t8n:&quot;rumble&quot;))\
+(box:&quot;X&quot;)+(align:&quot;=&gt;&lt;=&quot;)+(css:&quot;max-width:none;width: calc(100% - 2em);&quot;)[
 (link:&quot;THE HUMAN IS CLOSE&quot;, (text-size:3))[==\
 (link:&quot;SHIT&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
 (link:&quot;10 feet away&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
 (link:&quot;I walk faster&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
-(link:&quot;Oh gods they can see my stubble can&#39;t they?&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
+(link:&quot;Can they see my stubble?&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
 (link:&quot;Fuck&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
 (link:&quot;I have to get away!&quot;, (text-style:&quot;fidget&quot;)+(text-size:3))[==\
 (link:&quot;Oh gods they&#39;re right next to me.&quot;,(text-size:3))[==\
 (link:&quot;...&quot;,(text-size:3))[==\
 (link:&quot;They&#39;re behind me.&quot;,(text-size:2))[==\
 (link:&quot;...&quot;,(text-size:1.5))[==\
-(transition-depart:&quot;instant&quot;)+(transition-arrive:&quot;instant&quot;)[[&quot;They&#39;re gone.&quot;]]</tw-passagedata><tw-passagedata pid="18" name="&quot;They&#39;re gone.&quot;" tags="Realizations Park" position="575,750" size="100,100">I release a unconscious sigh, as well as my shoulders. I... finally feel safe as I&#39;m alone once again. I stop, and calm my nerves. I focus on my breathing, on my pulse, on my (link-reveal:&quot;phantoms.&quot;)[==
+(transition-depart:&quot;instant&quot;)+(transition-arrive:&quot;instant&quot;)[[&quot;They&#39;re gone.&quot;]]]</tw-passagedata><tw-passagedata pid="18" name="&quot;They&#39;re gone.&quot;" tags="Realizations Park" position="575,675" size="100,100">I release a unconscious sigh, as well as my shoulders. I... finally feel safe as I&#39;m alone once again. I stop, and calm my nerves. I focus on my breathing, on my pulse, on my (link-reveal:&quot;phantoms.&quot;)[==
 
 Once again, I find my form is a golden retriever.
 
-(transition-depart:&quot;fade-down&quot;)+(transition-depart:&quot;blur&quot;)+(transition-arrive:&quot;blur&quot;)[[➥ Okay, I&#39;m definitely a Golden Retriever-&gt;Two Forms]]</tw-passagedata><tw-passagedata pid="19" name="Two Forms" tags="Realizations" position="525,525" size="100,100">That freakout in the park feels a lot more significant, especially after calling myself a wolf. Question is though, what the hell does that mean?
+(transition-depart:&quot;blur&quot;)+(transition-arrive:&quot;blur&quot;)[[➥ Okay, I&#39;m definitely a Golden Retriever-&gt;Two Forms]]</tw-passagedata><tw-passagedata pid="19" name="Two Forms" tags="Realizations" position="525,525" size="100,100">(change: ?page, (t8n-time:2s))\
+(link-reveal:&quot;Upon recollecting that freakout in the park,&quot;)[== it feels a lot more significant. I kinda forgot about it, but feeling my phantoms in a wolf-like form feels significant now. Question is though, what the hell *is* that significance?
 
 I needed to ask some questions to figure out what the hell is happening; and why am I both a puppy and a wolf?
 
 [[Back to the only experts I knew-&gt;Questions for Frogs]]</tw-passagedata><tw-passagedata pid="20" name="Questions for Frogs" tags="Realizations Discord" position="650,425" size="100,200">(enchant: ?sunny, (text-colour:yellow))\
 (enchant: ?goth, (text-colour:#f5376a)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?radiant, (text-colour:#6fb04f)+(t8n:&quot;fade-up&quot;))\
-(enchant: ?light, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?penumbra, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?twilight, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?text, (t8n:&quot;fade-up&quot;))\
 (enchant: ?radianttext, (t8n:&quot;fade-up&quot;))\
@@ -517,12 +573,14 @@ Hey guys...
 
 |dog&gt;[I&#39;m 🐶!]
 |text&gt;[==It&#39;s okay!
-Um... were we being too much? !!Kaomoji Shy Pointing
+Um... were we being too much? ૮´･ﻌ･`;ა
 
 (link-replace:&quot;Not at all!&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Not at all!
 (link-reveal:&quot;Just...&quot;)[==
-(link-reveal:&quot;Um, so... is it possible to have like... two different forms?&quot;)[==
+(link-reveal:&quot;Something strange happened before&quot;)[==
+(link-reveal:&quot;Um...&quot;)[==
+(link-reveal:&quot;So... is it possible to have like... two different forms?&quot;)[==
 
 |radiant&gt;[⚧☣ ｒａｄｉａｎｔ☣⚧]
 |radianttext&gt;[i have many forms
@@ -558,18 +616,18 @@ Like, I had intrusive thoughts. Like the wolf was trying to describe it&#39;s fo
 Okay 
 Uh (text-colour:blue)[@Light System] I think you need to help here
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==Hihi!
 What up?
 
 |dog&gt;[I&#39;m 🐶!]
 |text&gt;[==Our new puppy friend has an issue with a second doggy inside them making things rough :(
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==Oh! Oh. Okies twi should help her then
 
 (link:&quot;Uh... twi?&quot;)[==\
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Hello.
 It is a pleasure to finally meet Sunny.
 I just wish that we met under better circumstances.
@@ -578,33 +636,33 @@ But regardless, it seems that you are in need of help for a tricky situation.
 (link-replace:&quot;Um Hi?&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Um Hi? Sorry who are you?
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==I am a friend. Penumbra has stepped away so that I can talk instead.
 
 (link-replace:&quot;So, um, like a friend of Penny&#39;s?&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
-|text&gt;[==So, um, like a friend of Penny&#39;s? And you&#39;re borrowing her account?
+|text&gt;[==So, um, like a friend of Penny&#39;s? Is that why you have &quot;Light System&quot; at the end of your name?
 
-|light&gt;[Twilight | Light System]
-|text&gt;[==More akin to family, but that&#39;s a true assessment.
-I would like to ask about this wolf you mentioned.
+|twilight&gt;[Twilight | Light System]
+|text&gt;[==More akin to family, but that&#39;s an accurate enough way to describe our system tag.
+Before I explain I would like to ask about this wolf you mentioned.
 Has it ever talked?
 
 (link-replace:&quot;Not really. Just those intrusive thoughts.&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Not really. Just those intrusive thoughts.
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Can you give an example of what these intrusive thoughts sounded like?
 
 (link-replace:&quot;Hm... it answered questions before me...&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Hm... it answered questions before me. But I corrected immediately afterwards.
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==What sort of questions were these?
 
 (link-replace:&quot;Questions about what I looked like...&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Questions about what I looked like. When 🐶 asked questions about my form, the wolf would answered them first. And it got more upset as I corrected myself.
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Why do you think it&#39;s an Irish Wolfhound?
 
 (link-replace:&quot;Because they said so&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
@@ -620,68 +678,75 @@ The edgelord one
 (link-replace:&quot;Gold.&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Gold.
 
-|light&gt;[Twilight | Light System]
+|goth&gt;[AbandonedMallGoth]
+|text&gt;[==Gods
+That edgy sona was so outta character for ya sis
+Sorry I&#39;ll stop distracting
+
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Have you ever &quot;felt&quot; like this wolfhound?
 
-(link-replace:&quot;Kinda...&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
-Kinda... I had a bit of a panic attack and my phantoms felt more like the wolfhounds... but idk what that means...
+(link-replace:&quot;Um... not sure what you mean.&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
+Um... not sure what you mean.
+(link-reveal:&quot;But...&quot;)[== the closest to that sounds like that was I had a bit of a panic attack and my phantoms felt more like the wolfhounds... but I haven&#39;t had anything like that since.
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Interesting. One more thing. Have you talked to this wolfhound?
 
 (link-replace:&quot;No&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 No. Not exactly. Just, correcting it&#39;s answers to these questions.
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Hm. 
-I see.
+And it didn&#39;t talk back?
 
-(link-replace:&quot;So what is up with me?&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
-So what is up with me?
+(link-replace:&quot;Not really...&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
+Not really...
+(link-reveal:&quot;So what is up with me?&quot;)[==
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==To put it simply, you have two forms and you have some anxiety.
 I have known some who have multiple concrete forms. Unlike radiant, who shifts fluidly between forms. Some even use these forms as a shield or coping mechanism.
 
 |goth&gt;[AbandonedMallGoth]
 |text&gt;[==So not a plural thing?
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Exactly.
 
 (link-replace:&quot;Plural?&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Plural?
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Sorry. I should explain.
 But first, are you familiar with Disassociative Identity Disorder; or what media calls &quot;Multiple Personalities&quot;?
 
 (link-replace:&quot;Um yes?&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Um yes?
 
-|light&gt;[Twilight | Light System]
-Plurality is an umbrella term for similar situations. Where two individuals with agency exist within the same body.
+|twilight&gt;[Twilight | Light System]
+|text&gt;[==Plurality is an umbrella term for similar situations. Where two individuals with agency exist within the same body. Which is called a &quot;system&quot;. Since the members work together to create a functioning &quot;individual&quot;.
 Penumbra and myself are one such example. She is a close friend and a person whom I consider a kind of family.
 I had a suspicion that you might be plural too. However as it stands there is not enough to indicate that this is plurality.
 
 (link-replace:&quot;So what is it then???&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 So what is it then???
 
-|light&gt;[Twilight | Light System]
-You said you inhabited your wolfhound form when you were scared. Right?
+|twilight&gt;[Twilight | Light System]
+|text&gt;[==You said you inhabited your wolfhound form when you were scared. Right?
 
 (link-replace:&quot;Mhm&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Mhm
 
 |goth&gt;[AbandonedMallGoth]
-Weird thing though
-It sounds like Gold
-The old fursona
+|text&gt;[==Weird thing though
+What if it&#39;s their old fursona?
 
-|light&gt;[Twilight | Light System]
-Still.
-I don&#39;t think that Sunny is plural.
-She doesn&#39;t have two sides. Just was anxious when she joined, and that got expressed in her form.
+|twilight&gt;[Twilight | Light System]
+|text&gt;[==Still.
+I do not think that Sunny is plural.
+They haven&#39;t talked and likewise the wolf has not shown agency.
+She was anxious when she joined, and that got expressed in her form.
 
 [[➥ So I&#39;m just a wolfhound sometimes?-&gt;Puppy in the Park]]</tw-passagedata><tw-passagedata pid="21" name="Puppy in the Park" tags="Realizations Park" position="775,425" size="100,100">(change: ?page, (transition:&quot;dissolve&quot;)+(t8n-time:2s))\
 (link-reveal:&quot;\&quot;So... I&#39;m just a wolfhound sometimes,\&quot;&quot;)[== the thought keeps nagging at me as I circle the park once again...
@@ -708,7 +773,8 @@ At the moment though, I&#39;m just pretending to be human. (link-reveal:&quot;I&
 
 The folks on Frogs have helped a lot with my transition and presentation. I learned a lot about makeup from Twilight and company. 🐶 helped with finding flattering clothes that make me look like I actually have curves. I feel like I&#39;m no longer flailing trying to look like a woman.
 
-A thought strikes me when (link-reveal:&quot;I see a bathroom up ahead.&quot;)[== &quot;I feel amazing! I look amazing! I think I can do it. [[➥ &quot;I&#39;m finally going to use the ladies room!&quot;-&gt;the Bathroom]]</tw-passagedata><tw-passagedata pid="22" name="the Bathroom" tags="Realizations" position="775,525" size="100,100">(link-reveal:&quot;I step inside...&quot;)[==
+A thought strikes me when (link-reveal:&quot;I see a bathroom up ahead.&quot;)[== &quot;I feel amazing! I look amazing! I think I can do it. (t8n-depart:&quot;instant&quot;)+(t8n-arrive:&quot;dissolve&quot;)[[➥ &quot;I&#39;m finally going to use the ladies room!&quot;-&gt;the Bathroom]]</tw-passagedata><tw-passagedata pid="22" name="the Bathroom" tags="Realizations Bathroom" position="775,525" size="100,100">(change: ?page, (transition:&quot;dissolve&quot;))\
+(link-reveal:&quot;I step inside...&quot;)[==
 
 (link-replace:&quot;It&#39;s...&quot;)[==It&#39;s surprisingly normal. Just... a lot more stalls. And a lot more... (link-reveal:&quot;tense.&quot;)[==
 
@@ -716,7 +782,7 @@ My enthusiasm is replaced with (link-repeat:&quot;anxiety&quot;)[(dialog:&quot;I
 
 (link:&quot;I hear footsteps.&quot;)[==(dialog:&quot;Oh fuck somebody&#39;s coming in here.&quot;)\
 (link:&quot;They&#39;re coming towards the stalls.&quot;)[==(dialog:&quot;I can&#39;t do this! This was a bad fucking idea!&quot;)\
-(link:&quot;My breathing grows faster&quot;)[==(dialog:&quot;Oh shit oh fuck oh shit oh fuck&quot;) [[&quot;I don&#39;t want to be here&quot;-&gt;&quot;I&#39;ll take over&quot;]]</tw-passagedata><tw-passagedata pid="23" name="&quot;I&#39;ll take over&quot;" tags="Realizations" position="775,625" size="100,100">(link:&quot;\&quot;I&#39;ll take over\&quot;&quot;, (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-size:3))[== \
+(link:&quot;My breathing grows faster&quot;)[==(dialog:&quot;Oh shit oh fuck oh shit oh fuck&quot;) [[&quot;I don&#39;t want to be here&quot;-&gt;&quot;I&#39;ll take over&quot;]]</tw-passagedata><tw-passagedata pid="23" name="&quot;I&#39;ll take over&quot;" tags="Realizations Bathroom" position="775,625" size="100,100">(link:&quot;\&quot;I&#39;ll take over\&quot;&quot;, (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text-size:3)+(css:&quot;max-width:none;width: calc(100% - 2em);&quot;))[== \
 It all goes quiet. The thoughts, the anxiety, the panic attack. 
 
 (link-reveal:&quot;Until a nearby stall door slams shut&quot;)[==
@@ -731,27 +797,23 @@ All covered in wiry hair, hanging off of a lanky and very tall body.
 
 (link:&quot;I listen to her flush a nearby toilet.&quot;)[==(link:&quot;Slam the door once more.&quot;)[==(link:&quot;Wash her hands at the sink.&quot;)[==(link:&quot;Then walk out.&quot;)[==(link-reveal:&quot;And then I am alone once more.&quot;)[==
 
-I don&#39;t even give myself time to think, quickly finishing up and washing my hands before anybody else has a chance to sneak up on me. (link-reveal:&quot;Then leaving.&quot;)[==
-
-The second I return to the safety of the park, I nearly collapse. I am drained and exhausted by that aborted panic attack. I use the last ounces of my energy to force myself back home, retreating to my den to pass out and recover. But still as I walk I can&#39;t help but notice, my ears are floppy and I don&#39;t feel as tall or strong. But likewise I think about those words.
-
-(link-reveal&quot;\&quot;I&#39;ll take over\&quot;&quot;)[==
-
-[[Because, I definitely didn&#39;t say that.-&gt;Who am I?]]</tw-passagedata><tw-passagedata pid="24" name="Who am I?" tags="Unification Discord" position="450,50" size="100,100">(enchant: ?sunny, (text-colour:yellow))\
+I don&#39;t even give myself time to think, quickly finishing up and washing my hands before anybody else has a chance to sneak up on me. (t8n-depart:&quot;instant&quot;)+(t8n-arrive:&quot;dissolve&quot;)[[Then leaving.-&gt;Return Home]]</tw-passagedata><tw-passagedata pid="24" name="Who am I?" tags="Unification Discord" position="450,50" size="100,100">(change: ?page, (css:&quot;height:none;&quot;))\
+(enchant: ?sunny, (text-colour:yellow))\
 (enchant: ?goth, (text-colour:#f5376a)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?radiant, (text-colour:#6fb04f)+(t8n:&quot;fade-up&quot;))\
-(enchant: ?light, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?penumbra, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?twilight, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?text, (t8n:&quot;fade-up&quot;))\
 (enchant: ?radianttext, (t8n:&quot;fade-up&quot;))\
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==Y&#39;all!
 I lov my partner! 
 
 |dog&gt;[I&#39;m 🐶!]
 |text&gt;[==Aww! You twos are very cute!! ^_^
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==Ya! Especially since they just bought me some cat ears! ^^
 
 (link-replace:&quot;Aww! You&#39;re a lucky kitten!&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
@@ -761,7 +823,7 @@ Aww! You&#39;re a lucky kitten!
 |text&gt;[==Ooh
 Can I rub your ears to and help you realize you&#39;re a cat too
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==Maybe! How would you make a light kitty realize they&#39;re a light kitty?
 
 |radiant&gt;[⚧☣ ｒａｄｉａｎｔ☣⚧]
@@ -770,29 +832,29 @@ Can I rub your ears to and help you realize you&#39;re a cat too
 (link-replace:&quot;Wait? Twilight?&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 |text&gt;[==Wait? Twilight?
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Oh.
 I assume you didn&#39;t know. 
 Penumbra and I are in a... what do you call it darling?
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==A zero-distance relationship! :P
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Yes. Penumbra is my kitten.
 
 |dog&gt;[I&#39;m 🐶!]
 |text&gt;[==Once again very cute (─‿‿─)♡
 
-|light&gt;[Penumbra | Light System]
+|penumbra&gt;[Penumbra | Light System]
 |text&gt;[==But twi won&#39;t let me call them cute 😒 
-Guess what (text-colour:black)+(background:black)+(hover-style:(text-color:&quot;white&quot;))[they&#39;re just a giant nerd who wants to look cool in front of the puppy :P]
+Guess what (text-colour:black)+(background:black)+(hover-style:(text-color:&quot;white&quot;))[they&#39;re just a giant dorkus who wants to look cool in front of the puppy :P]
 
 (link-replace:&quot;Uh, okay then 😅&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 Uh, okay then 😅
 (link-reveal:&quot;Um. Sorry to interrupt but can I talk to you Twilight?&quot;)[==
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Of course.
 What is it that you want to talk about Sunny?
 
@@ -809,7 +871,7 @@ Thank you? 😅
 (link-replace:&quot;I heard the words \&quot;I&#39;ll take over\&quot;&quot;)[==I heard the words &quot;I&#39;ll take over&quot; 
 (link-replace:&quot;But I don&#39;t think I said them&quot;)[==But I don&#39;t think I said them
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Oh.
 Interesting.
 
@@ -818,9 +880,11 @@ Interesting.
 
 (link-replace:&quot;I don&#39;t know...&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 I don&#39;t know... but it didn&#39;t feel like I said it though.
+(link-reveal:&quot;But it feels like it might have been the wolfhound.&quot;)[==
 
-|light&gt;[Twilight | Light System]
-|text&gt;[==The fact that the voice referred to itself in first person, and showed agency over this situation is
+|twilight&gt;[Twilight | Light System]
+|text&gt;[==Hmm
+If it is then the fact that the voice referred to itself in first person, and acted on it&#39;s own is
 Fascinating.
 Has this voice talked to you in other ways since we last talked?
 
@@ -833,16 +897,15 @@ No. Not as far as I know.
 (link-replace:&quot;No...&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 |text&gt;[==No...
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Perhaps instead you should try talking to them now. 
 
 (link-replace:&quot;How do I talk to them?&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 How do I talk to them?
 
-|light&gt;[Twilight | Light System]
-[[➥ You can try creating a private chat for it-&gt;Private Chat]]</tw-passagedata><tw-passagedata pid="25" name="Private Chat" tags="Unification Discord" position="450,150" size="100,100">(transition:&quot;fade-up&quot;)[
-(box:&quot;X&quot;)+(background:#2c2f33)[ \
-(link-replace:&quot;Um. Hello?&quot;)[==(text-colour:yellow)[Sunny Flower (She/Her)]
+|twilight&gt;[Twilight | Light System]
+(t8n-depart:&quot;instant&quot;)+(t8n-arrive:&quot;fade-up&quot;)[[➥ You can try creating a private chat for it-&gt;Private Chat]]</tw-passagedata><tw-passagedata pid="25" name="Private Chat" tags="Unification Discord" position="450,150" size="100,100">(enchant: ?sunny, (text-colour:yellow))\
+(link-replace:&quot;Um. Hello?&quot;)[==|sunny&gt;[Sunny Flower (She/Her)]
 Um. Hello?
 (link-reveal:&quot;Wolfhound?&quot;)[==
 (link-reveal:&quot;Gold?&quot;)[==
@@ -850,20 +913,17 @@ Um. Hello?
 (link-reveal:&quot;Um...&quot;)[==
 (link-reveal:&quot;Thank you for helping with that panic attack...&quot;)[==
 (link-reveal:&quot;...&quot;)[==
-[[➥ I&#39;ll just leave you be then-&gt;No Dice]]
-]]</tw-passagedata><tw-passagedata pid="26" name="No Dice" tags="Unification Discord" position="450,250" size="100,100">(enchant: ?sunny, (text-colour:yellow))\
+(t8n-depart:&quot;instant&quot;)+(t8n-arrive:&quot;fade-up&quot;)[[➥ I&#39;ll just leave you be then-&gt;No Dice]]</tw-passagedata><tw-passagedata pid="26" name="No Dice" tags="Unification Discord" position="450,250" size="100,100">(enchant: ?sunny, (text-colour:yellow))\
 (enchant: ?goth, (text-colour:#f5376a)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?radiant, (text-colour:#6fb04f)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?light, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?text, (t8n:&quot;fade-up&quot;))\
 (enchant: ?radianttext, (t8n:&quot;fade-up&quot;))\
-(transition:&quot;fade-up&quot;)[
-(box:&quot;X&quot;)+(background:#2c2f33)[ \
 (link-replace:&quot;No dice 😓&quot;)[==|sunny&gt;[Sunny the Puppy (she/her)]
 No dice 😓
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==Unfortunate.
 
 |goth&gt;[AbandonedMallGoth]
@@ -903,7 +963,7 @@ Not that kind of scared 😅
 |dog&gt;[I&#39;m 🐶!]
 |text&gt;[==Hey Twi, I have idea! How did you all figure out each other?
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==We can not point to a single point that is the origin of our system.
 It was an aggregation of trauma.
 And we became aware through a countless series of realizations.
@@ -914,10 +974,9 @@ I see...
 (link-reveal:&quot;Twilight&quot;)[==
 (link-reveal:&quot;Do you think I&#39;m plural?&quot;)[==
 
-|light&gt;[Twilight | Light System]
+|twilight&gt;[Twilight | Light System]
 |text&gt;[==I can&#39;t say.
-But there is [[➥ one more thing-&gt;Meditation]] I would suggest.
-]]</tw-passagedata><tw-passagedata pid="27" name="Meditation" tags="Unification Meditation" position="575,50" size="100,100">I close the curtains in my room. Make it as dark as possible. I put on some rhythmless new age music.
+But there is [[➥ one more thing-&gt;Meditation]] I would suggest.</tw-passagedata><tw-passagedata pid="27" name="Meditation" tags="Unification Meditation" position="575,50" size="100,100">I close the curtains in my room. Make it as dark as possible. I put on some rhythmless new age music.
 
 I start with Twilight&#39;s first instruction (link-reveal:&quot;\&quot;Remove as much stimulation in your room\&quot;&quot;)[==
 
@@ -929,36 +988,42 @@ All of them perfectly relaxed. Feeling weightless. Like my vessel hardly exists 
 
 According to Twilight, a mindspace is a kind of mental image of a space to exist and live in. A peaceful home made perfectly to my needs and specification, what would be called a &quot;happy place&quot; in a cliche visualization exercise. 
 
-[[➥ I begin with a forest-&gt;the Mindspace]]</tw-passagedata><tw-passagedata pid="28" name="the Mindspace" tags="Unification Meditation" position="575,150" size="100,100">I visualize a thick forest. Filled with pine trees, and a sparse underbrush. A creek echoes into the air along with the idle sounds of birds and insects. Singing to night, illuminated by countless stars and the beautiful moon watching over all.
+[[➥ I begin with a forest-&gt;the Mindspace]]</tw-passagedata><tw-passagedata pid="28" name="the Mindspace" tags="Unification Meditation" position="575,150" size="100,100">(change: ?page, (background:&quot;https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/night%20forest.jpg&quot;)+(t8n:&quot;blur&quot;))\
+I visualize a thick forest. Filled with pine trees, and a sparse underbrush. A creek echoes into the air along with the idle sounds of birds and insects. Singing to night, illuminated by countless stars and the beautiful moon watching over all.
 
 (link-reveal:&quot;However, it&#39;s still not appropriate for a domesticated Golden Retriever.&quot;)[==
+(change: ?page, (background:&quot;https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/night%20cabin.jpg&quot;)+(t8n:&quot;dissolve&quot;))\
 
-I begin on a small clearing, within earshot of the nearby creek, and begin a shell of a small home. Lots of windows and skylights to help diminish the barrier between inside and out. The first thing I populate it with is a fireplace and a dog bed to curl up in next to it. 
+I begin on a small clearing, within earshot of the nearby creek, and begin a shell of a small home. Lots of windows and skylights to help diminish the barrier between inside and out. 
 
-I vaguely decorate the rest of the space with vague images of a kitchen, bathroom, hallways. It is unneeded as it is, and I instead (link-replace:&quot;focus on the bedroom...&quot;)[==focus on the bedroom.
+(link-reveal:&quot;The first thing I populate it with is a fireplace&quot;)[==\
+(change: ?page, (background:&quot;https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/night%20fireplace.jpeg&quot;)+(t8n:&quot;dissolve&quot;))\
+and a dog bed to curl up in next to it. I vaguely decorate the rest of the space with vague images of a kitchen, bathroom, hallways. It is unneeded as it is, and I instead (link-replace:&quot;focus on the bedroom...&quot;)[==\
+(change: ?page, (background:&quot;https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/night%20bedroom.jpg&quot;)+(t8n:&quot;dissolve&quot;))\
+focus on the bedroom in the loft.
 
 It seems... appropriate that I would attempt the next step within a metaphor for the most private part of my mind. 
 
-I make my room as appealing a resting space as possible; so a wonderful place to start is a large canopy bed covered in fairy lights. I pop in a desk with an overly pink computer setup. As well as a few large potted plants and trees.
+I make my room as comfortable a resting space as possible; so a wonderful place to start is a cozy little bed illuminated by fairy lights hung across the ceiling. A closet filled with affirming clothings. Likewise a tiny desk with a small but powerful PC.
 
-The next step is what causes me the most pause. [[➥ I have to inhabit this mindspace next...-&gt;Inhabiting]]</tw-passagedata><tw-passagedata pid="29" name="Inhabiting" tags="Unification Meditation" position="575,250" size="100,100">(set:$dog to 0)
+The next step is what causes me the most pause. [[➥ I have to inhabit this space next...-&gt;Inhabiting]]</tw-passagedata><tw-passagedata pid="29" name="Inhabiting" tags="Unification Meditation Bedroom" position="575,250" size="100,100">(set:$dog to 0)\
 This next step according to Twilight is to imagine myself inhabiting this space. (link-reveal:&quot;To start by feeling our forms...&quot;)[==
 |=
-(align:&quot;&lt;==&quot;)+(box:&quot;X&quot;)[(link-reveal:&quot;I can feel... &quot;,(text-color:&quot;yellow&quot;))[==
+(align:&quot;&lt;==&quot;)+(box:&quot;X&quot;)+(css:&quot;max-width:none;width: calc(100% - 2em);&quot;)[(link-reveal:&quot;I can feel... &quot;,(text-color:&quot;yellow&quot;))[==
 (link-reveal:&quot;I have fuzzy and floppy blonde ears... &quot;,(text-color:&quot;yellow&quot;))[==
 (link-reveal:&quot;A moderate muzzle... &quot;,(text-color:&quot;yellow&quot;))[==
 (link-reveal:&quot;and a tail covered in long fur... &quot;,(text-color:&quot;yellow&quot;))[==
 (link-reveal:&quot;and a plump and stout body covered in curves...&quot;,(text-color:&quot;yellow&quot;))[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
 =|=
-[==(align:&quot;==&gt;&quot;)+(box:&quot;X&quot;)[(link-reveal:&quot;I can feel... &quot;,(text-color:&quot;#ffe066&quot;))[==
+[==(align:&quot;==&gt;&quot;)+(box:&quot;X&quot;)+(css:&quot;max-width:none;width: calc(100% - 2em);&quot;)[(link-reveal:&quot;I can feel... &quot;,(text-color:&quot;#ffe066&quot;))[==
 (link-reveal:&quot;I have wiry and semi-rigid blonde ears... &quot;,(text-color:&quot;#ffe066&quot;))[==
 (link-reveal:&quot;A long muzzle... &quot;,(text-color:&quot;#ffe066&quot;))[==(link-reveal:&quot;and a skinny tail covered in wiry hair... &quot;,(text-color:&quot;#ffe066&quot;))[==
 (link-reveal:&quot;and I feel very lean and very tall...&quot;,(text-color:&quot;#ffe066&quot;))[== (set:$dog to $dog+1) (if: $dog is 2)[(show:?greeting)] ]
 |==|
 |greeting)[ \
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text_size:1.5)[[[We open our eyes-&gt;Greetings]]]
-]</tw-passagedata><tw-passagedata pid="30" name="Greetings" tags="Unification Meditation" position="675,50" size="100,100">&lt;==
-(text-color:&quot;yellow&quot;)[(link-reveal:&quot;I open my eyes to finally see them. It&#39;s Gold, after so many years.&quot;)[(show:?gold1)]]\
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)+(text_size:1.5)+(css:&quot;max-width:none;width: calc(100% - 2em);&quot;)[[[We open our eyes-&gt;Greetings]]]
+]</tw-passagedata><tw-passagedata pid="30" name="Greetings" tags="Unification Meditation Bedroom" position="675,50" size="100,100">&lt;==
+(text-color:&quot;yellow&quot;)[(link-reveal:&quot;I open my eyes to finally see them. It&#39;s Gold, after so many years.&quot;)[(show:?gold1)]]
 |gold1)[
 ==&gt;
 (text-color:&quot;#ffe066&quot;)[(link-reveal:&quot;I open my eyes and I finally see Sunny.&quot;)[(show:?both1)]]]\
@@ -991,7 +1056,7 @@ This next step according to Twilight is to imagine myself inhabiting this space.
 (text-color:&quot;yellow&quot;)[(link-reveal:&quot;\&quot;You know it wolfy!\&quot;&quot;)[(show:?gold5)]]]
 |gold5)[
 ==&gt;
-(text-color:&quot;#ffe066&quot;)[[[➥ &quot;Wait. This means that we&#39;re plural. Aren&#39;t we?&quot;-&gt;Conversation with Myself]]]]</tw-passagedata><tw-passagedata pid="31" name="Conversation with Myself" tags="Unification Meditation" position="675,150" size="100,100">We talked for a long time. It was... odd... like old friends who hadn&#39;t seen each other in ages. But those friends shared thoughts and memories seamlessly.
+(text-color:&quot;#ffe066&quot;)[[[➥ &quot;Wait. This means that we&#39;re plural. Aren&#39;t we?&quot;-&gt;Conversation with Myself]]]]</tw-passagedata><tw-passagedata pid="31" name="Conversation with Myself" tags="Unification Meditation Bedroom" position="675,150" size="100,100">We talked for a long time. It was... odd... like old friends who hadn&#39;t seen each other in ages. But those friends shared thoughts and memories seamlessly.
 
 We talked about a lot. (link-reveal:&quot;How odd it was that we called each other girlfriend so quickly. &quot;,(text-color:&quot;#ffe066&quot;))[==(link-reveal:&quot;How natural it feels to call each other girlfriends! &quot;, (text-color:&quot;yellow&quot;))[==(link-reveal:&quot;What makes us feel different from one another. &quot;,(text-color:&quot;#ffe066&quot;))[==(link-reveal:&quot;What we&#39;re each attracted to! &quot;, (text-color:&quot;yellow&quot;))[==(link-reveal:&quot;But most of all why we exist. &quot;,(text-color:&quot;#ffe066&quot;))[==
 
@@ -1001,139 +1066,136 @@ Our theory is that we have two different roles in regard to ourself. That Gold&#
 
 It feels, in a sense, that we have always both been around. From high school we distinctly remember moments involving the two of us. But likewise, we felt very intertwined in personality. But our dog forms just created enough cognitive dissonance to cause fracturing; and cause us to finally split.
 
-(link-replace:&quot;But after all that talk...&quot;)[==But after all that talk we just held each other, in our innermost space of our mind. In our bedroom. Gripping tight, and being safe and vulnerable. Cuddling, much the way a pair of dogs would. [[➥ We layed there until we passed out...-&gt;Coming Out]]</tw-passagedata><tw-passagedata pid="32" name="Coming Out" tags="Denouement Discord" position="800,50" size="100,200">(enchant: ?sunny, (text-colour:yellow))\
+(link-replace:&quot;But after all that talk...&quot;)[==But after all that talk we just held each other, in our innermost space of our mind. In our bedroom. Gripping tight, and being safe and vulnerable. Cuddling, much the way a pair of dogs would. [[➥ We layed there until we passed out...-&gt;Coming Out]]</tw-passagedata><tw-passagedata pid="32" name="Coming Out To Everybody" tags="Denouement Discord" position="800,150" size="100,200">(enchant: ?sunny, (text-colour:yellow))\
+(enchant: ?gold, (text-color:&quot;#ffe066&quot;))\
 (enchant: ?goth, (text-colour:#f5376a)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?radiant, (text-colour:#6fb04f)+(t8n:&quot;fade-up&quot;))\
-(enchant: ?light, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?penumbra, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
+(enchant: ?twilight, (text-colour:#c6ced9)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:&quot;fade-up&quot;))\
 (enchant: ?text, (t8n:&quot;fade-up&quot;))\
 (enchant: ?radianttext, (t8n:&quot;fade-up&quot;))\
-|sunny0&gt;[\
-!!CHANGE THE BACKGROUND TO BLACK
-&lt;==
-(text-color:&quot;yellow&quot;)[(link-reveal:&quot;So wolfie! Ready for this?&quot;)[(show:?gold1)]]]
-|gold1)[
-==&gt;
-(text-color:&quot;#ffe066&quot;)[(link-reveal:&quot;I will never be ready for the horror of being known.&quot;)[(show:?sunny1)]]]\
-|sunny1)[
-&lt;==
-(text-color:&quot;yellow&quot;)[(link-reveal:&quot;Too bad you have to talk to our friends!&quot;)[(hide:?sunny0 + ?gold1 + ?sunny1)(show:?discord)]]]
-!!CHANGE BACKGROUND TO DISCORD!
-|discord)[(transition:&quot;fade-up&quot;)[(box:&quot;X&quot;)+(background:#2c2f33)[ \
-(link-replace:&quot;Hi friens!! 😊&quot;,(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:&quot;Hi friens!! 😊&quot;,(text-colour:yellow))[==|sunny&gt;[Sunny the Puppy (she/her)]
 Hi friens!! 😊
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#ae6113)[I&#39;m 🐶!]
-Hi puppy! `\(￣︶￣*\))`
+|dog&gt;[I&#39;m 🐶!]
+|text&gt;[==Hi puppy! `\(￣︶￣*\))`
 
-(transition:&quot;fade-up&quot;)+(text-colour:#c6ced9)[Penumbra | Light System]
-hihi puppyfrien!! ^^
+|penumbra&gt;[Penumbra | Light System]
+|text&gt;[==hihi puppyfrien!! ^^
 
 |goth&gt;[AbandonedMallGoth]
-YO
+|text&gt;[==YO
 Whats up
 
-(link-replace:&quot;I need you all to meet somebody!&quot;,(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:&quot;I need you all to meet somebody!&quot;,(text-colour:yellow))[==|sunny&gt;[Sunny the Puppy (she/her)]
 I need you all to meet somebody!
 
 |goth&gt;[AbandonedMallGoth]
-Cool
+|text&gt;[==Cool
 Grabbing you an invite
 
-(link-replace:&quot;Not needed!&quot;,(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:&quot;Not needed!&quot;,(text-colour:yellow))[==|sunny&gt;[Sunny the Puppy (she/her)]
 Not needed!
 
-(transition:&quot;fade-up&quot;)+(text-colour:#c6ced9)[Penumbra | Light System]
-oh? :3c 
+|penumbra&gt;[Penumbra | Light System]
+|text&gt;[==oh? :3c 
 
-(link-replace:&quot;oh gods we&#39;re actually doing this aren&#39;t we?&quot;,(text-color:&quot;#ffe066&quot;))[==(link-replace:&quot;You can&#39;t hide forever! You did that already!&quot;,(text-colour:yellow))[==(link-replace:&quot;Fine. Here goes nothing...&quot;,(text-color:&quot;#ffe066&quot;))[==(text-color:&quot;#ffe066&quot;)[Gold the Wolfhound (she/they)]
+(link-replace:&quot;Oh gods we&#39;re actually doing this aren&#39;t we?&quot;,(text-color:&quot;#ffe066&quot;))[==(link-replace:&quot;You can&#39;t hide forever! You did that already!&quot;,(text-colour:yellow))[==(link-replace:&quot;Fine. Here goes nothing...&quot;,(text-color:&quot;#ffe066&quot;))[==|gold&gt;[Gold the Wolfhound (she/they)]
 Um... hello?
 
-|goth&gt;[AbandonedMallGoth]
-YOOOOOOOOOOOOOOOOOOOOO
+(link-replace:&quot;Everybody! Meet my headmate and girlfriend, Gold!&quot;,(text-colour:yellow))[==|goth&gt;[AbandonedMallGoth]
+|text&gt;[==YOOOOOOOOOOOOOOOOOOOOO
 I WAS FUCKIN RIGHT
-HOLY SHIT
+(link-replace:&quot;Do we have to tell everybody now???&quot;,(text-color:&quot;#ffe066&quot;))[==HOLY SHIT
 GOLD
-IT&#39;S YOU
-HOW THE HELL HAVE YOU BEEN DOING
+(link-replace:&quot;Yep! Not letting you hold us back any longer!&quot;,(text-colour:yellow))[==IT&#39;S YOU
+HOW THE HELL HAVE YOU BEEN DOING??
+(link-replace:&quot;You made us too scared to do anything for 25 years, it&#39;s my turn to let us have fun! 💛&quot;,(text-colour:yellow))[==
+|sunny&gt;[Sunny the Puppy (she/her)]
+Everybody! Meet my headmate, and girlfriend, Gold!
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#ae6113)[I&#39;m 🐶!]
-!!!!!
+|radiant&gt;[⚧☣ ｒａｄｉａｎｔ☣⚧]
+|radianttext&gt;[oh another dog]
+|radianttext&gt;[and another zero-distance relationship?]
+
+(link-replace:&quot;We... kinda couldn&#39;t help it. We just sorta said it on sight... 😅&quot;,(text-color:&quot;#ffe066&quot;))[==|gold&gt;[Gold the Wolfhound (she/they)]
+We... kinda couldn&#39;t help it. We just sorta called eachother gfs on sight... 😅
+
+|dog&gt;[I&#39;m 🐶!]
+|text&gt;[==!!!!!
 Another puppy? `Σ(っ °Д °;)っ`
 
-(link-replace:&quot;Not exacly 😅 I&#39;m more like a wolf...&quot;,(text-color:&quot;#ffe066&quot;))[==(text-color:&quot;#ffe066&quot;)[Gold the Wolfhound (she/they)]
+(link-replace:&quot;Not exacly 😅 I&#39;m more like a wolf...&quot;,(text-color:&quot;#ffe066&quot;))[==|gold&gt;[Gold the Wolfhound (she/they)]
 Not exacly 😅 I&#39;m more like a wolf...
 
-(transition:&quot;fade-up&quot;)+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
-|radianttext&gt;[oh another puppy]
-
-(link-replace:&quot;Wolfy puppy! 😋&quot;,(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:&quot;Wolfy puppy! 😋&quot;,(text-colour:yellow))[==|sunny&gt;[Sunny the Puppy (she/her)]
 Wolfy puppy! 😋
 
-(link-replace:&quot;Goddamn it y&#39;all are gonna call me a puppy aren&#39;t you?&quot;,(text-color:&quot;#ffe066&quot;))[==(text-color:&quot;#ffe066&quot;)[Gold the Wolfhound (she/they)]
+(link-replace:&quot;Goddamn it y&#39;all are gonna call me a puppy aren&#39;t you?&quot;,(text-color:&quot;#ffe066&quot;))[==|gold&gt;[Gold the Wolfhound (she/they)]
 Goddamn it y&#39;all are gonna call me a puppy aren&#39;t you?
 
-(link-replace:&quot;Yep&quot;,(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
-Yep
-
-(transition:&quot;fade-up&quot;)+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+|radiant&gt;[⚧☣ ｒａｄｉａｎｔ☣⚧]
 |radianttext&gt;[yep]
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#ae6113)[I&#39;m 🐶!]
-Yeppers! `~(￣▽￣)~*`
+|dog&gt;[I&#39;m 🐶!]
+|text&gt;[==Yeppers! `~(￣▽￣)~*`
 
-(transition:&quot;fade-up&quot;)+(text-colour:#c6ced9)[Twilight | Light System]
-It is a pleasure to meet you Gold.
+(link-replace:&quot;Yep&quot;,(text-colour:yellow))[==|sunny&gt;[Sunny the Puppy (she/her)]
+Yep
+
+|twilight&gt;[Twilight | Light System]
+|text&gt;[==It is a pleasure to meet you Gold.
 I. Apologize. 
 
-(link-replace:&quot;What do you have to apologize for? 😅 We just met&quot;,(text-color:&quot;#ffe066&quot;))[==(text-color:&quot;#ffe066&quot;)[Gold the Wolfhound (she/they)]
+(link-replace:&quot;What do you have to apologize for? 😅 We just met&quot;,(text-color:&quot;#ffe066&quot;))[==|gold&gt;[Gold the Wolfhound (she/they)]
 What do you have to apologize for? 😅 We just met
 
-(transition:&quot;fade-up&quot;)+(text-colour:#c6ced9)[Penumbra | Light System]
-twi feels upset because they thought you weren&#39;t plural and feels bad for misleading!
+|penumbra&gt;[Penumbra | Light System]
+|text&gt;[==twi feels upset because they thought you weren&#39;t plural and feels bad for misleading!
 
-(link-replace:&quot;It okay! We kinda weren&#39;t fully separate until yet!&quot;,(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:&quot;It okay! We kinda weren&#39;t fully separate until yet!&quot;,(text-colour:yellow))[==|sunny&gt;[Sunny the Puppy (she/her)]
 It okay! We kinda weren&#39;t fully separate until then. 
 
-(link-replace:&quot;Exactly, you couldn&#39;t have known.&quot;,(text-color:&quot;#ffe066&quot;))[==(text-color:&quot;#ffe066&quot;)[Gold the Wolfhound (she/they)]
+(link-replace:&quot;Exactly, you couldn&#39;t have known.&quot;,(text-color:&quot;#ffe066&quot;))[==|gold&gt;[Gold the Wolfhound (she/they)]
 Exactly, you couldn&#39;t have known. If it helps, we forgive you Twilight. 
 
-(transition:&quot;fade-up&quot;)+(text-colour:#c6ced9)[Twilight | Light System]
-Thank you.
+|twilight&gt;[Twilight | Light System]
+|text&gt;[==Thank you.
 
-(transition:&quot;fade-up&quot;)+(text-colour:#6fb04f)[⚧☣ ｒａｄｉａｎｔ☣⚧]
+|radiant&gt;[⚧☣ ｒａｄｉａｎｔ☣⚧]
 |radianttext&gt;[i&#39;ll make you feel bad if you want twilight]
 
-(transition:&quot;fade-up&quot;)+(text-colour:#c6ced9)[Penumbra | Light System]
-Noooo! Don&#39;t make my partner feel bad! D:
+|penumbra&gt;[Penumbra | Light System]
+|text&gt;[==Noooo! Don&#39;t make my partner feel bad! D:
 For all they do to look cool they&#39;re just a smol sensitive bean!
 
-(link-replace:&quot;Oh! Just like gold!&quot;,(text-colour:yellow))[==(text-colour:yellow)[Sunny the Puppy (she/her)]
+(link-replace:&quot;Oh! Just like gold!&quot;,(text-colour:yellow))[==|sunny&gt;[Sunny the Puppy (she/her)]
 Oh! Just like gold!
-(link-replace:&quot;Like how they don&#39;t like folks to know they like to be a collared little pup-&quot;,(text-colour:yellow))[==(link-replace:&quot;And I&#39;m not going to let you finish that thought.&quot;,(text-color:&quot;#ffe066&quot;))[==(link-replace:&quot;Meanie 😒&quot;,(text-colour:yellow))[==
+(link-replace:&quot;Like how they don&#39;t like folks to know they like to be a collared little pup-&quot;,(text-colour:yellow))[==(link-replace:&quot;And I&#39;m not even going to //let// you finish that thought.&quot;,(text-color:&quot;#ffe066&quot;))[==(link-replace:&quot;Meanie 😒&quot;,(text-colour:yellow))[==\
 
-(transition:&quot;fade-up&quot;)[==(text-colour:#ae6113)[I&#39;m 🐶!]
-It&#39;s nice to meet you Wolf Puppy! 
+|dog&gt;[I&#39;m 🐶!]
+|text&gt;[==It&#39;s nice to meet you Wolf Puppy! 
 So notice you use she/they! Are you nonbinary?
 
-(text-color:&quot;#ffe066&quot;)[[[➥ So...-&gt;One last walk]]]
-]]]</tw-passagedata><tw-passagedata pid="33" name="One last walk" tags="" position="925,50" size="100,100">(link-reveal:&quot;Sunlight. &quot;, (text-colour:#ffe066))[==It&#39;s tingly warmth relaxes our very soul as (link-reveal:&quot;we walk through this park!&quot;, (text-colour:&quot;yellow&quot;))[== 
+(text-color:&quot;#ffe066&quot;)+(t8n-depart:&quot;instant&quot;)+(t8n-arrive:&quot;dissolve&quot;)[[[➥ So about that...-&gt;One last walk]]]</tw-passagedata><tw-passagedata pid="33" name="One last walk" tags="Park" position="925,50" size="100,100">(change: ?page, (transition:&quot;dissolve&quot;)+(t8n-time:2s))\
+(link-reveal:&quot;Sunlight. &quot;, (text-colour:#ffe066))[==It&#39;s tingly warmth relaxes our very soul as (link-reveal:&quot;we walk through this park!&quot;, (text-colour:&quot;yellow&quot;))[== 
 
 Our walks have become the perfect time for us to talk now! We talk about people! The people we like! Drama on Twitter! Each other! lots of stuffs!
 
 But likewise it&#39;s made us prone to contemplation. Thinking about complicated things. Like... (link-reveal:&quot;my gender. &quot;, (text-colour:#ffe066))[==
 
-It&#39;s easier figuring out that I&#39;m a dog than my fucking gender. I&#39;m a wolfhound, that was so easy I could figure it out in high school. But what the hell kinda gender I have is just... complicated. Doesn&#39;t help that gender is a concept created by humans, and I&#39;m not one. Even if that was hard for us to admit a while ago.
+Honestly, it was easier figuring out that I&#39;m a dog than my fucking gender. I&#39;m a wolfhound, that was so easy (link-repeat:&quot;I could figure it out in high school.&quot;, (text-colour:#ffe066))[(text-color:yellow)(dialog:&quot;Yet you were too much of a coward that you gave up on that as soon as somebody made fun of you. :P&quot;)] But what the hell kinda gender I have is just... complicated. Doesn&#39;t help that gender is a concept created by humans, and I&#39;m not a human. Even if that was hard for us to admit not that ago.
 
-(link-reveal:&quot;But I made easier for you to be a dog! &quot;, (text-colour:#ffe066))[==I&#39;ve been forcing Gold to finally dress like the goth pup they are! It&#39;s helped them feel more comfy wearing their collar outside! Plus they feel intimidating! Plus we learned some hair buns that make us feel like we got ears! 
+(link-reveal:&quot;But I made easier for you to be a dog! &quot;, (text-colour:yellow))[==I&#39;ve been forcing Gold to finally dress like the goth pup they are! It&#39;s helped them feel more comfy wearing their collar outside! Plus they feel intimidating! Plus we learned some hair buns that make us feel like we got ears! 
 
 (link-replace:&quot;Still...&quot;, (text-colour:#ffe066))[==Still, I have no clue how to map a gender like me. At least with Sunny she&#39;s happy being a &quot;good girl&quot; or whatever. Me? It feels like my gender is just &quot;dog&quot; and how the heck do I map that onto me?
 
-(link-reveal:&quot;Gold! Look out!&quot;, (text-colour:&quot;yellow&quot;))[==
+(link-reveal:&quot;Gold! Shut up and look up!&quot;, (text-colour:&quot;yellow&quot;))[==
 
 ...and appearing behind a bend we see the most heavenly sight. (link-reveal:&quot;Yellow fur, &quot;)[==(link-reveal:&quot;a black nose, &quot;)[==(link-reveal:&quot;four legs (each ending in paws), &quot;)[==(link-reveal:&quot;and a happy wagging tail.&quot;, (text-style:&quot;sway&quot;))[==
 
-(link-reveal:&quot;It&#39;s a golden retriever.&quot;)[==
+(link-reveal:&quot;It&#39;s a golden retriever.&quot;, (text-colour:#ffe066))[==
 
 We beam as I see the dog walk in our direction. As happy as they can be. Our gaze is transfixed. Just watching the goldie come closer, (link-reveal:&quot;until...&quot;)[==
 
@@ -1149,21 +1211,47 @@ They dart towards us and starts sniffing us, with an excited wagging tail! Their
 
 &quot;Oh, of course. She really seems to like you. She&#39;s usually only this friendly with dogs!&quot;
 
-Oh my god [[➥ she can tell...-&gt;Final Title]]</tw-passagedata><tw-passagedata pid="34" name="Credits" tags="Denouement Title" position="925,300" size="100,100">Message from the author,
-Thank you for reading our story! This has been a semi-autobiographical story based on our own experiences with therian and plural discovery! I genuinely appreciate everybody who&#39;s read this and everybody who&#39;s helped contribute!
-AnnaLee
+Oh my god [[➥ she can tell...-&gt;Final Title]]</tw-passagedata><tw-passagedata pid="34" name="Credits" tags="Denouement Title" position="925,300" size="100,100">Message from the author;
+(box:&quot;X&quot;)[Thank you for reading our story! This has been a semi-autobiographical story based on our own experiences with therian and plural discovery! I genuinely appreciate everybody who&#39;s read this and everybody who&#39;s helped contribute!]
+- Anna and Lee
+
 ---
-I especially want to thank the following;
+
+We especially want to thank the following;
 * Ingrid S.: For providing story consultation, feedback, and helping break writer&#39;s block
 * Mousie: For emotional support, gamedev advice, and giving motivation
 * Tinkby: Editing and quality assurance
 * Nyx: For emotional support!
+
 ---
+
 Sources:
-- Forest Background: https://www.pexels.com/photo/green-tree-beside-roadway-during-daytime-163703/
+- Forest Background: Myself! 😊
+- High School Background: https://twinpeaksblog.com/2018/08/15/fast-times-at-twin-peaks-high/
+- Night Forest Background: https://unsplash.com/photos/8Qr1ixi-rMU
+- Night Cabin Background: https://glampinghub.com/canada/britishcolumbia/jordanriver/vacation-rental-jordan-river-british-columbia/
+- Fireplace Background: https://www.pexels.com/photo/firewood-burning-in-fireplace-1724228/
+- Bedroom Background: https://www.amazon.com/gp/customer-reviews/R1QR6YSMNN808O
+
+- Sunny&#39;s Icon: https://www.pexels.com/photo/brown-labrador-retriever-3397939/
+- Gold&#39;s Icon: https://photos.com/featured/irish-wolfhound-image-by-cuppyuppycake.html
 - AbandonedMallGoth&#39;s Icon: https://www.pexels.com/photo/ancient-metal-pattern-on-stone-surface-5277398/
-- Sunny&#39;s Icon : https://www.pexels.com/photo/brown-labrador-retriever-3397939/</tw-passagedata><tw-passagedata pid="35" name="Final Title" tags="" position="925,175" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[#I&#39;m Dog(link-repeat:&quot;s&quot;)[(dialog:&quot;Told you we&#39;d explain it!&quot;)]]
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[[[➥ Credits-&gt;Credits]] ]</tw-passagedata></tw-storydata>
+- ｒａｄｉａｎｔ&#39;s Icon: Public Domain Repository
+- 🐶 Icon: https://opengameart.org/content/pixel-version-of-a-dog-puppy-s%C3%A3o-bernardo
+- Penumbra&#39;s Icon: https://opengameart.org/content/tilling-cat-eyes
+- Twilight&#39;s Icon: https://www.pexels.com/photo/bust-of-young-man-in-dark-studio-5665104/</tw-passagedata><tw-passagedata pid="35" name="Final Title" tags="" position="925,175" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[#I&#39;m Dog(link-repeat:&quot;s&quot;)[(dialog:&quot;Told you we&#39;d explain it!&quot;)]]
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[[[➥ Credits-&gt;Credits]] ]</tw-passagedata><tw-passagedata pid="36" name="Return Home" tags="Realizations Park" position="775,725" size="100,100">(change: ?page, (transition:&quot;dissolve&quot;))\
+The second I return to the safety of the park, I nearly collapse. I am drained and exhausted by that aborted panic attack. I use the last ounces of my energy to force myself back home, retreating to my den to pass out and recover. But still as I walk I can&#39;t help but notice, my ears are floppy and I don&#39;t feel as tall or strong. But likewise I think about those words.
+
+(link-reveal:&quot;\&quot;I&#39;ll take over\&quot;&quot;)[==
+
+[[Because, I definitely didn&#39;t say that.-&gt;Who am I?]]</tw-passagedata><tw-passagedata pid="37" name="Coming Out" tags="" position="800,50" size="100,100">(text-color:yellow)[(link-reveal:&quot;So wolfie! Ready for this?&quot;)[(show:?gold1)]]
+|gold1)[
+==&gt;
+(text-color:&quot;#ffe066&quot;)[(link-reveal:&quot;I will never be ready for the horror of being known.&quot;)[(show:?sunny1)]]]\
+|sunny1)[
+&lt;==
+(text-color:yellow)[[[&quot;Too bad you have to talk to our friends!&quot;-&gt;Coming Out To Everybody]]]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
