@@ -29,7 +29,6 @@ Dogs
 
 tw-story {
   min-height: 100vh;
-  height: none;
 }
 
 tw-story[tags~="Park"] {
@@ -197,16 +196,23 @@ Not everybody could tell they were trans at eight like you dickweed 😒
 
 |goth>[AbandonedMallGoth]
 |text>[==Come on 
-I called you sis like everyday in high school
+I called you sis like every single day in high school
 You were literally the last one to know
 
 (link-replace:"What about a depressed boy with chronic headphone disease and baggy clothes screamed \"girl\" to you? 🙄")[==|sunny>[Sunny Flower (She/Her)]
 What about a depressed boy with chronic headphone disease and baggy clothes screamed "girl" to you 🙄
+(link-reveal:"Plus, I thought you were calling me \"cis\")[==], the same way gay men call straight people \"breeders\".")
 
 |goth>[AbandonedMallGoth]
-|text>[==Uuuuuuuuuh
-literally everything you just said
-Plus I know a shitton about identity stuff
+|text>[==Okay first
+Ew
+I would never call somebody cis the same way a cisgay man would call somebody breeder
+Second
+Never say breeder again
+Third
+literally everything you just said screams girl to me
+Plus my transdar is pretty good
+Especially since I know shittons about identity shit
 
 (link-replace:"Whatever you say furry 🙄")[==|sunny>[Sunny Flower (She/Her)]
 Whatever you say furry 🙄
@@ -658,6 +664,7 @@ I needed to ask some questions to figure out what the hell is happening; and why
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:"fade-up"))\
 (enchant: ?text, (t8n:"fade-up"))\
 (enchant: ?radianttext, (t8n:"fade-up"))\
+(change: ?page, (css:"height:none;"))\
 (link-replace:"Hey guys...")[==|sunny>[Sunny the Puppy (she/her)]
 Hey guys...
 (link-reveal:"Sorry for leaving suddenly...")[==
