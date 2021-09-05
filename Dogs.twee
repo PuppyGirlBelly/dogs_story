@@ -171,7 +171,7 @@ The owner is forgotten, but I keep thinking about their dog. I think a refrain t
 
 
 :: Title [Intro Title] {"position":"275,25","size":"100,100"}
-(box:"X")+(align:"=><=")+(css:"max-width:none;width: calc(100% - 2em);")[(text-size:3)[I'm Dog(link-repeat:"(s)")[(dialog:"That will be explained later. Promise.")]]
+(box:"X")+(align:"=><=")+(css:"max-width:none;width: calc(100% - 2em);")[(text-size:3)[I'm Dog(link-repeat:"(s)")[(dialog:"We'll get to this, sit tight.")]]
 (text-size:1.5)[//By AnnaLee//]]
 
 (transition-arrive:"fadeup")[[➥ It all started with a conversation I had with an old friend...->The Conversation]]
@@ -272,7 +272,7 @@ You had such adorable ears back then...
 (link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(text-style:"rumble"))[==
 (link:"I... I could feel their fingers on my fluffy ear", (text-rotate-z:357))[==\
 (link:"Wait, //my// fluffy ear?", (text-rotate-z:17))[==
-(link:"Those aren't real!", (text-rotate-z:15))[==
+(link:"They're not //real//!", (text-rotate-z:15))[==
 (link:"But it felt more real than my ACTUAL ear!", (text-rotate-z:350))[==\
 (link:"Stop. Breathe.")[==\
 (link:"Calm down.")[==\
@@ -342,7 +342,8 @@ SO?
 |goth>[AbandonedMallGoth]
 |text>[==You got phantom sensations 
 Like phantom limbs after amputation
-So what kinda thing would feel fluffy ears on their head
+Your phantoms are the bits of you that you feel, but aren't physically there
+So what kinda thing would have fluffy ears for their phantoms
 
 (link-replace:"I don't know? Dogs?")[==|sunny>[Sunny Flower (She/Her)]
 I don't know? Dogs?
@@ -425,7 +426,7 @@ Then suddenly she asked, [[➥ "Do you have a fursona?"->Do you have a fursona?]
 
 "Ooh! What does he look like?"
 
-(link-replace:"\"//She// would be a be cute and plump doggy with big tits and long hair!\"", (text-colour:yellow))[==(link-replace:"\"No, I'll be a perv if I say that.\"", (transition:"shudder"))[=="Tall, skinny, looks a bit like a bounty hunter. Like Han Solo meets Sepheroth meets Geralt. Maybe like blonde fur and long brown hair."
+(link-replace:"\"//She// would be a be cute and curvy little doggy with and long hair!\"", (text-colour:yellow))[==(link-replace:"\"No, I'll be a perv if I say that.\"", (transition:"shudder"))[=="Tall, skinny, looks a bit like a bounty hunter. Like Han Solo meets Sephiroth meets Geralt. Maybe like blonde fur and long brown hair."
 
 [[➥ "Okay! I'll draw him up real quick!"->the Wolfhound]]
 
@@ -452,7 +453,9 @@ So instead I just hidden it away, sandwiched away between important documents in
 
 :: Return to the Park [Realizations Park] {"position":"275,425","size":"100,100"}
 (change: ?page, (transition:"blur")+(t8n-time:2s))\
-It's been a rough couple of weeks since Goth made me aware of the term (link-repeat:"therian")[(dialog:"Basically, instead of identifying as a human you more strongly identify with another species that exists on earth.")]. Since then, I've been trying to explore what (link-reveal:"being a dog means to me.")[==
+It's been a rough couple of weeks since Goth made me aware of the term (link-repeat:"therian")[(dialog:"Somebody who identifies with an animal, rather than human.")]. Since then, I've been trying to explore what (link-reveal:"being a dog means to me.")[==
+
+The rustling of plants and earthen smells seem to make my ears and nose twitch. Especially the phantom ones that recently awakened. I can't touch them, but I can't help but notice and feel their presence. Often feeling them stronger than my own body.
 
 A consequence is that I've been visiting the park more often. After all, dogs love going to the park.
 
@@ -464,9 +467,7 @@ Well there's the physical features of a dog; tails, ears, muzzle, paws. None of 
 
 (link-reveal:"\"I'm just a human.\"")[==
 
-Somehow the admission stings. Almost as much as if I called myself a man. I try to change topics instead. Work against that painful thought; use the reminder of what I really am. My Phantoms.
-
-My (link-repeat:"phantoms")[(dialog:"'Phantom' sensations of body parts you don't have. Things like cat ears, dragon tails, multiple arms. Also stuff like like breasts or a dick when you're trans.")] have felt quite strong since Goth felt my ear. Sometimes I've even felt them more strongly than my own vessel. Which helped the most with identifying my (link-repeat:"form")[(dialog:"My non-physical appearance. Think like the Matrix. What I would look like inside the Matrix, rather than my corporeal form in Zion.")]. I close my eyes briefly and (link-reveal:"focus on my self-image.")[==
+Somehow the admission stings. Almost as much as if I called myself a man. I try to pull my attention elsewhere in self-preservation. Focus on what makes me inhuman, (link-reveal:"my phantoms.")[==
 
 (link-reveal:"I could see... ")[==(link-reveal:"I have fuzzy and floppy blonde ears... ")[==(link-reveal:"A medium length muzzle... ")[==(link-reveal:"and a tail covered in long fur... ")[==(link-reveal:"and a plump and stout body covered in curves...")[==
 
