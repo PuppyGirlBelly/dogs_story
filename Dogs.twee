@@ -885,7 +885,7 @@ A thought strikes me when (link-reveal:"I see a bathroom up ahead.")[== "I feel 
 
 
 :: the Bathroom [Realizations Bathroom] {"position":"775,525","size":"100,100"}
-(change: ?page, (transition:"dissolve"))\
+(change: ?page, (transition:"dissolve")+(css:"height:none;"))\
 (link-reveal:"I step inside...")[==
 
 (link-replace:"It's...")[==It's surprisingly normal. Just... a lot more stalls. And a lot more... (link-reveal:"tense.")[==
