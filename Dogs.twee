@@ -686,14 +686,18 @@ Oh, sorry... um, not like that... I guess it's more like... I have two specific 
 
 (link-replace:"There's the Golden Retriever...")[==|sunny>[Sunny the Puppy (she/her)]
 There's the golden retriever form I described to y'all before 
-(link-replace:"But also...")[==But also, there have been kinda glimpses of... a wolf? Maybe a wolfdog?
+(link-replace:"But also...")[==But also, there have been kinda glimpses of... a wolf?
 
 |dog>[I'm 🐶!]
-|text>[==Ooh! A wolfdog! 
+|text>[==Oh, like a wolfdog?
 But why do you feel like you have two forms?
+(link-replace:"\nMaybe?")[==\
+|text>[==Also why do you think it's two separate forms?
 
-(link-replace:"Maybe?")[==|sunny>[Sunny the Puppy (she/her)]
-Maybe? I don't know to be honest... just... it's weird but when I was describing my form it feels like I was fighting with myself?
+|sunny>[Sunny the Puppy (she/her)]
+Maybe? I don't know to be honest... 
+(link-reveal:"Oh, um")[==
+(link-reveal:"just...")[== it's weird but when I was describing my form it feels like I was fighting with myself?
 
 |goth>[AbandonedMallGoth]
 |text>[==Wait.
