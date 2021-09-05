@@ -1,5 +1,5 @@
 :: StoryTitle
-Dogs
+I'm Dog(s)
 
 
 :: StoryData
@@ -33,25 +33,25 @@ tw-story {
 
 tw-story[tags~="Park"] {
   background: url(img/forest.jpg);
-  background-size: auto 100vh;
+  background-size: auto 110vh;
   background-attachment: fixed;
 }
 
 tw-story[tags~="High-School"] {
   background: url(img/stairwell.jpg);
-  background-size: auto 100vh;
+  background-size: auto 110vh;
   background-attachment: fixed;
 }
 
 tw-story[tags~="Bathroom"] {
   background: url(img/bathroom.jpg);
-  background-size: auto 100vh;
+  background-size: auto 110vh;
   background-attachment: fixed;
 }
 
 tw-story[tags~="Bedroom"] {
   background: url(img/night%20bedroom.jpg);
-  background-size: auto 100vh;
+  background-size: auto 110vh;
   background-attachment: fixed;
 }
 
@@ -395,7 +395,7 @@ Plus, unlike my gender, (link-reveal:"there were genuinely no signs!")[== [[Sudd
 
 
 :: High School [Realizations High-School] {"position":"150,550","size":"100,100"}
-(change: ?page, (t8n: "blur")+(css:"height:none;"))\
+(change: ?page, (t8n: "blur"))\
 I'm underneath the stairwell, the perfect space for hiding along with all of my other friends who didn't like to be seen.
 
 (link-reveal:"I was ignoring Goth as usual,")[== proselytizing the new Gundam Series. Convincing us to watch by showing how cool the mech designs of this series is. I never really cared about mechs or mechanical designs; so my deaf ears did their best to make their screeds futile.
@@ -665,7 +665,6 @@ I needed to ask some questions to figure out what the hell is happening; and why
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:"fade-up"))\
 (enchant: ?text, (t8n:"fade-up"))\
 (enchant: ?radianttext, (t8n:"fade-up"))\
-(change: ?page, (css:"height:none;"))\
 (link-replace:"Hey guys...")[==|sunny>[Sunny the Puppy (she/her)]
 Hey guys...
 (link-reveal:"Sorry for leaving suddenly...")[==
@@ -886,7 +885,7 @@ A thought strikes me when (link-reveal:"I see a bathroom up ahead.")[== "I feel 
 
 
 :: the Bathroom [Realizations Bathroom] {"position":"775,525","size":"100,100"}
-(change: ?page, (transition:"dissolve")+(css:"height:none;"))\
+(change: ?page, (transition:"dissolve"))\
 (link-reveal:"I step inside...")[==
 
 (link-replace:"It's...")[==It's surprisingly normal. Just... a lot more stalls. And a lot more... (link-reveal:"tense.")[==
@@ -918,7 +917,6 @@ I don't even give myself time to think, quickly finishing up and washing my hand
 
 
 :: Who am I? [Unification Discord] {"position":"450,50","size":"100,100"}
-(change: ?page, (css:"height:none;"))\
 (enchant: ?sunny, (text-colour:yellow))\
 (enchant: ?goth, (text-colour:#f5376a)+(t8n:"fade-up"))\
 (enchant: ?radiant, (text-colour:#6fb04f)+(t8n:"fade-up"))\
