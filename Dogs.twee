@@ -29,6 +29,7 @@ I'm Dog(s)
 
 tw-story {
   min-height: 100vh;
+  height: auto !important;
 }
 
 tw-story[tags~="Park"] {
@@ -313,13 +314,13 @@ Oh
 WHAT
 
 |goth>[AbandonedMallGoth]
-|text>[==YOOOOOOOOOOOOOOOO
+|text>[==YOOOOOOOOOOO
 
 (link-replace:"THE FUCK")[==|sunny>[Sunny Flower (She/Her)]
 THE FUCK
 
 |goth>[AbandonedMallGoth]
-|text>[==AAAAAAAAAAAAAAAA
+|text>[==AAAAAAAAAAAA
 
 (link-replace:"IS GOING ON???")[==|sunny>[Sunny Flower (She/Her)]
 IS GOING ON???
