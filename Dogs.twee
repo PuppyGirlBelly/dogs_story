@@ -29,6 +29,7 @@ Dogs
 
 tw-story {
   min-height: 100vh;
+  height: none;
 }
 
 tw-story[tags~="Park"] {
@@ -171,7 +172,7 @@ The owner is forgotten, but I keep thinking about their dog. I think a refrain t
 
 
 :: Title [Intro Title] {"position":"275,25","size":"100,100"}
-(box:"X")+(align:"=><=")+(css:"max-width:none;width: calc(100% - 2em);")[(text-size:3)[I'm Dog(link-repeat:"(s)")[(dialog:"That will be explained, later. Promise.")]]
+(box:"X")+(align:"=><=")+(css:"max-width:none;width: calc(100% - 2em);")[(text-size:3)[I'm Dog(link-repeat:"(s)")[(dialog:"That will be explained later. Promise.")]]
 (text-size:1.5)[//By AnnaLee//]]
 
 (transition-arrive:"fadeup")[[➥ It all started with a conversation I had with an old friend...->The Conversation]]
@@ -263,17 +264,13 @@ You had such adorable ears back then...
 :: Freakout [Intro] {"position":"150,200","size":"100,100"}
 (align:"=><=")+(Box:"X", 50)[==
 (link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(text-style:"rumble"))[==
-(link:"I... I could FEEL it...", (text-rotate-z:357))[==\
-(link:"But that's just my imagination...", (text-rotate-z:5))[==
-(link:"Right?", (text-rotate-z:11))[==
-(link:"Their fingers on my ear...", (text-rotate-z:347))[==\
-(link:"My ear?", (text-rotate-z:17))[==
-(link:"But... that was on my head...?", (text-rotate-z:355))[== 
-(link:"It's not real!", (text-rotate-z:15))[==
+(link:"I... I could feel their fingers on my fluffy ear", (text-rotate-z:357))[==\
+(link:"Wait, //my// fluffy ear?", (text-rotate-z:17))[==
+(link:"Those aren't real!", (text-rotate-z:15))[==
 (link:"But it felt more real than my ACTUAL ear!", (text-rotate-z:350))[==\
-(link:"Wait.")[==\
-(link:"It's not real.")[==\
-(link:"➥ It's a figment of my imagination.")[==\
+(link:"Stop. Breathe.")[==\
+(link:"Calm down.")[==\
+(link:"➥ It's only a figment of my imagination.")[==\
 (link:"BUT WHY CAN'T I CATCH MY BREATH???", (text-rotate-z:350)+(text-style:"rumble"))[==
 (link:"Why is my heart racing?", (text-rotate-z:10)+(text-style:"rumble"))[==
 [[WHAT THE FUCK WAS THAT?!?->The Conversation Pt. 2]]
@@ -377,7 +374,7 @@ So I've kinda always had a hard time [[➥ understanding myself->Identity Issues
 
 
 :: Identity Issues [Realizations] {"position":"150,425","size":"100,100"}
-Like, my issues processing and understandign myself is a chronic and dire issue. Like even my gender was a long and drawn out process. For the longest time as a kid I just didn't "get" gender and just kinda ignored it and just did my own thing. Until the world wouldn't let me.
+Like, my issues processing and understanding myself is a chronic and dire issue. Like even my gender was a long and drawn out process. For the longest time as a kid I just didn't "get" gender and just kinda ignored it and just did my own thing. Until the world wouldn't let me.
 
 (link-reveal:"But in some ways I had some //no signs™// back when I was a kid.")[== Liked being friends with girls more than boys. Was envious of girl's clothes. Heck, even fantasized about being a girl in a few embarrassing private moments. 
 
@@ -483,7 +480,7 @@ It has fuzzy and floppy blonde ears, a medium length muzzle, and a tail covered 
 (enchant: ?dog, (text-colour:#ae6113)+(t8n:"fade-up"))\
 (enchant: ?text, (t8n:"fade-up"))\
 (enchant: ?radianttext, (t8n:"fade-up"))\
-(link:"Alright, time to see what non-human folks are like...")[==|sunny>[Sunny the Puppy (she/her)]
+(link:"Alright, time to see what non-human folks are like...")[==|sunny>[SunnyFlower]
 Um... hello! 
 
 |goth>[AbandonedMallGoth]
@@ -593,7 +590,7 @@ I'm a puppy. Not a wolf. Why did I call myself a wolf? That was a facade I used,
 
 :: Complicated Park Thoughts [Realizations Park] {"position":"275,675","size":"100,100"}
 (change: ?page, (transition:"blur")+(t8n-time:2s))\
-"Hih, I think I'm a Golden Retriever," I whisper to myself as the golden retriever disappears around a bend. 
+"Huh, I think I'm a Golden Retriever," I whisper to myself as the golden retriever disappears around a bend. 
 
 I feel warm and happy coming closer to understanding myself, and how I look. I almost skip and run up an incline with delight until I see.
 
@@ -675,24 +672,25 @@ Not at all!
 (link-reveal:"Just...")[==
 (link-reveal:"Something strange happened before")[==
 (link-reveal:"Um...")[==
-(link-reveal:"So... is it possible to have like... two different forms?")[==
+(link-reveal:"So... is it possible to have your form... like, change sometimes?")[==
 
 |radiant>[⚧☣ ｒａｄｉａｎｔ☣⚧]
 |radianttext>[i have many forms
 as a shapeshifter does]
 
-(link-replace:"This doesn't feel like shapeshifting...")[==|sunny>[Sunny the Puppy (she/her)]
-This doesn't feel like shapeshifting though. It feels more like... I have to specific forms?
+(link-replace:"Oh sorry... um, not like that...")[==|sunny>[Sunny the Puppy (she/her)]
+Oh, sorry... um, not like that... I guess it's more like... I have two specific and different forms?
 
 |radiant>[⚧☣ ｒａｄｉａｎｔ☣⚧]
 |radianttext>[what are these forms?]
 
 (link-replace:"There's the Golden Retriever...")[==|sunny>[Sunny the Puppy (she/her)]
 There's the golden retriever form I described to y'all before 
-(link-replace:"But also...")[==But also, there have been kinda glimpses of... a wolf? Maybe an Irish Wolfhound?
+(link-replace:"But also...")[==But also, there have been kinda glimpses of... a wolf? Maybe a wolfdog?
 
 |dog>[I'm 🐶!]
-|text>[==Oh? An Irish Wolfhound? Why do you feel like two forms?
+|text>[==Ooh! A wolfdog! 
+But why do you feel like you have two forms?
 
 (link-replace:"Maybe?")[==|sunny>[Sunny the Puppy (she/her)]
 Maybe? I don't know to be honest... just... it's weird but when I was describing my form it feels like I was fighting with myself?
