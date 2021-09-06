@@ -279,8 +279,8 @@ You had such adorable ears back then...
 (link:"Stop. Breathe.")[==\
 (link:"Calm down.")[==\
 (link:"It's only a figment of my imagination.")[==\
-(link:"BUT WHY CAN'T I CATCH MY BREATH???", (text-rotate-z:350)+(text-style:"rumble")+(text-size:2))[==
-(link:"Why is my heart racing?", (text-rotate-z:10)+(text-style:"rumble"))[==
+(link:"BUT WHY CAN'T I CATCH MY BREATH???", (text-rotate-z:350)+(t8n:"rumble")+(text-size:2))[==
+(link:"Why is my heart racing?", (text-rotate-z:10)+(t8n:"rumble"))[==
 [[➥ WHAT THE FUCK WAS THAT?!?->The Conversation Pt. 2]]
 
 
