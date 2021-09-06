@@ -978,7 +978,7 @@ Penumbra and I are in a... what do you call it darling?
 
 |penumbra>[Penumbra | Light System]
 |text>[==But twi won't let me call them cute 😒 
-Guess what (link-reveal:"they're just a giant dorkus who wants to look cool in front of the puppy :P"(text-colour:black)+(background:black)+(hover-style:(text-color:"white")))[(text-colour:white)+(background:black)[they're just a giant dorkus who wants to look cool in front of the puppy :P]]
+Guess what (link-reveal:"they're just a giant dorkus who wants to look cool in front of the puppy :P",(text-colour:black)+(background:black)+(hover-style:(text-color:"white")))[(text-colour:white)+(background:black)[they're just a giant dorkus who wants to look cool in front of the puppy :P]]
 
 (link-replace:"Uh, okay then 😅")[==|sunny>[Sunny the Puppy (she/her)]
 Uh, okay then 😅
