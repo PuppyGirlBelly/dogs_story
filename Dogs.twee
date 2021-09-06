@@ -34,25 +34,25 @@ tw-story {
 
 tw-story[tags~="Park"] {
   background: url(img/forest.jpg);
-  background-size: auto 110vh;
+  background-size: auto 100vh;
   background-attachment: fixed;
 }
 
 tw-story[tags~="High-School"] {
   background: url(img/stairwell.jpg);
-  background-size: auto 110vh;
+  background-size: auto 100vh;
   background-attachment: fixed;
 }
 
 tw-story[tags~="Bathroom"] {
   background: url(img/bathroom.jpg);
-  background-size: auto 110vh;
+  background-size: auto 100vh;
   background-attachment: fixed;
 }
 
 tw-story[tags~="Bedroom"] {
   background: url(img/night%20bedroom.jpg);
-  background-size: auto 110vh;
+  background-size: auto 100vh;
   background-attachment: fixed;
 }
 
@@ -202,7 +202,7 @@ You were literally the last one to know
 
 (link-replace:"What about a depressed boy with chronic headphone disease and baggy clothes screamed \"girl\" to you? 🙄")[==|sunny>[Sunny Flower (She/Her)]
 What about a depressed boy with chronic headphone disease and baggy clothes screamed "girl" to you 🙄
-(link-reveal:"Plus, I thought you were calling me \"cis\")[==], the same way gay men call straight people \"breeders\".")
+(link-reveal:"Plus, I thought you were calling me \"cis\")[==, the same way gay men call straight people \"breeders\".
 
 |goth>[AbandonedMallGoth]
 |text>[==Okay first
@@ -458,13 +458,13 @@ It's been a rough couple of weeks since Goth made me aware of the term (link-rep
 
 The rustling of plants and earthen smells seem to make my ears and nose twitch. Especially the phantom ones that recently awakened. I can't touch them, but I can't help but notice and feel their presence. Often feeling them stronger than my own body.
 
-A consequence is that I've been visiting the park more often. After all, dogs love going to the park.
+Likewise another consequence is that I've been visiting the park more often. After all, dogs love going to the park. I do too, I think, since my phantom (text-style:"sway")[tail] is  wagging.
 
 Another Golden Retriever passes by me without incident. As ritual, I can't help but chant a painful refrain, "they'll never realize that (link-replace:"I'm a dog too...\"")[==I'm a dog too."
 
 On this occasion though, a question sneaks into my head; "if I'm a dog then (link-reveal:"what does it mean to be a dog?\"")[==
 
-Well there's the physical features of a dog; tails, ears, muzzle, paws. None of which I have... What about the actions of a dog? Should I pant and walk on all fours? What about the thoughts of a dog? Is it even possible to think like a dog? As I follow these thoughts it makes me wonder, (link-reveal:"\"How the heck am I a dog...\"")[==
+Well there's the physical features of a dog; tails, ears, muzzle, paws. None of which I actually have... What about the actions of a dog? Should I pant and walk on all fours? What about the thoughts of a dog? Is it even possible to think like a dog? As I follow these thoughts it makes me wonder, (link-reveal:"\"How the heck am I a dog...\"")[==
 
 (link-reveal:"\"I'm just a human.\"")[==
 
