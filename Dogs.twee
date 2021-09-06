@@ -586,7 +586,7 @@ she likes to be pet on her ears :P
 
 (link-replace:"//(Wait, What???)//")[==|sunny>[Sunny the Puppy (she/her)]
 sorry 
-(link-replace:"I'm puppy!")[==I have to go.
+(link-replace:"//(I'm puppy!)///")[==I have to go.
 
 [[➥ I'm puppy... Right?->Remembering]]
 
@@ -900,7 +900,7 @@ My enthusiasm is replaced with (link-repeat:"anxiety")[(dialog:"I don't belong h
 
 
 :: "I'll take over" [Realizations Bathroom] {"position":"775,625","size":"100,100"}
-(link:"\"I'll take over\"", (align:"=><=")+(box:"X")+(text-size:3)+(css:"max-width:none;width: calc(100% - 2em);"))[== \
+(link:"\"I'll take over\"", (align:"=><=")+(box:"X")+(text-size:3)+(text-color:"#c9ad7d")+(css:"max-width:none;width: calc(100% - 2em);")+)[== \
 It all goes quiet. The thoughts, the anxiety, the panic attack. 
 
 (link-reveal:"Until a nearby stall door slams shut")[==
@@ -922,7 +922,7 @@ I don't even give myself time to think, quickly finishing up and washing my hand
 (change: ?page, (transition:"dissolve"))\
 The second I return to the safety of the park, I nearly collapse. I am drained and exhausted by that aborted panic attack. I use the last ounces of my energy to force myself back home, retreating to my den to pass out and recover. But still as I walk I can't help but notice, my ears are floppy and I don't feel as tall or strong. But likewise I think about those words.
 
-(link-reveal:"\"I'll take over\"", (text-color:"#c9ad7d"))[==
+(link-reveal:"\"I'll take over\"")[==
 
 [[➥ Because, I definitely didn't say that.->Who am I?]]
 
