@@ -270,7 +270,7 @@ You had such adorable ears back then...
 
 :: Freakout [Intro] {"position":"150,200","size":"100,100"}
 (align:"=><=")+(Box:"X", 50)[==
-(link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(text-style:"rumble"))[==
+(link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(t8n:"rumble"))[==
 (link:"I... I could feel their fingers on my fluffy ear", (text-rotate-z:357))[==\
 (link:"Wait, //my// fluffy ear?", (text-rotate-z:17))[==
 (link:"How could I feel ears on top of my head?", (text-rotate-z:350))[==\
