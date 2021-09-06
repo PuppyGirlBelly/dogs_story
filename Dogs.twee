@@ -900,7 +900,7 @@ My enthusiasm is replaced with (link-repeat:"anxiety")[(dialog:"I don't belong h
 
 
 :: "I'll take over" [Realizations Bathroom] {"position":"775,625","size":"100,100"}
-(link:"\"I'll take over\"", (align:"=><=")+(box:"X")+(text-size:3)+(text-color:"#c9ad7d")+(css:"max-width:none;width: calc(100% - 2em);")+)[== \
+(link:"\"I'll take over\"", (align:"=><=")+(box:"X")+(text-size:3)+(text-color:"#c9ad7d")+(css:"max-width:none;width: calc(100% - 2em);"))[== \
 It all goes quiet. The thoughts, the anxiety, the panic attack. 
 
 (link-reveal:"Until a nearby stall door slams shut")[==
