@@ -139,11 +139,11 @@ tw-hook[name="radianttext"] {
 
 
 :: Introduction [Intro] {"position":"25,25","size":"100,100"}
-When I was younger, I always wore long hair. At the time I just didn't care about haircuts so I avoided them. I just kept growing out my hair, even if it kept getting in my eyes. (link-reveal:"I could still see though my hair")[==
+When I was younger, I always wore long hair. At the time I just didn't care about haircuts so I avoided them. I just kept growing out my hair, even if it kept getting in my eyes. (link-reveal:"I could still see through my hair after all.")[==
 
-Sure, it made my vision a little fuzzier. Made it harder to see my peripheral vision. But I just kept wearing it long because I didn't care about shorter hair. Eventually, I grew up and thought that meant cutting it off. (link-reveal:"But that bit of blindness remained no matter how short my hair got.")[==
+Sure, it made my sight a little fuzzier. It got harder to see things in my peripheral vision. But I just kept wearing it long because I didn't care for shorter hair. Eventually, I grew up and figured that meant cutting it off. (link-reveal:"But that bit of blindness remained no matter how short my hair got.")[==
 
-I couldn't see certain things about myself. I couldn't see myself as smart enough to enjoy working with technology. I couldn't see myself talented enough to make art. I couldn't see to how much I wanted to be a woman.
+I couldn't see certain things about myself. I couldn't see myself as "smart" enough to enjoy working with technology. I couldn't see myself as talented enough to make art. I couldn't see how much I wanted to be a woman.
 
 (link-reveal:"But most of all...")[==
 
@@ -152,19 +152,19 @@ I couldn't see certain things about myself. I couldn't see myself as smart enoug
 
 :: Walk in the Park [Intro Park] {"position":"150,25","size":"100,100"}
 (change: ?page, (transition:"dissolve")+(t8n-time:2s))\
-The sun's tingly warmth relaxes my very soul as (link-reveal:"I walk in the park.")[== 
+The sun's tingly warmth relaxes my soul as (link-reveal:"I walk in the park.")[== 
 
-After being cooped up indoors after such a long dark winter the smell of dirt and plants is incredibly cathartic. I even get shivers down my spine as the breeze (link-reveal:"rustles the leaves above me.")[==
+After being cooped up indoors for such a long dark winter the smell of dirt and plants is incredibly cathartic. I get shivers down my spine as the breeze (link-reveal:"rustles the leaves above me.")[==
 
-But most of all, I get to exist outside. As myself. Outside and unseen. (link-reveal:"Treading this gravel.")[==
+But existing as myself, outside the house. An existance so utterly mundane and free. (link-reveal:"That's what lifts my spirits the highest.")[==
 
-And appearing behind a bend I see the most incredible sight! (link-reveal:"Yellow fur, ")[==(link-reveal:"a black nose, ")[==(link-reveal:"four legs and paws, ")[==(link-reveal:"and a happy wagging tail.", (text-style:"sway"))[==
+And appearing form behind a bend I see the most incredible sight! (link-reveal:"Yellow fur, ")[==(link-reveal:"a black nose, ")[==(link-reveal:"four legs and four paws, ")[==(link-reveal:"and a happy wagging tail.", (text-style:"sway"))[==
 
 (link-reveal:"It's a golden retriever!", (text-colour:yellow))[==
 
-I beam as I see the dog walk in my direction, as happy as they can be. So am I. I have to hold myself back from skipping towards them, say hi, and pet them. (link-replace:"I want to...")[==I want to, (link-replace:"but...")[==but people make me anxious. Like the person on the other end of the dog's leash. (link-reveal:"So I just mind my business and try to look uninterested")[==
+I beam as I see the dog trotting over towards me, as happy as they can be. Just like I am. I have to hold myself back from skipping over too, saying hi and petting them - (link-replace:"I want to...")[==I want to, (link-replace:"but...")[==but people make me anxious. Like the person on the other end of the leash. (link-reveal:"So I just mind my business and try to look uninterested")[==
 
-Soon the moment passes, as the dog and their owner pass by me.
+Soon the moment passes, as the dog and their owner pass by.
 
 The owner is forgotten, but I keep thinking about their dog. I think a refrain that keeps getting stuck in my head lately.
 
@@ -213,7 +213,7 @@ Never say breeder again
 Third
 literally everything you just said screams girl to me
 Plus my transdar is pretty good
-Especially since I know shittons about identity shit
+I know tons about identity shit
 
 (link-replace:"Whatever you say furry 🙄")[==|sunny>[Sunny Flower (She/Her)]
 Whatever you say furry 🙄
@@ -226,7 +226,7 @@ And I'm otherkin
 Big difference
 
 (link-replace:"You get furry art, done by furry artists. Pretty sure that makes you a furry! 😛")[==|sunny>[Sunny Flower (She/Her)]
-You get furry art, done by furry artists, pretty sure that makes you a furry 😛
+You get furry art, drawn by furry artists, pretty sure that makes you a furry 😛
 
 |goth>[AbandonedMallGoth]
 |text>[==And you're not?
@@ -253,8 +253,8 @@ Goddamn it I'm a trans stereotype aren't I? /)///(\\
 |text>[==Seems so 
 You like headpats just as much as any trans catgirl
 
-(link:"Hey! Look, if anything I'm a doggirl 😤")[==|sunny>[Sunny Flower (She/Her)]
-Hey! If anything I'm doggirl 😤
+(link:"Hey! Look! If anything I'm a doggirl 😤")[==|sunny>[Sunny Flower (She/Her)]
+Hey! Look! If anything I'm doggirl 😤
 
 |goth>[AbandonedMallGoth]
 |text>[==Oh yes
@@ -271,9 +271,9 @@ You had such adorable ears back then...
 :: Freakout [Intro] {"position":"150,200","size":"100,100"}
 (align:"=><=")+(Box:"X", 50)[==
 (link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(t8n:"rumble"))[==
-(link:"I... I could feel their fingers on my fluffy ear", (text-rotate-z:357))[==\
+(link:"I... I can //feel// their fingers on my fluffy ear", (text-rotate-z:357))[==\
 (link:"Wait, //my// fluffy ear?", (text-rotate-z:17))[==
-(link:"How could I feel ears on top of my head?", (text-rotate-z:350))[==\
+(link:"How can I feel ears on top of my head?", (text-rotate-z:350))[==\
 (link:"They're not //real//!", (text-rotate-z:15))[==
 (link:"But it felt more real than my ACTUAL ear!", (text-rotate-z:350))[==\
 (link:"Stop. Breathe.")[==\
@@ -328,10 +328,10 @@ IS GOING ON???
 
 |goth>[AbandonedMallGoth]
 |text>[==BRUH
-YOU GOT PHANTOMS
+LIKE PHANTOMS??????
 
-(link-replace:"WHAT DOES THAT FUCKING MEAN?!?!")[==|sunny>[Sunny Flower (She/Her)]
-WHAT DOES THAT FUCKING MEAN?!?!
+(link-replace:"I DON'T KNOW WHAT THAT FUCKING MEANS?!?!")[==|sunny>[Sunny Flower (She/Her)]
+I DON'T KNOW WHAT THAT FUCKING MEANS?!?!
 
 |goth>[AbandonedMallGoth]
 |text>[==uh
@@ -342,56 +342,58 @@ so
 SO?
 
 |goth>[AbandonedMallGoth]
-|text>[==You got phantom sensations 
-Like phantom limbs after amputation
-Your phantoms are the bits of you that you feel, but aren't physically there
-So what kinda thing would have fluffy ears for their phantoms
+|text>[==I think you had phantom sensations 
+Theyre when you can feel parts of you that arent physically there
+You know Phantom Limb?
 
-(link-replace:"I don't know? Dogs?")[==|sunny>[Sunny Flower (She/Her)]
-I don't know? Dogs?
+(link-replace:"Yeah?")[==|sunny>[Sunny Flower (She/Her)]
+Yeah?
+
+|goth>[AbandonedMallGoth]
+|text>[==Yeah it's like that
+So what kinda thing has fluffy ears?
+
+(link-replace:"I don't know? A dog?")[==|sunny>[Sunny Flower (She/Her)]
+I don't know? A dog? Like my old fursona?
 
 |goth>[AbandonedMallGoth]
 |text>[==Mhm
 
-(link-replace:"What?")[==|sunny>[Sunny Flower (She/Her)]
-What?
-(link-reveal:"I never cut off my ears")[==
-
-|goth>[AbandonedMallGoth]
-|text>[==Mhm!
-
-(link-replace:"Why the fuck would I feel dog ears?")[==|sunny>[Sunny Flower (She/Her)]
-Why the fuck would I feel dog ears?
+(link-replace:"This still doesn't explain why I felt dog ears???")[==|sunny>[Sunny Flower (She/Her)]
+This still doesn't explain why I felt dog ears???
 
 |goth>[AbandonedMallGoth]
 |text>[==Why would a crow feel a beak on their face?
 
 (link-replace:"What")[==|sunny>[Sunny Flower (She/Her)]
 What
+(link-reveal:"Only a")[==
 (link-reveal:"Oh")[==
 (link-replace:"//Oh//")[==''//Oh//''
 
 |goth>[AbandonedMallGoth]
 |text>[==MHM!
 
-[[➥ WAIT ARE YOU TELLING ME...->I'm a Dog]]
+[[➥ ARE YOU TRYING TO TELL ME...->I'm a Dog?]]
 
 
-:: I'm a Dog [Realizations Title] {"position":"25,425","size":"100,100"}
-(align:"=><=")+(box:"X")[#I'm Dog]
+:: I'm a Dog? [Realizations Title] {"position":"25,425","size":"100,100"}
+(align:"=><=")+(box:"X")[#I'm a Dog?]
 So I've kinda always had a hard time [[➥ understanding myself->Identity Issues]]
 
 
 :: Identity Issues [Realizations] {"position":"150,425","size":"100,100"}
-Like, my issues processing and understanding myself is a chronic and dire issue. Like even my gender was a long and drawn out process. For the longest time as a kid I just didn't "get" gender and just kinda ignored it and just did my own thing. Until the world wouldn't let me.
+Like, my difficulty processing and understanding myself is a chronic and dire issue. Like even figuring out my gender was a long and drawn out process. For the longest time as a kid I didn't really "get" gender and just kinda ignored it and did my own thing. 
 
-(link-reveal:"But in some ways I had some //no signs™// back when I was a kid.")[== Liked being friends with girls more than boys. Was envious of girl's clothes. Heck, even fantasized about being a girl in a few embarrassing private moments. 
+(link-reveal:"At least until the world wouldn't let me.")[==
 
-(link-reveal:"But I still never listened to those signs.")[== Heck, only a couple years ago I saw solid and undeniable proof I could be a hot and attractive trans woman. I even fucking said "I could look like that," before burying those feelings. But still, I fought against that first crack in my egg for over a year before I came to accept it. 
+(link-reveal:"But I guess in some ways I had some //no signs™// moments back when I was a kid.")[== I liked being friends with more girls than boys. I was envious of girl's clothes. Heck, I even fantasized about being a girl in a few embarrassing private moments. 
 
-(link-reveal:"Accepting I'm a dog feels even harder.")[== I could grasp and map myself onto a feminine body. A feminine **human** body. But a dog was a whole different ballpark. Like, I don't even know what having a tail feels like; or what it would be like to have floppy ears. (link-reveal:"Let alone acting or looking more like a dog.")[==
+(link-reveal:"But I never listened to those signs.")[== Heck, only a couple years ago I saw solid and undeniable proof I could be a hot and attractive trans woman. I even said, in that moment, "//I// could look like that," before trying to bury those feelings deep. I fought hard against that first crack in my egg - it took over a year before I came to accept it. 
 
-I can't even get acceptance and permission from others to act more like a dog. Let alone give it to myself.
+(link-reveal:"Accepting I'm a dog felt even harder.")[== I could grasp and map myself onto a feminine body. A feminine **human** body. But a dog was a whole different ballpark. Like, I don't even know what having a tail feels like; or what it would be like to have floppy ears. (link-reveal:"Let alone acting or looking more like a dog.")[==
+
+I can't exactly get acceptance and permission from others to act more like a dog. Let alone give it to myself.
 
 Plus, unlike my gender, (link-reveal:"there were genuinely no signs!")[== [[Suddenly, I flashed back to a memory from high school.->High School]]
 
@@ -400,7 +402,7 @@ Plus, unlike my gender, (link-reveal:"there were genuinely no signs!")[== [[Sudd
 (change: ?page, (t8n: "blur"))\
 I'm underneath the stairwell, the perfect space for hiding along with all of my other friends who didn't like to be seen.
 
-(link-reveal:"I was ignoring Goth as usual,")[== proselytizing the new Gundam Series. Convincing us to watch by showing how cool the mech designs of this series is. I never really cared about mechs or mechanical designs; so my selectively deaf ears did their best to make their screeds futile.
+(link-reveal:"I was ignoring Goth as usual,")[== who was recruiting us to watch the new Gundam series by showing off how cool the new mech designs were. I never really cared about mechanical junk; so my selectively deaf ears did their best to make their screeds futile.
 
 Instead, I actually found my attention (link-reveal:"drifting towards Paige.")[== I... kinda had a crush on her. In retrospect, it was clearly a "I want to be her" crush. But then again, I still get crushes on artsy and nerdy types. You bet she was both too, considering she was the furry of the group.
 
