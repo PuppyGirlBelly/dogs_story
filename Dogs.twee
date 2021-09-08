@@ -402,7 +402,7 @@ Plus, unlike my gender, (link-reveal:"there were genuinely no signs!")[== [[Sudd
 (change: ?page, (t8n: "blur"))\
 I'm underneath the stairwell, the perfect space for hiding along with all of my other friends who didn't like to be seen.
 
-(link-reveal:"I was ignoring Goth as usual,")[== who was recruiting us to watch the new Gundam series by showing off how cool the new mech designs were. I never really cared about mechanical junk; so my selectively deaf ears did their best to make their screeds futile.
+(link-reveal:"I was ignoring Goth as usual,")[== who was recruiting us to watch the new Gundam series by showing off how cool the new mech designs were. I never really cared for mechanical junk; so my selectively deaf ears did their best to make their screeds futile.
 
 Instead, I actually found my attention (link-reveal:"drifting towards Paige.")[== I... kinda had a crush on her. In retrospect, it was clearly a "I want to be her" crush. But then again, I still get crushes on artsy and nerdy types. You bet she was both too, considering she was the furry of the group.
 
@@ -430,7 +430,7 @@ Then suddenly she asked, [[➥ "What's your fursona?"->What's your fursona?]]
 
 "Ooh! What does he look like?"
 
-(link-replace:"\"//She// would be a be cute and curvy little doggy with long hair!\"", (text-colour:yellow))[==(link-replace:"\"No, I'll be a perv if I say that.\"", (transition:"shudder"))[=="Tall, skinny, looks a bit like a bounty hunter. Like Han Solo meets Sephiroth meets Geralt. Maybe like blonde fur and long brown hair."
+(link-replace:"\"//She// would be a cute and fluffy little doggy with long hair!\"", (text-colour:yellow))[==(link-replace:"\"No, I'll sound like a perv if I say that.\"", (transition:"shudder"))[=="Tall, skinny, maybe looks a bit like a bounty hunter? Like Han Solo meets Sephiroth meets Geralt. And... blonde fur and long brown hair."
 
 [[➥ "Okay! I'll draw him up real quick!"->the Wolfhound]]
 
@@ -438,46 +438,55 @@ Then suddenly she asked, [[➥ "What's your fursona?"->What's your fursona?]]
 :: the Wolfhound [Realizations High-School] {"position":"150,750","size":"100,100"}
 Soon enough, (link-reveal:"she came back with a sketch.")[==
 
-It was exactly what I wanted, a competent drawing of lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn't have cared about it; I wasn't even a furry. (link-replace:"But...")[==(link-reveal:"But there was something about the sketch...")[==
+It was exactly what I wanted, a competent drawing of a lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn't have cared about it; I wasn't even a furry. (link-replace:"But...")[==(link-reveal:"But there was something about the sketch...")[==
 
 The androgynous look, the long hair tied back into a ponytail, and how feral they seemed. It made me smile in a genuine way that I couldn't back then. (link-reveal:"I...")[==
 
-(link-reveal:"I was proud of it.", (text-color:"#c9ad7d"))[== Proud that I received a gift from my crush. I excitedly went up and showed Goth. Who immediately asked, (link-reveal:"\"What's their name ?\"")[==
+(link-reveal:"I was proud of it.", (text-color:"#c9ad7d"))[== Proud that I received a gift from my crush. I excitedly went up and showed Goth. Who immediately asked, (link-reveal:"\"What's their name?\"")[==
 
 (link-replace:"Gold.", (text-color:"#c9ad7d"))[==(link-reveal:"Gold, the Wolfhound")[==
 
 "Yo, they sound like an edgelord dude. You hiding some edge sis?" Goth joked. I didn't reply. Something like shame started boiling viscerally inside me.
 
-I hid that sketch in my locker. But as time went on I slowly became more ashamed of it. Being a furry is childish; it's better and more mature (link-reveal:"to accept whom you are...")[== (link-replace:"But...")[==But I couldn't bring myself to get rid of it, even though I couldn't look at it either. 
+I hid that sketch in my locker. But as time went on I slowly became more ashamed of it. Being a furry is childish; it's better and more mature (link-reveal:"to accept your human body...")[== (link-replace:"But...")[==But I couldn't bring myself to get rid of it, even though I couldn't look at it either. 
 
-So instead I just hidden it away, sandwiched away between important documents in a folder. An attempt to forget about it...
+So instead I hid it away, leaving it sandwiched between unimportant documents in a yellow binder. An attempt to forget about it...
 
 (transition-depart:"instant")[[➥ ...years later->Return to the Park]]
 
 
 :: Return to the Park [Realizations Park] {"position":"275,425","size":"100,100"}
 (change: ?page, (transition:"blur")+(t8n-time:2s))\
-It's been a rough couple of weeks since Goth made me aware of the term (link-repeat:"therian")[(dialog:"Somebody who identifies with an animal, rather than human.")]. Since then, I've been trying to explore what (link-reveal:"being a dog means to me.")[==
+It's been a rough couple of weeks since Goth made me aware of the term (link-repeat:"therian")[(dialog:"Someone who identifies with another animal species from earth.")]. Since then, I've been trying to explore what (link-reveal:"being a dog means to me.")[==
 
-The rustling of plants and earthen smells seem to make my ears and nose twitch. Especially the phantom ones that recently awakened. I can't touch them, but I can't help but notice and feel their presence. Often feeling them stronger than my own body.
+The rustling plants make my floppy ears twitch, and earthly smells seem to tug gently at my snout. I can't touch them, but for some reason I can't help but notice my doglike features' presence. Often feeling them stronger than my own body.
 
-Likewise another consequence is that I've been visiting the park more often. After all, dogs love going to the park. I do too, I think, since my phantom (text-style:"sway")[tail] is  wagging.
+Likewise another consequence is that I've been visiting the park more often. After all, dogs love going to the park. I guess I do too, since I feel my phantom (text-style:"sway")[tail] is  wagging.
 
-Another Golden Retriever passes by me without incident. As ritual, I can't help but chant a painful refrain, "they'll never realize that (link-replace:"I'm a dog too...\"")[==I'm a dog too."
+Another Golden Retriever passes by me without incident. As is ritual, I can't help but chant a painful refrain, "they'll never realize that (link-replace:"I'm a dog too...\"")[==I'm a dog too."
 
 On this occasion though, a question sneaks into my head; "if I'm a dog then (link-reveal:"what does it mean to be a dog?\"")[==
 
-Well there's the physical features of a dog; tails, ears, muzzle, paws. None of which I actually have... What about the actions of a dog? Should I pant and walk on all fours? What about the thoughts of a dog? Is it even possible to think like a dog? As I follow these thoughts it makes me wonder, (link-reveal:"\"How the heck am I a dog...\"")[==
+Well, there's the physical features of a dog: tails, ears, a muzzle, paws. None of which I actually have... What about the actions of a dog? Should I pant and walk on all fours? Think like a dog? Is it even possible to? All these questions make me wonder, (link-reveal:"\"How the heck am I a dog...\"")[==
 
 (link-reveal:"\"I'm just a human.\"")[==
 
-Somehow the admission stings. Almost as much as if I called myself a man. I try to pull my attention elsewhere in self-preservation. Focus on what makes me inhuman, (link-reveal:"my phantoms.")[==
+Somehow the admission stings. Just like if I was called a man. I try to pull my attention elsewhere in self-preservation. I close my eyes and focus on what makes me inhuman, [[my phantoms.->Puppy Phantoms]]
 
-(link-reveal:"I could see... ")[==(link-reveal:"I have fuzzy and floppy blonde ears... ")[==(link-reveal:"A medium length muzzle... ")[==(link-reveal:"and a tail covered in long fur... ")[==(link-reveal:"and a plump and stout body covered in curves...")[==
 
+:: Puppy Phantoms 
+(link-reveal:"I can see... ")[==
+
+(link-reveal:"fuzzy and floppy blonde ears... ")[==(link-reveal:"A medium length muzzle... ")[==(link-reveal:"and a tail covered in long fur... ")[==(link-reveal:"and a plump and stout body covered in curves...")[==
+
+[[I open my eyes.->I think I'm a...]]
+
+
+:: I think I'm a... [Realizations Park]
+(change: ?page, (transition:"dissolve"))\
 I look back at the dog I passed.
 
-It has fuzzy and floppy blonde ears, a medium length muzzle, and a tail covered in fur.
+It has fuzzy and floppy blonde ears, a medium length muzzle, and a tail covered in long fur.
 
 (link-reveal:"Huh")[==. I think I'm a [[➥ Golden Retriever.->Welcome to the Undead Frog Midnight Society]]
 
@@ -528,7 +537,7 @@ Uh? Egg?
 Omg!! Another doggo!!!
 What kinda woofer are you?
 
-(link-replace:"Oh, I'm an Irish Wolfhound.", (text-color:"#c9ad7d"))[==(link-replace:"Wait.", (t8n:"shudder"))[==(link-replace:"No.")[==(link-replace:"I'm a Golden Retriever now.")[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"Oh, I'm an Irish Wolfhound.", (text-color:"#c9ad7d"))[==(link-replace:"Wait.", (t8n:"shudder"))[==(link-replace:"I'm a Golden Retriever now.")[==|sunny>[Sunny the Puppy (she/her)]
 Oh, I'm a Golden Retriever! 😊
 
 |dog>[I'm 🐶!]
@@ -545,7 +554,7 @@ right now im an octopus]
 |penumbra>[Penumbra | Light System]
 |text>[==Gots any arts of ya?
 
-(link-replace:"Yeah, but it's pretty old...", (text-color:"#c9ad7d"))[==(link-replace:"No.", (t8n:"shudder"))[==(link-replace:"That isn't of who I am anymore.", (align:"==>"))[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"Yeah, but it's pretty old...", (text-color:"#c9ad7d"))[==(link-replace:"No.", (t8n:"shudder"))[==(link-replace:"That isn't of me anymore.", (align:"==>"))[==|sunny>[Sunny the Puppy (she/her)]
 Not yet, I just figured out my dogginess so still figuring out what I look like! 😅
 
 |dog>[I'm 🐶!]
@@ -613,10 +622,10 @@ My anxiety and dysphoria grows as I try to rush forwards. Trying my hardest to i
 
 I focusing on questions I've been asking myself. What kind of dog am I. What do I look like. But... *that* human keeps distracting me. (link-reveal:"\"What if they knew what I was thinking about?\"")[==
 
-I ignore them further. I want to figure out how to be a better dog. I can do that by focusing on my phantoms. I can focus on them better if I [[close my eyes.->Phantoms]]
+I ignore them further. I want to figure out how to be a better dog. I can do that by focusing on my phantoms. I can focus on them better if I [[close my eyes.->Wolfy Phantoms]]
 
 
-:: Phantoms {"position":"375,675","size":"100,100"}
+:: Wolfy Phantoms {"position":"375,675","size":"100,100"}
 (link-reveal:"I can see... ")[==
 
 (link-reveal:"A long muzzle... ")[==(link-reveal:"and a skinny tail covered in wiry hair... ")[==(link-reveal:"I feel very lean and very tall...")[==(link-reveal:"and I have wiry and semi-rigid blonde ears... ")[==
