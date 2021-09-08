@@ -440,7 +440,7 @@ Soon enough, (link-reveal:"she came back with a sketch.")[==
 
 It was exactly what I wanted, a competent drawing of a lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn't have cared about it; I wasn't even a furry. (link-replace:"But...")[==(link-reveal:"But there was something about the sketch...")[==
 
-The androgynous look, the long hair tied back into a ponytail, and how feral they seemed. It made me smile in a genuine way that I couldn't back then. (link-reveal:"I...")[==
+The androgynous look, the long hair tied back into a ponytail, an/d how feral they seemed. It made me smile in a genuine way that I couldn't back then. (link-reveal:"I...")[==
 
 (link-reveal:"I was proud of it.", (text-color:"#c9ad7d"))[== Proud that I received a gift from my crush. I excitedly went up and showed Goth. Who immediately asked, (link-reveal:"\"What's their name?\"")[==
 
@@ -560,7 +560,7 @@ Not yet, I just figured out my dogginess so still figuring out what I look like!
 |dog>[I'm 🐶!]
 |text>[==Well, can help! What about your fur? What colour and length? 
 
-(link-replace:"Light blonde, shaggy, and wiry.", (text-color:"#c9ad7d"))[==(link-replace:"Nope", (t8n:"shudder"))[==(link-replace:"It's gold and pretty long and fluffy!")[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"Light blonde, shaggy, and wiry.", (text-color:"#c9ad7d"))[==(link-replace:"???", (t8n:"shudder"))[==(link-replace:"It's gold and pretty long and fluffy!")[==|sunny>[Sunny the Puppy (she/her)]
 It's gold and pretty long and fluffy!
 
 |dog>[I'm 🐶!]
@@ -572,17 +572,17 @@ It's long and brown, and flows down my back!
 |dog>[I'm 🐶!]
 |text>[==Kk! What kinda clothes do you wear?
 
-(link-replace:"//I// wear Black leather. Band tees. Tight pants.", (text-color:"#c9ad7d"))[==(link-replace:"NO, I wear cute dresses and hats!", (t8n:"shudder"))[==|sunny>[Sunny the Puppy (she/her)]
-Sundresses and adorable hats! 
+(link-replace:"Black leather, band tees, tight pants...", (text-color:"#c9ad7d"))[==(link-replace:"//I// wear cute dresses and big hats!", (t8n:"shudder"))[==|sunny>[Sunny the Puppy (she/her)]
+Sundresses and adorable big hats! 
 
 |dog>[I'm 🐶!]
-|text>[==Oh! You're a very cute puppygirl!
-Sound a lot like me tbh!  (UᵔᴥᵔU)
+|text>[==Oh! You must be a very cute puppygirl!
+You sound a lot like me tbh!  (UᵔᴥᵔU)
 
-(link-replace:"//(Cool, they think I'm a child because I keep saying stuff like this!)//")[==|penumbra>[Penumbra | Light System]
+(link-replace:"//(Great, now they think I'm a child)//")[==|penumbra>[Penumbra | Light System]
 |text>[==Can I pet cute puppy? :3c
 
-(link-replace:"//(Wait, I'm not cringe. I'm finally being who I wanted to be! Not what I think everybody else wants!)//")[==|goth>[AbandonedMallGoth]
+(link-replace:"//(I'm not cringe! I'm finally being who I wanted to be! Instead of what I think everybody else wants!)//")[==|goth>[AbandonedMallGoth]
 |text>[==Hey Penny
 she likes to be pet on her ears :P
 
@@ -590,12 +590,12 @@ she likes to be pet on her ears :P
 |radianttext>[//reaches out a tentacle to offer pets//]
 
 (link-replace:"//(I'm around 'somebodies' and they like me and think I'm a cute puppygirl!)//")[==|dog>[I'm 🐶!]
-|text>[==//also offers nice earrubs!//
+|text>[==//also offers ear rubs!//
 
-(link-replace:"//(BUT I'M A WOLF!)//", (text-color:"#c9ad7d"))[==|goth>[AbandonedMallGoth]
+(link-replace:"//(BUT I'M A WOLF!)//", (text-color:"#c9ad7d")+(t8n:"shudder))[==|goth>[AbandonedMallGoth]
 |text>[==Sunny?
 
-(link-replace:"//(Wait, What???)//")[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"//(I'm -wait, What???)//")[==|sunny>[Sunny the Puppy (she/her)]
 sorry 
 (link-replace:"//(I'm puppy!)///")[==I have to go.
 
@@ -603,7 +603,7 @@ sorry
 
 
 :: Remembering [Realizations] {"position":"275,550","size":"100,100"}
-I'm a puppy. Not a wolf. Why did I call myself a wolf? That was a facade I used, I don't need to be a wolf anymore.
+I'm a puppy. Not a wolf. Why did I call myself a wolf? It was a facade... something I used to hide myself from everybody... I don't need to be a wolf anymore.
 
 [[I don't need to be a wolf anymore...->Complicated Park Thoughts]]
 
@@ -612,7 +612,7 @@ I'm a puppy. Not a wolf. Why did I call myself a wolf? That was a facade I used,
 (change: ?page, (transition:"blur")+(t8n-time:2s))\
 "Huh, I think I'm a Golden Retriever," I whisper to myself as the golden retriever disappears around a bend. 
 
-I feel warm and happy coming closer to understanding myself, and how I look. I almost skip and run up an incline with delight until I see.
+I feel warm and happy with coming closer to understanding myself, and how I look. I almost skip and run up an incline with delight until I see–
 
 (link-reveal:"A human.")[==
 
