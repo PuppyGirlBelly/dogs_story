@@ -155,6 +155,8 @@ I couldn't see certain things about myself. I couldn't see myself as "smart" eno
 
 :: Walk in the Park [Intro Park] {"position":"150,25","size":"100,100"}
 (change: ?page, (transition:"dissolve")+(t8n-time:2s))\
+(text-color:grey)+(text-size:0.75)[Content warnings: self-esteem, references to ableism]
+
 The sun's tingly warmth relaxes my soul as (link-reveal:"I walk in the park.")[== 
 
 After being cooped up indoors for such a long dark winter the smell of dirt and plants is incredibly cathartic. I get shivers down my spine as the breeze (link-reveal:"rustles the leaves above me.")[==
@@ -275,6 +277,8 @@ You had such adorable ears back then...
 
 
 :: Freakout [Intro] {"position":"150,200","size":"100,100"}
+(text-color:grey)+(text-size:0.75)[Content warnings: trans egg culture, chat actions in asterisks, mild panic, lighthearted furry shaming]
+
 (align:"=><=")+(Box:"X", 50)[==
 (link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(t8n:"rumble"))[==
 (link:"I... I could //feel// their fingers on my fluffy ear", (text-rotate-z:357))[==\
@@ -291,6 +295,8 @@ You had such adorable ears back then...
 
 
 :: The Conversation Pt. 2 [Intro Discord] {"position":"275,150","size":"100,200"}
+(text-color:grey)+(text-size:0.75)[Content warnings: trans egg culture, chat actions in asterisks, mild panic, lighthearted furry shaming]
+
 (enchant: ?sunny, (text-colour:yellow))\
 (enchant: ?goth, (text-colour:#f5376a)+(t8n:"fade-up"))\
 (enchant: ?text, (t8n:"fade-up"))\
@@ -409,6 +415,8 @@ Plus, unlike my gender, (link-reveal:"there were genuinely no signs!")[== [[Well
 
 :: High School [Realizations High-School] {"position":"150,550","size":"100,100"}
 (change: ?page, (t8n: "blur"))\
+(text-color:grey)+(text-size:0.75)[Content warnings: trans discovery, simplified trans narrative]
+
 I'm underneath the stairwell, the perfect space for hiding along with all of my other friends who didn't like to be seen.
 
 (link-reveal:"I was ignoring Goth as usual,")[== who was recruiting us to watch the new Gundam series by showing off how cool the new mech designs were. I never really cared for mechanical designs; so my selectively deaf ears did their best to make their propaganda futile.
@@ -423,6 +431,8 @@ Then suddenly she asked, [[➥ "What's your fursona?"->What's your fursona?]]
 
 
 :: What's your fursona? [Realizations High-School] {"position":"150,650","size":"100,100"}
+(text-color:grey)+(text-size:0.75)[Content warnings: trans discovery, simplified trans narrative]
+
 "What's your fursona?" Paige asked.
 
 (link-replace:"\"Uh what?\"")[=="Oh, uh, no I don't have one..."
@@ -445,6 +455,8 @@ Then suddenly she asked, [[➥ "What's your fursona?"->What's your fursona?]]
 
 
 :: the Wolfhound [Realizations High-School] {"position":"150,750","size":"100,100"}
+(text-color:grey)+(text-size:0.75)[Content warnings: trans discovery, simplified trans narrative]
+
 Soon enough, (link-reveal:"she came back with a sketch.")[==
 
 It was exactly what I wanted, a competent drawing of a lithe and athletic wolfhound. Clad in a black leather jacket, and wielding a sword. I shouldn't have cared about it; I wasn't even a furry. (link-replace:"But...")[==(link-reveal:"But there was something about the sketch...")[==
@@ -479,7 +491,7 @@ Another Golden Retriever passes by me without incident. As is ritual, I can't he
 
 On this occasion though, a question sneaks into my head; "if I'm a dog then (link-reveal:"what does it mean to be a dog?\"")[==
 
-Well, there's the physical features of a dog: tails, ears, a muzzle, paws. None of which I actually have... What about the actions of a dog? Should I pant and walk on all fours? Think like a dog? Is it even possible to? All these questions make me wonder, (link-reveal:"\"How the heck am I a dog...\"")[==
+Well, there's the physical features of a dog: tails, ears, a muzzle, paws. None of which I actually have... What about the actions of a dog? Should I pant and walk on all fours? What about the thoughts of a dog? Is it even possible to think like one? All these questions make me wonder, (link-reveal:"\"How the heck am I a dog...\"")[==
 
 (link-reveal:"\"I'm just a human.\"")[==
 
@@ -487,6 +499,8 @@ Somehow the admission stings. Just like if I was called a man. I try to pull my 
 
 
 :: Puppy Phantoms 
+(text-color:grey)+(text-size:0.75)[Content warnings: insecurities of identity and self-invalidation, references to misgendering]
+
 (link-reveal:"I can see... ")[==
 
 (link-reveal:"fuzzy and floppy blonde ears... ")[==(link-reveal:"A medium length muzzle... ")[==(link-reveal:"and a tail covered in long fur... ")[==(link-reveal:"and a plump and stout body covered in curves...")[==
@@ -496,6 +510,8 @@ Somehow the admission stings. Just like if I was called a man. I try to pull my 
 
 :: I think I'm a... [Realizations Park]
 (change: ?page, (transition:"dissolve"))\
+(text-color:grey)+(text-size:0.75)[Content warnings: insecurities of identity and self-invalidation, references to misgendering]
+
 I look back at the dog I passed.
 
 It has fuzzy and floppy blonde ears, a medium length muzzle, and a tail covered in long fur.
@@ -618,6 +634,8 @@ sorry
 
 
 :: Remembering [Realizations] {"position":"275,550","size":"100,100"}
+(text-color:grey)+(text-size:0.75)[Content warnings: social anxiety, internal conflict, social panic]
+
 I'm a puppy. Not a wolf. Why did I call myself a wolf? It was a facade... someone who isn't me, someplace to hide.
 
 [[I don't need to be a wolf anymore...->Confrontation]]
@@ -644,6 +662,8 @@ I ignore them further. I want to figure out how to be a better dog. I can do tha
 
 
 :: Wolfy Phantoms {"position":"375,675","size":"100,100"}
+(text-color:grey)+(text-size:0.75)[Content warnings: social anxiety, social panic, self-directed transphobia, self-invalidation]
+
 (link-reveal:"I can see... ")[==
 
 (link-reveal:"A long muzzle... ")[==(link-reveal:"and a skinny tail covered in wiry hair... ")[==(link-reveal:"I feel very lean and very tall...")[==(link-reveal:"and I have wiry and semi-rigid blonde ears... ")[==
@@ -671,6 +691,8 @@ I ignore them further. I want to figure out how to be a better dog. I can do tha
 
 
 :: "They're gone." [Realizations Park] {"position":"575,675","size":"100,100"}
+(text-color:grey)+(text-size:0.75)[Content warnings: social anxiety, social panic, self-directed transphobia, self-invalidation]
+
 I release an unconscious sigh, as well as the tension in my shoulders. I... finally feel safe as I'm alone once again. I stop, and calm my nerves. 
 
 (link-reveal: "Why did I look like that?")[==
@@ -927,6 +949,8 @@ A thought strikes me when (link-reveal:"I see a bathroom up ahead.")[== "I feel 
 
 :: the Bathroom [Realizations Bathroom] {"position":"775,525","size":"100,100"}
 (change: ?page, (transition:"dissolve"))\
+(text-color:grey)+(text-size:0.75)[Content warnings: bathrooms, fear of transphobia, self-directed transphobia and misgendering]
+
 (link-reveal:"I step inside...")[==
 
 (link-replace:"It's...")[==It's surprisingly normal. Just... a lot more stalls. And a lot more... (link-reveal:"tense.")[==
@@ -940,6 +964,8 @@ My enthusiasm is replaced with (link-repeat:"anxiety")[(dialog:"I don't belong h
 
 :: "I'll take over" [Realizations Bathroom] {"position":"775,625","size":"100,100"}
 (link:"\"I'll take over\"", (align:"=><=")+(box:"X")+(text-size:3)+(text-color:"#c9ad7d")+(css:"max-width:none;width: calc(100% - 2em);"))[== \
+(text-color:grey)+(text-size:0.75)[Content warnings: bathrooms, fear of transphobia, self-directed transphobia and misgendering]
+
 It all goes quiet. The thoughts, the anxiety, the panic. 
 
 (link-reveal:"Until a nearby stall door slams shut")[==
@@ -952,12 +978,14 @@ All covered in wiry hair, hanging off of a lanky and very tall body.
 
 (link-reveal:"I'm a wolfhound.")[== I'm strong. I'm brave. This intruder is trespassing here, but I shall wait until (link-reveal:"we are safe.")[==
 
-(link:"Water runs")[==(link:"A door clatters closed.")[==(link:"A faucet squeaks and stops.")[==(link:"And footsteps clack out of earshot.")[==\
+(link:"Water runs")[==(link:"A door clatters closed.")[==(link:"A faucet squeaks and stops.")[==(link:"Footsteps clack out of earshot.")[==(link:"And I am alone once more.")[==\
 I don't even give myself time to think, quickly finishing up and washing my hands before anybody else has a chance to sneak up on me. (t8n-depart:"instant")+(t8n-arrive:"dissolve")[[➥ Then leaving.->Return Home]]
 
 
 :: Return Home [Realizations Park] {"position":"775,725","size":"100,100"}
 (change: ?page, (transition:"dissolve"))\
+(text-color:grey)+(text-size:0.75)[Content warnings: bathrooms, fear of transphobia, self-directed transphobia and misgendering]
+
 The second I return to the safety of the park, I nearly collapse. I am drained and exhausted by that aborted panic attack. I use the last ounces of my energy to force myself back home, retreating to my den to pass out and recover. But still as I walk I can't help but notice, my ears are floppy and I don't feel as tall or strong. But still I think about those words.
 
 (link-reveal:"\"I'll take over\"")[==
@@ -1175,6 +1203,8 @@ According to Twilight, a mindspace is a kind of mental image of a space to exist
 
 
 :: the Mindspace [Unification Meditation] {"position":"575,150","size":"100,100"}
+(text-color:grey)+(text-size:0.75)[Content warnings: mediatation/trance]
+
 (change: ?page, (background:"https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/night%20forest.jpg")+(t8n:"blur"))\
 I visualize a thick forest. Filled with pine trees, and a sparse underbrush. A creek echoes into the air along with the idle sounds of birds and insects. Singing into night, illuminated by countless stars and the beautiful moon watching over all.
 
@@ -1197,6 +1227,8 @@ The next step is what causes me the most pause. [[➥ I have to inhabit this spa
 
 :: Inhabiting [Unification Meditation Bedroom] {"position":"575,250","size":"100,100"}
 (set:$dog to 0)\
+(text-color:grey)+(text-size:0.75)[Content warnings: mediatation/trance]
+
 This next step according to Twilight is to imagine myself inhabiting this space. (link-reveal:"To start by feeling out forms...")[==
 |=
 (align:"<==")+(box:"X")+(css:"max-width:none;width: calc(100% - 2em);")[(link-reveal:"I can feel... ",(text-color:"yellow"))[==
