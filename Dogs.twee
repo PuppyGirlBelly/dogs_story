@@ -219,7 +219,7 @@ Never say breeder again
 Third
 literally everything you just said screams girl to me
 Plus my transdar is pretty good
-I know TONS about identity shit
+I know TONS about identity stuff
 
 (link-replace:"Whatever you say furry 🙄")[==|sunny>[Sunny Flower (She/Her)]
 Whatever you say furry 🙄
@@ -277,11 +277,11 @@ You had such adorable ears back then...
 :: Freakout [Intro] {"position":"150,200","size":"100,100"}
 (align:"=><=")+(Box:"X", 50)[==
 (link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(t8n:"rumble"))[==
-(link:"I... I can //feel// their fingers on my fluffy ear", (text-rotate-z:357))[==\
+(link:"I... I could //feel// their fingers on my fluffy ear", (text-rotate-z:357))[==\
 (link:"Wait, //my// fluffy ear?", (text-rotate-z:17))[==
-(link:"How can I feel ears on top of my head?", (text-rotate-z:350))[==\
+(link:"How can I feel fluffy ears on top of my head?", (text-rotate-z:350))[==\
 (link:"They're not //real//!", (text-rotate-z:15))[==
-(link:"But it felt more real than my ACTUAL ear!", (text-rotate-z:350))[==\
+(link:"But it feels more real than my ACTUAL ear!", (text-rotate-z:350))[==\
 (link:"Stop. Breathe.")[==\
 (link:"Calm down.")[==\
 (link:"It's only a figment of my imagination.")[==\
@@ -366,14 +366,14 @@ I don't know? A dog? Like my old fursona?
 |text>[==Mhm
 
 (link-replace:"This still doesn't explain why I felt dog ears???")[==|sunny>[Sunny Flower (She/Her)]
-This still doesn't explain why I felt dog ears???
+That still doesn't explain why I felt dog ears???
 
 |goth>[AbandonedMallGoth]
 |text>[==Why would a crow feel a beak on their face?
 
 (link-replace:"What")[==|sunny>[Sunny Flower (She/Her)]
 What
-(link-reveal:"Only a")[==
+(link-reveal:"you're")[==
 (link-reveal:"Oh")[==
 (link-replace:"//Oh//")[==''//Oh//''
 
@@ -569,13 +569,13 @@ right now im an octopus]
 |penumbra>[Penumbra | Light System]
 |text>[==Gots any arts of ya?
 
-(link-replace:"Yeah, but it's pretty old...", (text-color:"#c9ad7d"))[==(link-replace:"No.", (t8n:"shudder"))[==(link-replace:"That isn't of me anymore.", (align:"==>"))[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"Yeah, but it's pretty old...", (text-color:"#c9ad7d"))[==(link-replace:"No.", (t8n:"shudder"))[==(link-replace:"That isn't me anymore.", (align:"==>"))[==|sunny>[Sunny the Puppy (she/her)]
 Not yet, I just figured out my dogginess so still figuring out what I look like! 😅
 
 |dog>[I'm 🐶!]
 |text>[==Well, can I help puppy? What about your fur? What colour and length? 
 
-(link-replace:"Light blonde, shaggy, and wiry.", (text-color:"#c9ad7d"))[==(link-replace:"Nope", (t8n:"shudder"))[==(link-replace:"It's gold and pretty long and fluffy!")[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"Light blonde, shaggy, and wiry.", (text-color:"#c9ad7d"))[==(link-replace:"???", (t8n:"shudder"))[==(link-replace:"It's gold and pretty long and fluffy!")[==|sunny>[Sunny the Puppy (she/her)]
 It's gold and pretty long and fluffy!
 
 |dog>[I'm 🐶!]
@@ -587,7 +587,7 @@ It's long and brown, and flows down my back!
 |dog>[I'm 🐶!]
 |text>[==Kk! What kinda clothes do you wear?
 
-(link-replace:"//I// wear Black leather. Band tees. Tight pants.", (text-color:"#c9ad7d"))[==(link-replace:"NO, I wear cute dresses and hats!", (t8n:"shudder"))[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"Black leather. Band tees. Tight pants.", (text-color:"#c9ad7d"))[==(link-replace:"//I// wear cute dresses and hats!", (t8n:"shudder"))[==|sunny>[Sunny the Puppy (she/her)]
 Sundresses and adorable hats! 
 
 |dog>[I'm 🐶!]
@@ -605,7 +605,7 @@ she likes to be pet on her ears :P
 |radianttext>[//reaches out a tentacle to offer pets//]
 
 (link-replace:"//(I'm around 'somebodies' and they like me and think I'm a cute puppygirl!)//")[==|dog>[I'm 🐶!]
-|text>[==//also offers nice earrubs!//
+|text>[==//also offers ear rubs!//
 
 (link-replace:"//(BUT I'M A WOLF!)//", (text-color:"#c9ad7d")+(t8n:"shudder"))[==|goth>[AbandonedMallGoth]
 |text>[==Sunny?
@@ -638,7 +638,7 @@ There's a human coming towards me, clearly looking and walking in my direction. 
 
 My anxiety and dysphoria grows as I try to rush forwards. Trying my hardest to ignore the manifestation of judgment walking towards me. 
 
-I try focusing on questions I've been asking myself. What kind of dog am I? What do I look like? But... *that* human keeps distracting me. (link-reveal:"\"What if they knew what I was thinking about?\"")[==
+I try focusing on questions I've been asking myself. What kind of dog am I? What do I look like? But... *that* human keeps distracting me. I keep asking; (link-reveal:"\"what if they knew what I was thinking about?\"")[==
 
 I ignore them further. I want to figure out how to be a better dog. I can do that by focusing inward. I can focus on myself better if I [[close my eyes.->Wolfy Phantoms]]
 
@@ -686,7 +686,7 @@ Once again, I find my form is a golden retriever.
 (change: ?page, (t8n-time:2s))\
 (link-reveal:"That freakout in the park,")[== it feels significant. I forgot about it at first, but feeling that wolf-like form feels meaningful now. Question is though, what the hell *is* that significance?
 
-I needed to ask some questions to figure out what the hell is happening? Why am I both a puppy and a wolf?
+I needed to ask some questions to figure out what the hell is happening; why am I both a puppy and a wolf?
 
 [[Back to the only experts I knew->Questions for Frogs]]
 
@@ -742,7 +742,7 @@ But why do you feel like you have two forms?
 |sunny>[Sunny the Puppy (she/her)]
 Maybe? I don't know to be honest... 
 (link-reveal:"Oh, um")[==
-(link-reveal:"just...")[== it's weird but when I was describing my form it feels like I was fighting with myself?
+(link-reveal:"just...")[== it's weird but when I was describing my form it felt like I was fighting with myself?
 
 |goth>[AbandonedMallGoth]
 |text>[==Wait.
@@ -920,7 +920,7 @@ I've even ordered a set of ears and a collar to help me feel more like a puppy i
 
 At the moment though, I'm just pretending to be human. (link-reveal:"I'm doing a pretty dang good job looking the part too!")[== 
 
-Talking to the Midnight Society have helped a lot with my transition and presentation. I learned a lot about makeup from Twilight and company. 🐶 helped with finding flattering clothes that make me look like I actually have curves. I feel like I'm no longer flailing trying to look like a woman.
+Talking to the Midnight Society has helped a lot with my transition and presentation. I learned a lot about makeup from Twilight and company. 🐶 helped with finding flattering clothes that make me look like I actually have curves. I feel like I'm no longer flailing trying to look like a woman.
 
 A thought strikes me when (link-reveal:"I see a bathroom up ahead.")[== "I feel amazing! I look amazing! I think I can do it. (t8n-depart:"instant")+(t8n-arrive:"dissolve")[[➥ "I'm finally going to use the ladies room!"->the Bathroom]]
 
