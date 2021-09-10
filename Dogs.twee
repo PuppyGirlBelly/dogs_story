@@ -704,6 +704,8 @@ Once again, I find my form is a golden retriever.
 
 :: Two Forms [Realizations] {"position":"525,525","size":"100,100"}
 (change: ?page, (t8n-time:2s))\
+(text-color:grey)+(text-size:0.75)[Content warnings: social anxiety, social panic, self-directed transphobia, self-invalidation]
+
 (link-reveal:"That freakout in the park,")[== it feels significant. I forgot about it at first, but feeling that wolf-like form feels meaningful now. Question is though, what the hell *is* that significance?
 
 I needed to ask some questions to figure out what the hell is happening; why am I both a puppy and a wolf?
