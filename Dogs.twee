@@ -159,9 +159,9 @@ The sun's tingly warmth relaxes my soul as (link-reveal:"I walk in the park.")[=
 
 After being cooped up indoors for such a long dark winter the smell of dirt and plants is incredibly cathartic. I get shivers down my spine as the breeze (link-reveal:"rustles the leaves above me.")[==
 
-But existing as myself, outside the house. It's an existance so utterly mundane and yet so free. (link-reveal:"That's what lifts my spirits the highest.")[==
+But existing as myself, outside the house. It's an existence so utterly mundane and yet so free. (link-reveal:"Thats what raises my spirits the highest.")[==
 
-And appearing form behind a bend I see the most incredible sight! (link-reveal:"Yellow fur, ")[==(link-reveal:"a black nose, ")[==(link-reveal:"four legs and four paws, ")[==(link-reveal:"and a happy wagging tail.", (text-style:"sway"))[==
+And appearing from behind a bend I see the most incredible sight! (link-reveal:"Yellow fur, ")[==(link-reveal:"a black nose, ")[==(link-reveal:"four legs and four paws, ")[==(link-reveal:"and a happy wagging tail.", (text-style:"sway"))[==
 
 (link-reveal:"It's a golden retriever!", (text-colour:yellow))[==
 
@@ -392,11 +392,11 @@ So I've kinda always had a hard time [[➥ understanding myself->Identity Issues
 (text-color:grey)+(text-size:0.75)[Content warnings: trans discovery, simplified trans narrative]
 
 (link:"➥ Continue", (text-color:grey)+(text-size:0.75)+(hover-style:(text-style:"Underline")))[==\
-Like, my difficulty processing and understanding myself is a chronic and dire issue. Like even figuring out my gender was a long and drawn out process. For the longest time as a kid I didn't really "get" gender and just kinda ignored it and did my own thing. 
+My difficulty processing and understanding myself is a chronic and dire issue. Like even figuring out my gender was a long and drawn out process. For the longest time as a kid I didn't really "get" gender and just kinda ignored it and did my own thing. 
 
 (link-reveal:"At least until the world wouldn't let me.")[==
 
-(link-reveal:"But I guess in some ways I had some //no signs™// moments back when I was a kid.")[== I liked being friends with more girls than boys. I was envious of girl's clothes. Heck, I even fantasized about being a girl in a few embarrassing private moments. 
+(link-reveal:"But I guess in some ways I had some //no signs™// moments back when I was a kid.")[== I liked being friends with girls more than boys. I was envious of girl's clothes. Heck, I even fantasized about being a girl in a few embarrassing private moments. 
 
 (link-reveal:"But I never listened to those signs.")[== Heck, only a couple years ago I saw solid and undeniable proof I could be a hot and attractive trans woman. I even said, in that moment, "//I// could look like that," before trying to bury those feelings deep. I fought hard against that first crack in my egg - it took over a year before I came to accept it. 
 
@@ -404,14 +404,14 @@ Like, my difficulty processing and understanding myself is a chronic and dire is
 
 I can't exactly get acceptance and permission from others to act more like a dog. Let alone give it to myself.
 
-Plus, unlike my gender, (link-reveal:"there were genuinely no signs!")[== [[Suddenly, I flashed back to a memory from high school.->High School]]
+Plus, unlike my gender, (link-reveal:"there were genuinely no signs!")[== [[Well, except maybe my fursona...->High School]]
 
 
 :: High School [Realizations High-School] {"position":"150,550","size":"100,100"}
 (change: ?page, (t8n: "blur"))\
 I'm underneath the stairwell, the perfect space for hiding along with all of my other friends who didn't like to be seen.
 
-(link-reveal:"I was ignoring Goth as usual,")[== who was recruiting us to watch the new Gundam series by showing off how cool the new mech designs were. I never really cared for mechanical junk; so my selectively deaf ears did their best to make their screeds futile.
+(link-reveal:"I was ignoring Goth as usual,")[== who was recruiting us to watch the new Gundam series by showing off how cool the new mech designs were. I never really cared for mechanical designs; so my selectively deaf ears did their best to make their propaganda futile.
 
 Instead, I actually found my attention (link-reveal:"drifting towards Paige.")[== I... kinda had a crush on her. In retrospect, it was clearly a "I want to be her" crush. But then again, I still get crushes on artsy and nerdy types. You bet she was both too, considering she was the furry of the group.
 
@@ -435,7 +435,7 @@ Then suddenly she asked, [[➥ "What's your fursona?"->What's your fursona?]]
 
 "Oh, that makes sense! What dog breed are they? Besides wolf."
 
-(link-replace:"\"Actually! A golden retriever sounds better!\"", (text-colour:yellow))[==(link-replace:"\"Nah, she'll think I'm childish if I say a goldie...\"", (transition:"shudder"))[==[==An Irish Wolfhound sounds like it would be cool. 'Those who hunt monsters' and all that."
+(link-replace:"\"Actually! A golden retriever sounds better!\"", (text-colour:yellow))[==(link-replace:"\"Nah, she'll think I'm childish if I say a goldie...\"", (transition:"shudder"))[==An Irish Wolfhound sounds like it would be cool. 'Those who hunt monsters' and all that."
 
 "Ooh! What does he look like?"
 
@@ -457,7 +457,7 @@ The androgynous look, the long hair tied back into a ponytail, and how feral the
 
 "Yo, they sound like an edgelord dude. You hiding some edge sis?" Goth joked. I didn't reply. Something like shame started boiling viscerally inside me.
 
-I hid that sketch in my locker. But as time went on I slowly became more ashamed of it. Being a furry is childish; it's better and more mature (link-reveal:"to embrace your humanity...")[== (link-replace:"But...")[==But I couldn't bring myself to get rid of it, even though I couldn't look at it either. 
+I hid that sketch in my locker. But as time went on I slowly became more ashamed of it. Being a furry is childish; it's better and more mature (link-reveal:"to accept reality than fantasy...")[== (link-replace:"But...")[==But I couldn't bring myself to get rid of it, even though I couldn't look at it either. 
 
 So instead I hid it away, leaving it sandwiched between unimportant documents in a yellow binder. An attempt to forget about it...
 
@@ -471,7 +471,7 @@ So instead I hid it away, leaving it sandwiched between unimportant documents in
 (link:"➥ Continue", (text-color:grey)+(text-size:0.75)+(hover-style:(text-style:"Underline")))[==\
 It's been a rough couple of weeks since Goth made me aware of the term (link-repeat:"therian")[(dialog:"Someone who identifies with another animal species from earth.")]. Since then, I've been trying to explore what (link-reveal:"being a dog means to me.")[==
 
-The rustling plants make my floppy ears twitch, and earthly smells seem to tug gently at my snout. I can't touch them, but for some reason I can't help but notice my doglike features' presence -Sometimes they feel even more **there** than my human features.
+The rustling plants make my floppy ears twitch, and earthy smells seem to tug gently at my snout. I can't touch them, but for some reason I can't help but feel my doglike features' presence -Sometimes they feel even more **there** than my human features.
 
 Likewise another consequence is that I've been visiting the park more often. After all, dogs love going to the park. I guess I do too, since I feel my (text-style:"sway")[tail] wagging.
 
@@ -594,10 +594,10 @@ Sundresses and adorable hats!
 |text>[==Oh! You're a very cute puppygirl!
 Sound a lot like me tbh!  (UᵔᴥᵔU)
 
-(link-replace:"//(Cool, they think I'm a child because I keep saying stuff like this!)//")[==|penumbra>[Penumbra | Light System]
+(link-replace:"//(Great, now they think I'm a child)//")[==|penumbra>[Penumbra | Light System]
 |text>[==Can I pet cute puppy? :3c
 
-(link-replace:"//(Wait, I'm not cringe. I'm finally being who I wanted to be! Not what I think everybody else wants!)//")[==|goth>[AbandonedMallGoth]
+(link-replace:"//(I'm not cringe!! I'm finally being who I wanted to be! Instead of what I think everybody else wants!)//")[==|goth>[AbandonedMallGoth]
 |text>[==Hey Penny
 she likes to be pet on her ears :P
 
@@ -607,10 +607,10 @@ she likes to be pet on her ears :P
 (link-replace:"//(I'm around 'somebodies' and they like me and think I'm a cute puppygirl!)//")[==|dog>[I'm 🐶!]
 |text>[==//also offers nice earrubs!//
 
-(link-replace:"//(BUT I'M A WOLF!)//", (text-color:"#c9ad7d"))[==|goth>[AbandonedMallGoth]
+(link-replace:"//(BUT I'M A WOLF!)//", (text-color:"#c9ad7d")+(t8n:"shudder"))[==|goth>[AbandonedMallGoth]
 |text>[==Sunny?
 
-(link-replace:"//(Wait, What???)//")[==|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"//(I'm-wait, What???)//")[==|sunny>[Sunny the Puppy (she/her)]
 sorry 
 (link-replace:"//(I'm puppy!)///")[==I have to go.
 
@@ -630,7 +630,7 @@ I'm a puppy. Not a wolf. Why did I call myself a wolf? It was a facade... someon
 (link:"➥ Continue", (text-color:grey)+(text-size:0.75)+(hover-style:(text-style:"Underline")))[==\
 "I'm a Golden Retriever, right?" I ask myself in one of my daily walks around the park. It's been good for contemplating and thinking, but I haven't been able to process what happened in the Midnight Society any further. (link-reveal:"Maybe I should just try and drop it...")[==
 
-Instead I focus on how far I've come. How warm and happy it feels to be a dog. How validating it feels to be called one, and treated like one instead of-
+Instead I focus on how far I've come. How warm and happy it feels to be a dog. How validating it feels to be called one, and treated like one instead of—
 
 (link-reveal:"A human.")[==
 
@@ -638,7 +638,7 @@ There's a human coming towards me, clearly looking and walking in my direction. 
 
 My anxiety and dysphoria grows as I try to rush forwards. Trying my hardest to ignore the manifestation of judgment walking towards me. 
 
-I try focusing on questions I've been asking myself. What kind of dog am I. What do I look like. But... *that* human keeps distracting me. (link-reveal:"\"What if they knew what I was thinking about?\"")[==
+I try focusing on questions I've been asking myself. What kind of dog am I? What do I look like? But... *that* human keeps distracting me. (link-reveal:"\"What if they knew what I was thinking about?\"")[==
 
 I ignore them further. I want to figure out how to be a better dog. I can do that by focusing inward. I can focus on myself better if I [[close my eyes.->Wolfy Phantoms]]
 
@@ -671,7 +671,7 @@ I ignore them further. I want to figure out how to be a better dog. I can do tha
 
 
 :: "They're gone." [Realizations Park] {"position":"575,675","size":"100,100"}
-I release a unconscious sigh, as well as the tension in my shoulders. I... finally feel safe as I'm alone once again. I stop, and calm my nerves. 
+I release an unconscious sigh, as well as the tension in my shoulders. I... finally feel safe as I'm alone once again. I stop, and calm my nerves. 
 
 (link-reveal: "Why did I look like that?")[==
 
@@ -684,7 +684,7 @@ Once again, I find my form is a golden retriever.
 
 :: Two Forms [Realizations] {"position":"525,525","size":"100,100"}
 (change: ?page, (t8n-time:2s))\
-(link-reveal:"That freakout in the park,")[== it feels significant. I forgot about it at first, but feeling that a wolf-like form feels meaningful now. Question is though, what the hell *is* that significance?
+(link-reveal:"That freakout in the park,")[== it feels significant. I forgot about it at first, but feeling that wolf-like form feels meaningful now. Question is though, what the hell *is* that significance?
 
 I needed to ask some questions to figure out what the hell is happening? Why am I both a puppy and a wolf?
 
@@ -910,13 +910,13 @@ Focusing on that last word reminds me, to once again meditate on the world as I 
 
 All of them golden and fluffy...
 
-I haven't felt the wolfhound form, or heard it talk, in the days since I talked with Twilight. Another aspect of that anti-climax. I suppose that I haven't needed a strong form as I have gotten more comfortable in my body. Likewise I haven't felt as anxious or scared since either...
+I haven't felt the wolfhound form, or heard it talk, in the days since I talked with Twilight. Another aspect of that anti-climax. I suppose that I haven't needed a strong form as I have gotten more comfortable in my skin. Likewise I haven't felt as anxious or scared since either...
 
 (link-reveal:"Since I'm a happy little puppy after all!")[==
 
 Talking to the Midnight Society has made it more comfortable to embrace aspects of myself. I've picked up mannerisms from 🐶, and have gotten lots of validating headpats and belly rubs from the group there!
 
-I've even ordered a set of ears and a collar to help me feel more like a puppy in my skin!
+I've even ordered a set of ears and a collar to help me feel more like a puppy in my body!
 
 At the moment though, I'm just pretending to be human. (link-reveal:"I'm doing a pretty dang good job looking the part too!")[== 
 
@@ -1168,7 +1168,7 @@ Then I place myself in a chair, and relax (link-reveal:"\"Relax as much of your 
 
 I imagine my body relaxing into a warm bath. Every inch of my body relieving itself from the burden of holding tension as it's immersed into the fantasized body of water.(link:" My feet...")[==(link:" My legs...")[==(link:" My torso...")[==(link:" My arms and shoulders...")[==(link:" Even my jaw and eyebrows...")[==..
 
-Every part of my body perfectly relaxed. Feeling weightless. Like my vessel hardly exists now, prepared for losing myself into the next step. (link-replace:"\"To create a 'mindspace'...\"")[=="To create a mindspace."
+Every part of my body perfectly relaxed. Feeling weightless. Like my body hardly exists now, prepared for losing myself into the next step. (link-replace:"\"To create a 'mindspace'...\"")[=="To create a mindspace."
 
 According to Twilight, a mindspace is a kind of mental image of a space to exist and live in. A peaceful home made perfectly to my needs and specification, what would be called a "happy place" in a cliche visualization exercise. 
 
@@ -1182,7 +1182,7 @@ I visualize a thick forest. Filled with pine trees, and a sparse underbrush. A c
 (link-reveal:"It's beautiful, however, it's not yet appropriate for a domesticated Golden Retriever.")[==
 (change: ?page, (background:"https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/night%20cabin.jpg")+(t8n:"dissolve"))\
 
-I begin visualizing a small clearing, within earshot of the nearby creek, and imagine a shell of a small home. Lots of windows and skylights to help diminish the barrier between inside and out. (link-reveal:"The first thing inside is a fireplace ")[==
+I begin visualising a small clearing, within earshot of the nearby creek, and imagine a shell of a small home. Lots of windows and skylights to help diminish the barrier between inside and out. (link-reveal:"The first thing inside is a fireplace ")[==
 
 (change: ?page, (background:"https://raw.githubusercontent.com/corlesss/dogs_story/main/dist/img/night%20fireplace.jpeg")+(t8n:"dissolve"))\
 And next to the fireplace is a dog bed to curl up in. I vaguely decorate the rest of the space with vague impressions of a kitchen, bathroom, hallways. It is unneeded as it is, and I instead (link-replace:"focus on the bedroom in the loft...")[==\
@@ -1266,7 +1266,7 @@ Our theory is that we have two different roles in regard to ourself. That Gold's
 
 It feels, in a sense, that we have always both been around. From high school we distinctly remember moments involving the two of us. But likewise, we felt very intertwined in personality. But our dog forms just created enough cognitive dissonance to cause fracturing; and cause us to finally split.
 
-(link-replace:"But after all that talk...")[==But after all that talk we just held each other, in our innermost space of our mind. In our bedroom. Gripping tight, and being safe and vulnerable. Cuddling, much the way a pair of dogs would. [[➥ We layed there until we passed out...->Coming Out]]
+(link-replace:"But after all that talk...")[==But after all that talk we just held each other, in the innermost space of our mind. In our bedroom. Gripping tight, and being safe and vulnerable. Cuddling, much the way a pair of dogs would. [[➥ We laied there until we passed out...->Coming Out]]
 
 
 :: Coming Out To Everybody [Denouement Discord] {"position":"800,150","size":"100,200"}
@@ -1398,9 +1398,9 @@ But likewise it's made us prone to contemplation. Thinking about complicated thi
 
 Honestly, it was easier figuring out that I'm a dog than my fucking gender. I'm a wolfhound, that was so easy (link-repeat:"I could figure it out in high school.", (text-colour:#ffe066))[(text-color:yellow)(dialog:"Yet you were too much of a coward that you gave up on that as soon as somebody made fun of you. :P")] But what the hell kinda gender I have is just... complicated. Doesn't help that gender is a concept created by humans, and I'm not a human. Even if that was hard for us to admit not that ago.
 
-(link-reveal:"But I made easier for you to be a dog! ", (text-colour:yellow))[==I've been forcing Gold to finally dress like the goth pup they are! It's helped them feel more comfy wearing their collar outside! Plus they feel intimidating! Plus we learned some hair buns that make us feel like we got ears! 
+(link-reveal:"But I made it easier for you to be a dog! ", (text-colour:yellow))[==I've been forcing Gold to finally dress like the goth pup they are! It's helped them feel more comfy wearing their collar outside! Plus they feel intimidating! Plus we learned some hair buns that make us feel like we got ears! 
 
-(link-replace:"Still...", (text-colour:#ffe066))[==Still, I have no clue how to map a gender like me. At least with Sunny she's happy being a girl. Me? It feels like my gender is just "dog" and how the heck do I map that onto me?
+(link-replace:"Still...", (text-colour:#ffe066))[==Still, I have no clue how to map a gender like me. At least with Sunny she's happy being a girl or whatever. Me? It feels like my gender is just "dog" and how the heck do I map that onto me?
 
 (link-reveal:"Gold! Shut up and look up!", (text-colour:"yellow"))[==
 
