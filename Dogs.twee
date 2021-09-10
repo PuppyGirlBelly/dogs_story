@@ -768,7 +768,7 @@ What up?
 |penumbra>[Penumbra | Light System]
 |text>[==Oh! Oh. Okies twi should help her then
 
-(link:"Uh... twi?")[==\
+(link:"//(Uh... twi?)//")[==\
 |twilight>[Twilight | Light System]
 |text>[==Hello.
 It is a pleasure to finally meet Sunny.
@@ -789,7 +789,7 @@ Um Hi? Sorry who are you?
 Before I explain I would like to ask about this wolf you mentioned.
 Has it ever talked?
 
-(link-replace:"//(It?)//")[==(link-replace:"Oh um... Not really. Just those intrusive thoughts.")|sunny>[Sunny the Puppy (she/her)]
+(link-replace:"//(It?)//")[==(link-replace:"Oh um... Not really. Just those intrusive thoughts.")[==|sunny>[Sunny the Puppy (she/her)]
 Not really. Just those intrusive thoughts.
 
 |twilight>[Twilight | Light System]
@@ -952,7 +952,7 @@ All covered in wiry hair, hanging off of a lanky and very tall body.
 
 (link-reveal:"I'm a wolfhound.")[== I'm strong. I'm brave. This intruder is trespassing here, but I shall wait until (link-reveal:"we are safe.")[==
 
-(link:"Water runs")[==(link:"A door clatters closed.")[==(link:"A faucet squeaks and stops.")(link:"And footsteps clack out of earshot.")[==
+(link:"Water runs")[==(link:"A door clatters closed.")[==(link:"A faucet squeaks and stops.")[==(link:"And footsteps clack out of earshot.")[==
 
 I don't even give myself time to think, quickly finishing up and washing my hands before anybody else has a chance to sneak up on me. (t8n-depart:"instant")+(t8n-arrive:"dissolve")[[➥ Then leaving.->Return Home]]
 
