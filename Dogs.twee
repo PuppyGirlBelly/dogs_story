@@ -277,8 +277,6 @@ You had such adorable ears back then...
 
 
 :: Freakout [Intro] {"position":"150,200","size":"100,100"}
-(text-color:grey)+(text-size:0.75)[Content warnings: trans egg culture, chat actions in asterisks, mild panic, lighthearted furry shaming]
-
 (align:"=><=")+(Box:"X", 50)[==
 (link:"WHAT?!?", (css: "font-size: 300%; font-style: bold;")+(text-rotate-z:2)+(t8n:"rumble"))[==
 (link:"I... I could //feel// their fingers on my fluffy ear", (text-rotate-z:357))[==\
