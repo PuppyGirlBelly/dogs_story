@@ -952,8 +952,7 @@ All covered in wiry hair, hanging off of a lanky and very tall body.
 
 (link-reveal:"I'm a wolfhound.")[== I'm strong. I'm brave. This intruder is trespassing here, but I shall wait until (link-reveal:"we are safe.")[==
 
-(link:"Water runs")[==(link:"A door clatters closed.")[==(link:"A faucet squeaks and stops.")[==(link:"And footsteps clack out of earshot.")[==
-
+(link:"Water runs")[==(link:"A door clatters closed.")[==(link:"A faucet squeaks and stops.")[==(link:"And footsteps clack out of earshot.")[==\
 I don't even give myself time to think, quickly finishing up and washing my hands before anybody else has a chance to sneak up on me. (t8n-depart:"instant")+(t8n-arrive:"dissolve")[[➥ Then leaving.->Return Home]]
 
 
@@ -1168,7 +1167,7 @@ Then I place myself in a chair, and relax (link-reveal:"\"Relax as much of your 
 
 I imagine my body relaxing into a warm bath. Every inch of my body relieving itself from the burden of holding tension as it's immersed into the fantasized body of water.(link:" My feet...")[==(link:" My legs...")[==(link:" My torso...")[==(link:" My arms and shoulders...")[==(link:" Even my jaw and eyebrows...")[==..
 
-Every part of my body perfectly relaxed. Feeling weightless. Like my body hardly exists now, prepared for losing myself into the next step. (link-replace:"\"To create a 'mindspace'...\"")[=="To create a mindspace."
+Every part of my body perfectly relaxed. Feeling weightless. Like my body hardly exists now, prepared for losing myself into the next step. (link-replace:"\"To create a \'mindspace\'...\"")[=="To create a mindspace."
 
 According to Twilight, a mindspace is a kind of mental image of a space to exist and live in. A peaceful home made perfectly to my needs and specification, what would be called a "happy place" in a cliche visualization exercise. 
 
