@@ -165,7 +165,7 @@ And appearing from behind a bend I see the most incredible sight! (link-reveal:"
 
 (link-reveal:"It's a golden retriever!", (text-colour:yellow))[==
 
-I beam as I see the dog trotting over towards me, as happy as they can be. Just like I am. I have to hold myself back from skipping over too, saying hi and petting them - (link-replace:"I want to...")[==I want to, (link-replace:"but...")[==but people make me anxious. Like the person on the other end of the leash. (link-reveal:"So I just mind my business and try to look uninterested")[==
+I beam as I see the dog trotting over towards me, as happy as they can be. Just like I am. I have to hold myself back from skipping over too, saying hi and petting them - (link-replace:"I want to...")[==I want to, (link-replace:"but...")[==but people make me anxious. Like the person on the other end of the leash. (link-reveal:"So I just mind my business and try to look uninterested.")[==
 
 Soon the moment passes, as the dog and their owner pass by.
 
@@ -612,7 +612,7 @@ she likes to be pet on her ears :P
 
 (link-replace:"//(I'm-wait, What???)//")[==|sunny>[Sunny the Puppy (she/her)]
 sorry 
-(link-replace:"//(I'm puppy!)///")[==I have to go.
+(link-replace:"//(I'm puppy!)//")[==I have to go.
 
 [[➥ I'm puppy... Right?->Remembering]]
 
@@ -688,7 +688,7 @@ Once again, I find my form is a golden retriever.
 
 I needed to ask some questions to figure out what the hell is happening? Why am I both a puppy and a wolf?
 
-[[Back to the only experts I knew->Questions for a Frog]]
+[[Back to the only experts I knew->Questions for Frogs]]
 
 
 :: Questions for Frogs [Realizations Discord] {"position":"650,425","size":"100,200"}
